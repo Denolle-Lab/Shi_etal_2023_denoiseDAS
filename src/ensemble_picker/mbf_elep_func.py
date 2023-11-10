@@ -18,20 +18,19 @@ import matplotlib.pyplot as plt
 device = torch.device("cpu")
 
 
-def apply_mbf(evt_data, list_sta, list_models, MBF_paras, paras_semblance, \
-               t_before=15,t_around=5,thr=0.01):
+def apply_mbf(DAS_data, list_models, MBF_paras, paras_semblance, \
+              thr=0.01):
     """"
     This function takes a array of stream, a list of stations, a list of ML
     models and apply these models to the data, predict phase picks, and
     return an array of picks .
-    evt_data: obspy stream with all data
+    DAS_data: NDArray of DAS data: [channel,time stamp - 6000]
     """
     twin = 6000
-    nsta = len(list_sta)
-    bigS = np.zeros(shape=(len(list_sta), 3, twin))
-    stas = []
-    for i in range(len(list_sta)):
-        stream = evt_data.select(station=list_sta[i])
+    nsta = DAS_data.shape[0]
+    bigS = np.zeros(shape=(DAS_data.shape))
+    for i in range(nsta):
+        stream = DAS_data[i,:]
         if len(stream) < 3:
             # copy stream to 2 components, zero the missing data.
             tr3 = stream[0].copy()# assumed to be the vertical
@@ -42,14 +41,11 @@ def apply_mbf(evt_data, list_sta, list_models, MBF_paras, paras_semblance, \
             stream = obspy.Stream(traces=[tr1, tr2, tr3])
             # convert Stream into seisbench-friendly array    
             # fill in big array and order data ZNE
-        bigS[i,0,:] = stream[2].data[:-1]
-        bigS[i,1,:] = stream[1].data[:-1]
-        bigS[i,2,:] = stream[0].data[:-1]
-        stas.append(list_sta[i])
-
+        bigS[i,0,:] = DAS_data[i,:]
+        bigS[i,1,:] = np.zeros(twin)
+        bigS[i,2,:] = np.zeros(twin)
 
     # allocating memory for the ensemble predictions
-    nwin,twin,nsta=bigS.shape[1],bigS.shape[-1],len(list_sta)
     batch_pred =np.zeros(shape=(len(list_models),nsta,twin)) 
     batch_pred_mbf =np.zeros(shape=(len(list_models),nsta,twin))
     # evaluate
@@ -114,13 +110,13 @@ def apply_mbf(evt_data, list_sta, list_models, MBF_paras, paras_semblance, \
     # all waveforms starts - 15s from reference picks
     # allow for +/- 10 seconds around reference picks.
     sfs = MBF_paras["fs"]
-    istart = t_before*sfs - t_around*sfs
-    iend = np.min((t_before*sfs + t_around*sfs,smb_pred.shape[1]))
+    istart = 125 # this is because of the FK filter issue.
+#     iend = np.min((t_before*sfs + t_around*sfs,smb_pred.shape[1]))
     for ista in range(nsta):# should be 1 in this context
         # 0 for P-wave
         smb_pred[ista, :] = ensemble_semblance(batch_pred[:, ista, :],\
                                              paras_semblance)
-        imax = np.argmax(smb_pred[ ista,istart:iend]) 
+        imax = np.argmax(smb_pred[ ista,istart:]) 
         # print("max probab",smb_pred[ista,imax+istart])
         if smb_pred[ista, imax+istart] > thr:
             smb_peak[ista] = float((imax)/sfs)-t_around
