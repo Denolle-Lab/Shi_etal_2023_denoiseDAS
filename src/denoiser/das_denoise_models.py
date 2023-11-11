@@ -64,6 +64,11 @@ class unet(nn.Module):
     def forward(self, x):
         cat_content = []
         """Deepening to extract features"""
+        if len(x.shape) == 2:
+            x = x.unsqueeze(0)
+        if len(x.shape) == 3:
+            x = x.unsqueeze(1)
+            
         for i in range(self.level-1):
             x = self.layer[3 * i + 0](x)  # conv1
             x = self.relu(x)
