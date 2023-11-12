@@ -111,6 +111,8 @@ class unet(nn.Module):
             
         x = self.layer[7 * self.level + 4](x)  # (None, 1, Nx, Nt) conv4
 
+        x = x.squeeze(1)
+
         return x
 
     def initialize_weights(self):
