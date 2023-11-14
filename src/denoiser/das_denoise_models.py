@@ -3,6 +3,7 @@ from torch import nn
 import torch.nn.functional as F
 
 import numpy as np
+import gc
 
 
 class unet(nn.Module):
@@ -64,6 +65,11 @@ class unet(nn.Module):
     def forward(self, x):
         cat_content = []
         """Deepening to extract features"""
+        if len(x.shape) == 2:
+            x = x.unsqueeze(0)
+        if len(x.shape) == 3:
+            x = x.unsqueeze(1)
+            
         for i in range(self.level-1):
             x = self.layer[3 * i + 0](x)  # conv1
             x = self.relu(x)
@@ -105,6 +111,8 @@ class unet(nn.Module):
             x = self.relu(x)
             
         x = self.layer[7 * self.level + 4](x)  # (None, 1, Nx, Nt) conv4
+  
+        x = x.squeeze(1)
 
         return x
 
@@ -220,7 +228,7 @@ class dataflow(nn.Module):
         mask_traces = self.mask_traces
 
         n_total = self.__len__()  # total number of samples
-        samples = np.zeros((n_total, 1, Nx_sub, Nt), dtype=np.float32)
+        samples = np.zeros((n_total, Nx_sub, Nt), dtype=np.float32)
         masks = np.ones_like(samples, dtype=np.float32)
 
         # Loop over samples
@@ -229,11 +237,11 @@ class dataflow(nn.Module):
                 for j, st_ch in enumerate(np.arange(0, Nx-Nx_sub+1, stride)):
                     # %% slice each big image along channels
                     s = (k * Ni + i) * int((Nx-Nx_sub)//stride+1) + j
-                    samples[s, 0, :, :] = X[i, st_ch:st_ch+Nx_sub, :]
+                    samples[s, :, :] = X[i, st_ch:st_ch+Nx_sub, :]
 
                     rng = np.random.default_rng(s + 11)
                     trace_masked = rng.choice(Nx_sub, size=mask_traces, replace=False)
-                    masks[s, 0, trace_masked, :] = masks[s, 0, trace_masked, :] * 0
+                    masks[s, trace_masked, :] = masks[s, trace_masked, :] * 0
 
         self.samples = samples
         self.masks = masks
@@ -271,14 +279,14 @@ class dataflow_nomask(nn.Module):
         stride = self.stride
 
         n_total = self.__len__()  # total number of samples
-        samples = np.zeros((n_total, 1, Nx_sub, Nt), dtype=np.float32)
+        samples = np.zeros((n_total, Nx_sub, Nt), dtype=np.float32)
 
         # Loop over samples
         for i in range(Ni):
             for j, st_ch in enumerate(np.arange(0, Nx-Nx_sub+1, stride)):
                 # %% slice each big image along channels
                 s = i * int((Nx-Nx_sub)//stride+1) + j
-                samples[s, 0, :, :] = X[i, st_ch:st_ch+Nx_sub, :]
+                samples[s, :, :] = X[i, st_ch:st_ch+Nx_sub, :]
         self.samples = samples
 
         pass
@@ -319,9 +327,10 @@ class datalabel(nn.Module):
         mask_traces = self.mask_traces
 
         n_total = self.__len__()  # total number of samples
-        samples = np.zeros((n_total, 1, Nx_sub, Nt), dtype=np.float32)
-        labels = np.zeros((n_total, 1, Nx_sub, Nt), dtype=np.float32)
+        samples = np.zeros((n_total, Nx_sub, Nt), dtype=np.float32)
+        labels = np.zeros((n_total, Nx_sub, Nt), dtype=np.float32)
         masks = np.ones_like(samples, dtype=np.float32)
+        print(samples.shape)
 
         # Loop over samples
         for k in range(n_masks):
@@ -329,14 +338,21 @@ class datalabel(nn.Module):
                 for j, st_ch in enumerate(np.arange(0, Nx-Nx_sub+1, stride)):
                     # %% slice each big image along channels
                     s = (k * Ni + i) * int((Nx-Nx_sub)//stride+1) + j
-                    samples[s, 0, :, :] = X[i, st_ch:st_ch + Nx_sub, :]
-                    labels[s, 0, :, :] = Y[i, st_ch:st_ch + Nx_sub, :]
+                    samples[s, :, :] = X[i, st_ch:st_ch + Nx_sub, :]
+                    labels[s, :, :] = Y[i, st_ch:st_ch + Nx_sub, :]
 
                     rng = np.random.default_rng(s + 11)
                     trace_masked = rng.choice(Nx_sub, size=mask_traces, replace=False)
-                    masks[s, 0, trace_masked, :] = masks[s, 0, trace_masked, :] * 0
+                    masks[s, trace_masked, :] = masks[s, trace_masked, :] * 0
+                    
+                    del trace_masked, rng
+                    gc.collect()
 
         self.samples = samples
         self.masks = masks
         self.masked_labels = labels * (1 - masks)
+        
+        del X, Y
+        gc.collect()
+        
         pass
