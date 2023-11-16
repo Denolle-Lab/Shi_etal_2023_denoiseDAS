@@ -17,6 +17,79 @@ import matplotlib.pyplot as plt
 
 device = torch.device("cpu")
 
+def apply_elep(DAS_data, list_models, MBF_paras, paras_semblance, \
+              thr=0.01,device=torch.device("cpu")):
+    """"
+    This function takes a array of stream, a list of stations, a list of ML
+    models and apply these models to the data, predict phase picks, and
+    return an array of picks .
+    DAS_data: NDArray of DAS data: [channel,time stamp - 6000]
+    """
+    twin = 6000
+    nsta = DAS_data.shape[0]
+    bigS = np.zeros(shape=(DAS_data.shape[0],3,DAS_data.shape[1]))
+    for i in range(nsta):
+        bigS[i,0,:] = DAS_data[i,:]
+        bigS[i,1,:] = np.zeros(twin)
+        bigS[i,2,:] = np.zeros(twin)
+
+    # allocating memory for the ensemble predictions
+    batch_pred_P =np.zeros(shape=(len(list_models),nsta,twin)) 
+    batch_pred_S =np.zeros(shape=(len(list_models),nsta,twin)) 
+    # evaluate
+    for imodel in list_models:
+        imodel.eval()
+        
+        
+    ######### Broadband workflow ################
+    crap2 = bigS.copy()
+    crap2 -= np.mean(crap2, axis=-1, keepdims= True) # demean data
+    # original use std norm
+    data_std = crap2 / np.std(crap2) + 1e-10
+    # could use max data
+    mmax = np.max(np.abs(crap2), axis=-1, keepdims=True)
+    data_max = np.divide(crap2 , mmax,out=np.zeros_like(crap2), where=mmax!=0)
+    data_tt = torch.Tensor(data_max)
+    # batch predict picks.
+    for ii, imodel in enumerate(list_models):
+        batch_pred_P[ii, :, :] = imodel(data_tt.to(device))[1].detach().cpu().numpy()[:, :]
+        batch_pred_S[ii, :, :] = imodel(data_tt.to(device))[2].detach().cpu().numpy()[:, :]
+
+    print("Picks predicted in broadband workflow")
+    
+    smb_peak = np.zeros([nsta,2], dtype = np.float32)
+
+    # Pick the phase. 
+    # all waveforms are aligned to the reference picks.
+    # so all pick measurements will be made relative to the reference pick
+    # all waveforms starts - 15s from reference picks
+    # allow for +/- 10 seconds around reference picks.
+    sfs = MBF_paras["fs"]
+    istart = 125 # this is because of the FK filter issue.
+#     iend = np.min((t_before*sfs + t_around*sfs,smb_pred.shape[1]))
+    for ista in range(nsta):# should be 1 in this context
+        
+        
+        ### BROADBAND ELEP
+        # 0 for P-wave
+        smb_pred = ensemble_semblance(batch_pred_P[:, ista, :],\
+                                             paras_semblance)
+        imax = np.argmax(smb_pred[istart:]) 
+        # print("max probab",smb_pred[ista,imax+istart])
+        if smb_pred[imax+istart] > thr:
+            smb_peak[ista,0] = float((imax)/sfs)+istart/sfs #-t_around
+            
+        # 1 for S-wave
+        smb_pred = ensemble_semblance(batch_pred_S[:, ista, :],\
+                                             paras_semblance)
+        imax = np.argmax(smb_pred[istart:]) 
+        # print("max probab",smb_pred[ista,imax+istart])
+        if smb_pred[imax+istart] > thr:
+            smb_peak[ista,1] = float((imax)/sfs)+istart/sfs #-t_around
+ 
+    # below return the time of the first pick aas a list over stations
+    return smb_peak
+
 
 def apply_mbf(DAS_data, list_models, MBF_paras, paras_semblance, \
               thr=0.01):
