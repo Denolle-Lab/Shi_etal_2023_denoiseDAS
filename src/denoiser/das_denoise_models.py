@@ -353,12 +353,8 @@ class datalabel(nn.Module):
         self.samples = samples
         self.masks = masks
         self.masked_labels = labels * (1 - masks)
-<<<<<<< HEAD
         
         del X, Y
         gc.collect()
         
         pass
-=======
-        pass
->>>>>>> d91242fdbfbc11fcf2b5bc19925056561b0353a0
