@@ -14,17 +14,21 @@ from ELEP.elep.mbf_utils import make_LogFq, make_LinFq, rec_filter_coeff
 from ELEP.elep.mbf import MB_filter
 import matplotlib.pyplot as plt
 
-
-# device = torch.device("cpu")
+import gc
+torch.cuda.empty_cache()
+gc.collect()
+device = torch.device("cpu")
 
 def apply_elep(DAS_data, list_models, MBF_paras, paras_semblance, \
-              thr=0.01,device=device):
+              thr=0.01,device=torch.cuda.current_device()):
+    
     """"
     This function takes a array of stream, a list of stations, a list of ML
     models and apply these models to the data, predict phase picks, and
     return an array of picks .
     DAS_data: NDArray of DAS data: [channel,time stamp - 6000]
     """
+    
     twin = 6000
     nsta = DAS_data.shape[0]
     bigS = np.zeros(shape=(DAS_data.shape[0],3,DAS_data.shape[1]))
@@ -38,7 +42,7 @@ def apply_elep(DAS_data, list_models, MBF_paras, paras_semblance, \
     batch_pred_S =np.zeros(shape=(len(list_models),nsta,twin)) 
     # evaluate
     for imodel in list_models:
-        imodel.eval()
+        imodel.eval().to(device)
         
         
     ######### Broadband workflow ################
@@ -49,12 +53,27 @@ def apply_elep(DAS_data, list_models, MBF_paras, paras_semblance, \
     # could use max data
     mmax = np.max(np.abs(crap2), axis=-1, keepdims=True)
     data_max = np.divide(crap2 , mmax,out=np.zeros_like(crap2), where=mmax!=0)
-    data_tt = torch.Tensor(data_max)
-    # batch predict picks.
+    
+    # to use the CPI
+    data_tt = torch.tensor(data_max)
     for ii, imodel in enumerate(list_models):
-        batch_pred_P[ii, :, :] = imodel(data_tt.to(device))[1].detach().cpu().numpy()[:, :]
-        batch_pred_S[ii, :, :] = imodel(data_tt.to(device))[2].detach().cpu().numpy()[:, :]
-
+        with torch.no_grad():
+            batch_pred_P[ii, :, :] = imodel(data_tt)[1].numpy()[:, :]
+            batch_pred_S[ii, :, :] = imodel(data_tt)[2].numpy()[:, :]
+#     # to use the GPU
+#     data_tt = torch.tensor(data_max,device=device)
+#     print(data_tt.shape)
+#     # batch predict picks.
+#     for ii, imodel in enumerate(list_models):
+#         with torch.no_grad():
+#             batch_pred_P[ii, :, :] = imodel(data_tt)[1].detach().cpu().numpy()[:, :]
+#             batch_pred_S[ii, :, :] = imodel(data_tt)[2].detach().cpu().numpy()[:, :]
+#     # clean things up
+#     del data_tt
+#     gc.collect()
+#     torch.cuda.empty_cache()
+    
+    
     print("Picks predicted in broadband workflow")
     
     smb_peak = np.zeros([nsta,2], dtype = np.float32)
@@ -68,7 +87,6 @@ def apply_elep(DAS_data, list_models, MBF_paras, paras_semblance, \
     istart = 125 # this is because of the FK filter issue.
 #     iend = np.min((t_before*sfs + t_around*sfs,smb_pred.shape[1]))
     for ista in range(nsta):# should be 1 in this context
-        
         
         ### BROADBAND ELEP
         # 0 for P-wave
@@ -92,7 +110,7 @@ def apply_elep(DAS_data, list_models, MBF_paras, paras_semblance, \
 
 
 def apply_mbf(DAS_data, list_models, MBF_paras, paras_semblance, \
-              thr=0.01,device=devc):
+              thr=0.01,device=torch.cuda.current_device()):
     """"
     This function takes a array of stream, a list of stations, a list of ML
     models and apply these models to the data, predict phase picks, and
