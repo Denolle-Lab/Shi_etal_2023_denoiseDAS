@@ -15,10 +15,10 @@ from ELEP.elep.mbf import MB_filter
 import matplotlib.pyplot as plt
 
 
-device = torch.device("cpu")
+# device = torch.device("cpu")
 
 def apply_elep(DAS_data, list_models, MBF_paras, paras_semblance, \
-              thr=0.01,device=torch.device("cpu")):
+              thr=0.01,device=device):
     """"
     This function takes a array of stream, a list of stations, a list of ML
     models and apply these models to the data, predict phase picks, and
@@ -92,7 +92,7 @@ def apply_elep(DAS_data, list_models, MBF_paras, paras_semblance, \
 
 
 def apply_mbf(DAS_data, list_models, MBF_paras, paras_semblance, \
-              thr=0.01):
+              thr=0.01,device=devc):
     """"
     This function takes a array of stream, a list of stations, a list of ML
     models and apply these models to the data, predict phase picks, and
