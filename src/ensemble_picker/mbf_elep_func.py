@@ -13,14 +13,17 @@ import obspy
 from ELEP.elep.mbf_utils import make_LogFq, make_LinFq, rec_filter_coeff
 from ELEP.elep.mbf import MB_filter
 import matplotlib.pyplot as plt
+from joblib import Parallel, delayed
 
 import gc
 torch.cuda.empty_cache()
 gc.collect()
 device = torch.device("cpu")
 
+  
+
 def apply_elep(DAS_data, list_models, MBF_paras, paras_semblance, \
-              thr=0.01,device=torch.cuda.current_device()):
+              thr=0.01,device=device):
     
     """"
     This function takes a array of stream, a list of stations, a list of ML
@@ -54,25 +57,15 @@ def apply_elep(DAS_data, list_models, MBF_paras, paras_semblance, \
     mmax = np.max(np.abs(crap2), axis=-1, keepdims=True)
     data_max = np.divide(crap2 , mmax,out=np.zeros_like(crap2), where=mmax!=0)
     
-    # to use the CPI
-    data_tt = torch.tensor(data_max)
+    # to use the CPU
+    data_tt = torch.tensor(data_max,dtype=torch.float64)
+    print(data_tt.dtype)
+    
     for ii, imodel in enumerate(list_models):
         with torch.no_grad():
             batch_pred_P[ii, :, :] = imodel(data_tt)[1].numpy()[:, :]
             batch_pred_S[ii, :, :] = imodel(data_tt)[2].numpy()[:, :]
-#     # to use the GPU
-#     data_tt = torch.tensor(data_max,device=device)
-#     print(data_tt.shape)
-#     # batch predict picks.
-#     for ii, imodel in enumerate(list_models):
-#         with torch.no_grad():
-#             batch_pred_P[ii, :, :] = imodel(data_tt)[1].detach().cpu().numpy()[:, :]
-#             batch_pred_S[ii, :, :] = imodel(data_tt)[2].detach().cpu().numpy()[:, :]
-#     # clean things up
-#     del data_tt
-#     gc.collect()
-#     torch.cuda.empty_cache()
-    
+
     
     print("Picks predicted in broadband workflow")
     
@@ -86,26 +79,28 @@ def apply_elep(DAS_data, list_models, MBF_paras, paras_semblance, \
     sfs = MBF_paras["fs"]
     istart = 125 # this is because of the FK filter issue.
 #     iend = np.min((t_before*sfs + t_around*sfs,smb_pred.shape[1]))
-    for ista in range(nsta):# should be 1 in this context
-        
+      
         ### BROADBAND ELEP
-        # 0 for P-wave
-        smb_pred = ensemble_semblance(batch_pred_P[:, ista, :],\
-                                             paras_semblance)
-        imax = np.argmax(smb_pred[istart:]) 
-        # print("max probab",smb_pred[ista,imax+istart])
-        if smb_pred[imax+istart] > thr:
-            smb_peak[ista,0] = float((imax)/sfs)+istart/sfs #-t_around
-            
-        # 1 for S-wave
-        smb_pred = ensemble_semblance(batch_pred_S[:, ista, :],\
-                                             paras_semblance)
-        imax = np.argmax(smb_pred[istart:]) 
-        # print("max probab",smb_pred[ista,imax+istart])
-        if smb_pred[imax+istart] > thr:
-            smb_peak[ista,1] = float((imax)/sfs)+istart/sfs #-t_around
- 
-    # below return the time of the first pick aas a list over stations
+    # 0 for P-wave
+    def process_p(ista,paras_semblance,batch_pred,istart):
+        crap = ensemble_semblance(batch_pred[0, :, ista, :], paras_semblance)
+        imax = np.argmax(crap[istart:]) 
+        if crap[imax+istart] > thr:
+            smb_peak = float((imax)/sfs)+istart/sfs #-t_around
+        return smb_peak
+
+
+    def process_s(ista,paras_semblance,batch_pred,istart):
+        crap=ensemble_semblance(batch_pred[1, :, ista, :], paras_semblance)
+        imax = np.argmax(crap[istart:]) 
+        if crap[imax+istart] > thr:
+            smb_peak = float((imax)/sfs)+istart/sfs #-t_around
+        return smb_peak
+
+    smb_peak[:,0] = np.array(Parallel(n_jobs=20)(delayed(process_p)(ista,paras_semblance,batch_pred,istart) for ista in range(nsta)))
+    smb_peak[:,1] = np.array(Parallel(n_jobs=20)(delayed(process_s)(ista,paras_semblance,batch_pred,istart) for ista in range(nsta)))
+    
+    
     return smb_peak
 
 
@@ -223,3 +218,18 @@ def apply_mbf(DAS_data, list_models, MBF_paras, paras_semblance, \
 
     # below return the time of the first pick aas a list over stations
     return smb_peak, smb_peak_mbf
+
+
+#     # to use the GPU
+#     data_tt = torch.tensor(data_max,device=device)
+#     print(data_tt.shape)
+#     # batch predict picks.
+#     for ii, imodel in enumerate(list_models):
+#         with torch.no_grad():
+#             batch_pred_P[ii, :, :] = imodel(data_tt)[1].detach().cpu().numpy()[:, :]
+#             batch_pred_S[ii, :, :] = imodel(data_tt)[2].detach().cpu().numpy()[:, :]
+#     # clean things up
+#     del data_tt
+#     gc.collect()
+#     torch.cuda.empty_cache()
+    
