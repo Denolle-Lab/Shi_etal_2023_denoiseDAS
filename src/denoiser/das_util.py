@@ -25,6 +25,10 @@ from scipy.integrate import cumulative_trapezoid
 from multiprocessing import Pool
 from matplotlib import pyplot as plt
 
+import seisbench.models as sbm
+from ELEP.elep.ensemble_coherence import ensemble_semblance
+from ELEP.elep.trigger_func import picks_summary_simple
+
 
 def try_gpu(i=0):
     """Return gpu(i) if exists, otherwise return cpu()."""
@@ -423,12 +427,12 @@ def vizRawDenoise(in_data, oneDenoise, mulDenoise, sample_rate=25, dchan=10, ind
     len1, len2 = oneDenoise[0].shape[0], oneDenoise[0].shape[1]
     x, y = np.arange(len2)/sample_rate, np.arange(0-len1/2, len1/2)*dchan/1000
     rawdata = process_3d_array(in_data, len1=len1, len2=len2)
-    
+    import matplotlib.cm
     matplotlib.rcParams['font.size'] = 20
 
     for j in index:
         bound = np.percentile(np.fabs(in_data[j]), 80)
-        cmp = matplotlib.colormaps['RdBu']
+        cmap = matplotlib.cm.get_cmap('RdBu')
         fig, ax = plt.subplots(1, 3, figsize=(18, 6), constrained_layout=True)
 
         img=ax[0].pcolormesh(x, y, rawdata[j], shading='auto', vmin=-bound, vmax=bound, cmap=cmap)
