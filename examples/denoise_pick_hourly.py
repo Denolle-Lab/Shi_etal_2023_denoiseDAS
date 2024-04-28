@@ -29,7 +29,7 @@ from obspy import UTCDateTime
 
 
 ############################################# Loop for hours
-filepath = '/fd1/QibinShi_data/akdas/qibin_data/elep_pyocto/coast_only/'
+filepath = '/auto/cpu-disk1/qibin_folder/hourly_catalog/'
 rawdata_dir = '/mnt/qnap/'
 model_dir = '../models/checkpoint_noatt_LRdecays0.8_mask0.5_raw2raw_chmax4500.pt'
 kkfls_dir = rawdata_dir + 'KKFL-S_FIberA_25Hz/'
@@ -73,11 +73,11 @@ kkfls = pd.read_csv('cable_geometry/KKFLS_coords.xycz',header=None,names=['lon',
 terra = pd.read_csv('cable_geometry/TERRA_coords.xycz',header=None,names=['lon','lat','cha','dep'],delim_whitespace=True)
 
 
-# for ihour in range(31*24):
-for ihour in tqdm(range(23,24)):
+for ihour in range(31*24):
+# for ihour in tqdm(range(23,24)):
     ############################################# Read hour data
-    print('---- Read {ihour}th hour ----')
-    t0 = UTCDateTime("2023-07-14") + ihour*3600
+    t0 = UTCDateTime("2023-12-01") + ihour*3600
+    print('---- Read'+t0.strftime('%Y%m%d_%H')+' ----')
     fname = UTCDateTime.strftime(t0, format=format_part)
     kkfls_files = sorted(glob.glob(kkfls_dir+fname))
     terra_files = sorted(glob.glob(terra_dir+fname))
@@ -120,7 +120,7 @@ for ihour in tqdm(range(23,24)):
         _, mul_denoised[imin,:,:] = Denoise_largeDAS(rawdata[imin], model_1, devc, repeat=4, norm_batch=False)
     del rawdata
     gc.collect()
-    # torch.cuda.empty_cache()
+    torch.cuda.empty_cache()
     
     ### Interpolate
     interp_func = interp1d(np.linspace(0, 1, 1500), mul_denoised, axis=-1, kind='linear')
@@ -143,6 +143,7 @@ for ihour in tqdm(range(23,24)):
                                            list_models, fs, paras_semblance, devc)
     del interpolated_muldenoised, interp_func, mul_denoised
     gc.collect()
+    torch.cuda.empty_cache()
     
     ############################################# Save
     print('---- Saving ----')

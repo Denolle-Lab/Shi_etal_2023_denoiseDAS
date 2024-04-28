@@ -1,0 +1,866 @@
+time,latitude,longitude,depth,mag,magType,nst,gap,dmin,rms,net,id,updated,place,type,horizontalError,depthError,magError,magNst,status,locationSource,magSource
+2023-12-31T23:43:24.860Z,59.4709,-153.3633,107.2,2.1,ml,,,,0.47,ak,ak023gs13wu4,2024-03-02T21:39:30.040Z,"54 km SE of Pedro Bay, Alaska",earthquake,,0.4,,,reviewed,ak,ak
+2023-12-31T22:00:20.530Z,60.051,-153.094166666667,-0.99,-0.7,ml,4,227,,0.04,av,av92169981,2024-01-02T03:47:11.890Z,"63 km ENE of Pedro Bay, Alaska",earthquake,0.4,1.76,0.153232053174928,3,reviewed,av,av
+2023-12-31T19:00:31.058Z,58.9312,-152.8381,62.3,2,ml,,,,0.54,ak,ak023grygz4m,2024-01-21T02:22:46.378Z,"70 km SW of Nanwalek, Alaska",earthquake,,0.5,,,reviewed,ak,ak
+2023-12-31T18:58:00.357Z,60.2457,-152.5169,100,1.9,ml,,,,0.48,ak,ak023gry7woz,2024-01-21T02:22:51.412Z,"51 km WNW of Ninilchik, Alaska",earthquake,,0.6,,,reviewed,ak,ak
+2023-12-31T17:37:00.873Z,60.2156,-151.1861,53.8,1.5,ml,,,,0.37,ak,ak023grxhz3j,2024-01-21T02:22:45.934Z,"11 km E of Clam Gulch, Alaska",earthquake,,0.8,,,reviewed,ak,ak
+2023-12-31T17:23:18.119Z,60.4187,-152.4183,91.6,1.9,ml,,,,0.58,ak,ak023grxf0eb,2024-01-21T02:22:50.813Z,"58 km NW of Ninilchik, Alaska",earthquake,,0.5,,,reviewed,ak,ak
+2023-12-31T14:43:18.148Z,59.9011,-152.8819,95.1,1.8,ml,,,,0.35,ak,ak023grvqzwm,2024-01-21T02:22:49.598Z,"60 km WNW of Anchor Point, Alaska",earthquake,,0.8,,,reviewed,ak,ak
+2023-12-31T12:48:05.002Z,59.0021,-154.4624,120.8,2.1,ml,,,,0.41,ak,ak023grul674,2024-01-21T02:22:43.222Z,"51 km SSE of Kokhanok, Alaska",earthquake,,0.5,,,reviewed,ak,ak
+2023-12-31T10:50:01.692Z,59.8819,-152.7849,86.7,2.5,ml,,,,0.64,ak,ak023grteq5z,2024-03-02T21:39:34.040Z,"54 km WNW of Anchor Point, Alaska",earthquake,,0.2,,,reviewed,ak,ak
+2023-12-31T10:22:46.798Z,60.0417,-150.9438,58.6,2.6,ml,,,,0.9,ak,ak023grt8tmp,2024-03-02T21:39:34.040Z,"20 km N of Fox River, Alaska",earthquake,,0.2,,,reviewed,ak,ak
+2023-12-31T06:56:49.991Z,57.2797,-153.8782,19.4,1.8,ml,,,,0.68,ak,ak023grr2dtz,2024-01-20T18:29:04.308Z,"29 km SSE of Larsen Bay, Alaska",earthquake,,1.7,,,reviewed,ak,ak
+2023-12-31T06:49:13.229Z,60.5852,-151.1541,56,1.4,ml,,,,0.43,ak,ak023grr0oac,2024-01-20T18:28:56.076Z,"6 km ENE of Kenai, Alaska",earthquake,,0.4,,,reviewed,ak,ak
+2023-12-31T06:18:16.774Z,60.9056,-152.5083,114.4,2,ml,,,,0.45,ak,ak023grqu621,2024-01-20T18:28:55.802Z,"70 km WNW of Nikiski, Alaska",earthquake,,0.2,,,reviewed,ak,ak
+2023-12-31T05:17:39.335Z,59.7697,-152.9492,95.5,1.7,ml,,,,0.4,ak,ak023grq8kh9,2024-01-20T18:29:03.282Z,"62 km W of Anchor Point, Alaska",earthquake,,0.4,,,reviewed,ak,ak
+2023-12-31T04:53:19.350Z,58.283,-154.987666666667,2.72,-0.24,ml,6,133,,0.09,av,av92169381,2024-01-02T00:38:38.720Z,"85 km NNW of Karluk, Alaska",earthquake,0.29,0.52,0.300807177730483,6,reviewed,av,av
+2023-12-31T03:40:32.492Z,60.3703,-151.7222,66.7,1.4,ml,,,,0.41,ak,ak023grp6m7l,2024-01-20T18:29:01.887Z,"22 km W of Cohoe, Alaska",earthquake,,0.8,,,reviewed,ak,ak
+2023-12-31T03:10:00.460Z,59.5725,-153.6118,115.8,1.8,ml,,,,0.43,ak,ak023grp048w,2024-01-20T18:28:53.556Z,"36 km SE of Pedro Bay, Alaska",earthquake,,0.4,,,reviewed,ak,ak
+2023-12-31T02:11:57.673Z,59.8712,-151.5468,55.1,1.5,ml,,,,0.55,ak,ak023grof0p1,2024-01-20T18:28:52.718Z,"7 km NNE of Nikolaevsk, Alaska",earthquake,,0.3,,,reviewed,ak,ak
+2023-12-31T01:28:31.622Z,59.7714,-153.4417,122.2,2.1,ml,,,,0.47,ak,ak023grnx6bc,2024-01-20T18:28:52.440Z,"37 km E of Pedro Bay, Alaska",earthquake,,0.2,,,reviewed,ak,ak
+2023-12-31T00:38:39.895Z,59.4634,-152.3976,85.5,1.8,ml,,,,0.33,ak,ak023grndwj9,2024-01-20T18:29:00.436Z,"29 km WNW of Nanwalek, Alaska",earthquake,,0.5,,,reviewed,ak,ak
+2023-12-31T00:19:05.149Z,60.9655,-151.8579,76.4,1.4,ml,,,,0.41,ak,ak023grn9r8k,2024-01-20T18:28:50.858Z,"40 km WSW of Tyonek, Alaska",earthquake,,0.5,,,reviewed,ak,ak
+2023-12-31T00:12:16.672Z,60.0568,-152.2504,72.4,1.3,ml,,,,0.27,ak,ak023grn8a4j,2024-01-20T18:29:00.236Z,"31 km WNW of Happy Valley, Alaska",earthquake,,0.6,,,reviewed,ak,ak
+2023-12-30T23:58:04.064Z,59.4926,-152.5977,74.3,1.4,ml,,,,0.41,ak,ak023gqdnqie,2024-01-19T09:18:47.533Z,"41 km WNW of Nanwalek, Alaska",earthquake,,0.8,,,reviewed,ak,ak
+2023-12-30T22:36:05.065Z,59.8152,-153.4729,132.6,3.4,ml,,,,0.58,ak,ak023gqcxl3z,2024-03-02T21:39:34.040Z,"35 km E of Pedro Bay, Alaska",earthquake,,0.2,,,reviewed,ak,ak
+2023-12-30T22:24:29.747Z,60.7654,-152.2674,95.6,1.5,ml,,,,0.41,ak,ak023gqcv2ji,2024-01-19T09:18:46.956Z,"54 km W of Nikiski, Alaska",earthquake,,0.5,,,reviewed,ak,ak
+2023-12-30T21:42:54.017Z,59.9605,-151.8942,62.5,1.1,ml,,,,0.33,ak,ak023gqcdjp5,2024-01-19T09:18:46.748Z,"9 km W of Happy Valley, Alaska",earthquake,,0.9,,,reviewed,ak,ak
+2023-12-30T21:31:30.355Z,60.4995,-151.1005,53.7,1.3,ml,,,,0.33,ak,ak023gqcb4z3,2024-01-19T09:18:43.687Z,"2 km WNW of Soldotna, Alaska",earthquake,,0.9,,,reviewed,ak,ak
+2023-12-30T20:37:07.295Z,59.5766,-153.0548,94.3,1.6,ml,,,,0.33,ak,ak023gqbqxvw,2024-01-19T09:18:42.560Z,"63 km ESE of Pedro Bay, Alaska",earthquake,,0.3,,,reviewed,ak,ak
+2023-12-30T19:35:57.070Z,59.9649,-151.809,58.2,2,ml,,,,0.74,ak,ak023gqb56o7,2024-01-19T09:18:42.304Z,"4 km WNW of Happy Valley, Alaska",earthquake,,0.3,,,reviewed,ak,ak
+2023-12-30T18:45:48.110Z,60.5548333333333,-152.72,5.49,-0.49,ml,5,146,,0.06,av,av91126148,2023-12-31T06:01:41.480Z,"77 km W of Salamatof, Alaska",earthquake,0.37,0.88,0.0900865558956688,5,reviewed,av,av
+2023-12-30T18:45:48.090Z,60.5555,-152.721166666667,5.55,-0.47,ml,5,144,,0.06,av,av91126143,2023-12-31T05:54:22.400Z,"77 km W of Salamatof, Alaska",earthquake,0.37,0.88,0.213309690617717,5,reviewed,av,av
+2023-12-30T17:52:22.860Z,60.5118333333333,-152.830833333333,4.37,0.35,ml,4,173,,0.06,av,av92169056,2023-12-31T05:47:50.820Z,"82 km NW of Ninilchik, Alaska",earthquake,0.42,1.31,0.26337628046843,4,reviewed,av,av
+2023-12-30T16:14:15.936Z,60.9387,-150.6987,45.5,1.9,ml,,,,0.58,ak,ak023gq98an9,2024-01-19T09:18:40.017Z,"1 km NNW of Point Possession, Alaska",earthquake,,0.5,,,reviewed,ak,ak
+2023-12-30T13:23:42.330Z,60.0533333333333,-153.081333333333,0.62,-0.81,ml,5,143,,0.05,av,av92168906,2023-12-31T04:59:57.870Z,"64 km ENE of Pedro Bay, Alaska",earthquake,0.58,0.38,0.302371534742257,5,reviewed,av,av
+2023-12-30T12:15:33.291Z,59.4866,-151.8781,59.7,1.3,ml,,,,0.37,ak,ak023gq6utbl,2024-01-19T09:18:45.323Z,"10 km WNW of Seldovia, Alaska",earthquake,,0.6,,,reviewed,ak,ak
+2023-12-30T12:13:26.089Z,60.1634,-152.4645,93,2.2,ml,,,,0.56,ak,ak023gq6ud9m,2024-01-19T09:18:37.986Z,"46 km WNW of Ninilchik, Alaska",earthquake,,0.3,,,reviewed,ak,ak
+2023-12-30T11:36:48.451Z,60.0498,-152.2586,67.7,1.5,ml,,,,0.55,ak,ak023gq6dwzn,2024-01-19T19:38:26.427Z,"31 km WNW of Happy Valley, Alaska",earthquake,,0.6,,,reviewed,ak,ak
+2023-12-30T11:13:06.174Z,60.3306,-151.5349,65.6,1.1,ml,,,,0.49,ak,ak023gq68w6x,2024-01-19T19:38:32.913Z,"13 km WSW of Cohoe, Alaska",earthquake,,0.5,,,reviewed,ak,ak
+2023-12-30T10:07:11.252Z,60.642,-151.0234,60.7,1.2,ml,,,,0.45,ak,ak023gq5m6ol,2024-01-19T19:38:32.519Z,"12 km NNE of Ridgeway, Alaska",earthquake,,1,,,reviewed,ak,ak
+2023-12-30T08:57:06.496Z,59.73,-152.7753,81.3,1.4,ml,,,,0.37,ak,ak023gq4q0vl,2024-01-19T19:38:24.894Z,"53 km W of Anchor Point, Alaska",earthquake,,0.2,,,reviewed,ak,ak
+2023-12-30T08:31:34.761Z,60.2506,-151.972,67.4,1.4,ml,,,,0.51,ak,ak023gq4kidd,2024-01-19T19:38:23.786Z,"27 km NW of Ninilchik, Alaska",earthquake,,0.9,,,reviewed,ak,ak
+2023-12-30T08:00:46.694Z,59.613,-152.2066,74.7,1.8,ml,,,,0.57,ak,ak023gq4dw47,2024-01-19T19:38:23.539Z,"27 km SW of Anchor Point, Alaska",earthquake,,0.5,,,reviewed,ak,ak
+2023-12-30T07:37:14.790Z,59.5296,-153.0291,85.1,1.6,ml,,,,0.59,ak,ak023gq40bmf,2024-01-19T19:38:31.915Z,"65 km WNW of Nanwalek, Alaska",earthquake,,0.6,,,reviewed,ak,ak
+2023-12-30T07:27:34.955Z,60.8926,-151.6023,76.2,2.2,ml,,,,0.7,ak,ak023gq3y808,2024-01-19T19:38:23.237Z,"28 km NW of Nikiski, Alaska",earthquake,,0.3,,,reviewed,ak,ak
+2023-12-30T06:20:27.365Z,60.1692,-152.3255,95.4,1.5,ml,,,,0.58,ak,ak023gq3b9tc,2024-01-19T19:38:31.305Z,"38 km WNW of Ninilchik, Alaska",earthquake,,0.3,,,reviewed,ak,ak
+2023-12-30T05:17:17.615Z,60.0718,-150.4775,63.2,1.4,ml,,,,0.43,ak,ak023gq2p6b5,2024-01-19T19:38:30.506Z,"35 km NE of Fox River, Alaska",earthquake,,0.1,,,reviewed,ak,ak
+2023-12-30T03:51:39.045Z,58.2769,-150.9086,22.6,2.3,ml,,,,0.79,ak,ak023gq1pncr,2024-01-19T22:27:58.034Z,"101 km ENE of Ouzinkie, Alaska",earthquake,,1.1,,,reviewed,ak,ak
+2023-12-30T03:35:55.941Z,60.4857,-151.8798,78,1.4,ml,,,,0.44,ak,ak023gq1m8y2,2024-01-19T19:38:29.495Z,"33 km WNW of Kalifornsky, Alaska",earthquake,,0.3,,,reviewed,ak,ak
+2023-12-30T03:13:37.847Z,59.5779,-151.7136,53.7,1.3,ml,,,,0.3,ak,ak023gq1hhsp,2024-01-19T22:27:59.757Z,"11 km NNW of Seldovia Village, Alaska",earthquake,,0.4,,,reviewed,ak,ak
+2023-12-30T02:46:50.297Z,60.2373,-153.0441,137.6,1.8,ml,,,,0.36,ak,ak023gq135s5,2024-01-19T19:38:28.886Z,"70 km E of Port Alsworth, Alaska",earthquake,,0.5,,,reviewed,ak,ak
+2023-12-30T02:36:23.583Z,59.323,-152.9391,66.8,1.8,ml,,,,0.47,ak,ak023gq10yk6,2024-01-19T19:38:28.621Z,"58 km W of Nanwalek, Alaska",earthquake,,0.6,,,reviewed,ak,ak
+2023-12-30T02:16:11.788Z,59.2201,-152.115,60.8,1.5,ml,,,,0.6,ak,ak023gq0wnbu,2024-01-19T19:38:28.415Z,"18 km SW of Nanwalek, Alaska",earthquake,,0.8,,,reviewed,ak,ak
+2023-12-30T01:52:06.070Z,60.0491666666667,-153.07,1.06,-0.43,ml,5,120,,0.09,av,av92168541,2023-12-31T02:51:18.060Z,"64 km ENE of Pedro Bay, Alaska",earthquake,1.41,0.74,0.292278682482243,5,reviewed,av,av
+2023-12-30T01:45:20.310Z,60.0496666666667,-153.057333333333,1.7,-0.51,ml,5,171,,0.05,av,av92168526,2023-12-31T02:54:37.960Z,"65 km ENE of Pedro Bay, Alaska",earthquake,0.48,0.56,0.220842275484763,5,reviewed,av,av
+2023-12-30T01:07:06.644Z,59.1434,-152.5176,73.9,1.6,ml,,,,0.63,ak,ak023gq099vs,2024-01-19T19:38:27.758Z,"41 km SW of Nanwalek, Alaska",earthquake,,0.3,,,reviewed,ak,ak
+2023-12-30T00:16:00.040Z,60.0178333333333,-153.104666666667,-0.08,-0.82,ml,5,129,,0.08,av,av92168506,2023-12-31T02:48:31.370Z,"61 km ENE of Pedro Bay, Alaska",earthquake,0.32,2.72,0.193873246918444,5,reviewed,av,av
+2023-12-30T00:01:15.094Z,60.4836,-152.6771,112.8,1.6,ml,,,,0.79,ak,ak023gpzmkmt,2024-01-19T19:38:26.946Z,"73 km NW of Ninilchik, Alaska",earthquake,,0.2,,,reviewed,ak,ak
+2023-12-29T23:57:29.990Z,60.0493333333333,-153.058166666667,1.82,-0.27,ml,5,168,,0.09,av,av92168481,2023-12-30T02:43:49.390Z,"65 km ENE of Pedro Bay, Alaska",earthquake,0.62,0.83,0.309730566652228,5,reviewed,av,av
+2023-12-29T23:11:16.079Z,60.4783,-151.9684,75.8,1.4,ml,,,,0.29,ak,ak023gopucaf,2024-01-17T23:07:21.231Z,"37 km W of Kalifornsky, Alaska",earthquake,,0.5,,,reviewed,ak,ak
+2023-12-29T23:04:05.539Z,60.1468,-151.9325,69,1.2,ml,,,,0.32,ak,ak023gopstgp,2024-01-17T23:07:21.014Z,"18 km NW of Ninilchik, Alaska",earthquake,,0.9,,,reviewed,ak,ak
+2023-12-29T22:24:16.020Z,58.2981666666667,-154.987833333333,2.84,-0.09,ml,6,142,,0.09,av,av91126063,2023-12-30T02:14:23.170Z,"87 km NNW of Karluk, Alaska",earthquake,0.45,0.68,0.247367839382312,6,reviewed,av,av
+2023-12-29T22:17:38.326Z,59.1704,-152.2068,55.4,1.4,ml,,,,0.22,ak,ak023gopa8p4,2024-01-17T23:07:20.598Z,"26 km SW of Nanwalek, Alaska",earthquake,,1,,,reviewed,ak,ak
+2023-12-29T21:33:45.950Z,60.0393333333333,-153.068,-2.2,-0.68,ml,5,126,,0.1,av,av92168411,2023-12-30T02:03:09.470Z,"64 km ENE of Pedro Bay, Alaska",earthquake,0.27,2.56,0.525962881604967,5,reviewed,av,av
+2023-12-29T20:25:33.508Z,60.0442,-150.4392,48.3,1.6,ml,,,,0.45,ak,ak023goo52qx,2024-01-18T18:41:23.131Z,"35 km NE of Fox River, Alaska",earthquake,,0.6,,,reviewed,ak,ak
+2023-12-29T20:07:59.347Z,60.0734,-153.4354,162.1,2,ml,,,,0.44,ak,ak023goo19xw,2024-01-18T18:41:24.206Z,"49 km NE of Pedro Bay, Alaska",earthquake,,0.6,,,reviewed,ak,ak
+2023-12-29T19:33:04.056Z,60.0911,-152.7311,86.5,1.6,ml,,,,0.38,ak,ak023gonlan1,2024-01-17T23:07:15.637Z,"57 km WNW of Happy Valley, Alaska",earthquake,,0.3,,,reviewed,ak,ak
+2023-12-29T19:10:57.534Z,60.622,-150.3639,40.8,2,ml,,,,0.64,ak,ak023gonghau,2024-01-17T23:07:15.148Z,"23 km ENE of Sterling, Alaska",earthquake,,0.4,,,reviewed,ak,ak
+2023-12-29T19:05:07.140Z,58.4825,-154.914166666667,3.84,0.37,ml,11,100,,0.16,av,av92168311,2024-01-17T23:06:19.715Z,"104 km ESE of King Salmon, Alaska",earthquake,0.32,1.75,0.181175066279715,11,reviewed,av,av
+2023-12-29T17:27:14.663Z,60.0945,-151.4047,64.9,1.3,ml,,,,0.37,ak,ak023gomd600,2024-01-17T23:07:14.145Z,"15 km S of Clam Gulch, Alaska",earthquake,,0.6,,,reviewed,ak,ak
+2023-12-29T16:27:15.950Z,58.3416666666667,-154.710666666667,5.04,1.06,ml,14,185,,0.22,av,av92168241,2024-01-17T23:06:10.779Z,"87 km N of Karluk, Alaska",earthquake,0.6,1.45,0.202999243306485,14,reviewed,av,av
+2023-12-29T16:24:49.380Z,58.3305,-154.7535,1.55,-0.04,ml,4,249,,0.09,av,av91126028,2023-12-30T00:34:36.830Z,"86 km NNW of Karluk, Alaska",earthquake,0.77,0.92,0.161382904238363,4,reviewed,av,av
+2023-12-29T16:05:58.610Z,60.0286666666667,-153.121,-0.4,-0.35,ml,4,210,,0.03,av,av92168221,2023-12-30T00:31:00.580Z,"61 km ENE of Pedro Bay, Alaska",earthquake,0.35,1.84,0.203922714546407,4,reviewed,av,av
+2023-12-29T14:59:45.318Z,60.0598,-152.7762,108.9,1.8,ml,,,,0.39,ak,ak023gokrsfc,2024-01-17T23:07:12.435Z,"59 km WNW of Happy Valley, Alaska",earthquake,,0.3,,,reviewed,ak,ak
+2023-12-29T13:32:03.678Z,59.6154,-153.5211,115.5,1.7,ml,,,,0.29,ak,ak023gok0hbj,2024-01-17T23:07:18.722Z,"38 km ESE of Pedro Bay, Alaska",earthquake,,0.5,,,reviewed,ak,ak
+2023-12-29T12:45:16.673Z,57.3736,-153.6809,2.9,2.4,ml,,,,0.65,ak,ak023gojhvqx,2024-01-18T18:41:22.478Z,"25 km SE of Larsen Bay, Alaska",earthquake,,0.6,,,reviewed,ak,ak
+2023-12-29T12:22:36.649Z,60.9513,-150.5971,10,1.1,ml,,,,0.68,ak,ak023gojcz3k,2024-01-17T23:07:18.299Z,"5 km ENE of Point Possession, Alaska",earthquake,,0.6,,,reviewed,ak,ak
+2023-12-29T12:15:27.930Z,60.0228333333333,-153.082333333333,0.79,-0.93,ml,5,104,,0.31,av,av92168061,2023-12-29T23:06:55.050Z,"63 km ENE of Pedro Bay, Alaska",earthquake,0.88,3.69,0.243752725579877,5,reviewed,av,av
+2023-12-29T12:03:26.440Z,60.2425,-151.273,58.9,1.4,ml,,,,0.48,ak,ak023goj8vop,2024-01-17T23:07:10.774Z,"6 km E of Clam Gulch, Alaska",earthquake,,0.6,,,reviewed,ak,ak
+2023-12-29T11:34:45.066Z,59.4285,-152.0666,55.5,1.4,ml,,,,0.4,ak,ak023goiu4qi,2024-01-18T23:43:54.099Z,"11 km NW of Nanwalek, Alaska",earthquake,,1,,,reviewed,ak,ak
+2023-12-29T11:22:02.633Z,60.9532,-150.5259,52,1.6,ml,,,,0.4,ak,ak023goirgtn,2024-01-18T23:43:48.287Z,"9 km ENE of Point Possession, Alaska",earthquake,,0.5,,,reviewed,ak,ak
+2023-12-29T10:39:16.594Z,60.9276,-151.9936,96.2,2.1,ml,,,,0.55,ak,ak023goi9pgx,2024-01-18T23:43:47.990Z,"46 km NW of Nikiski, Alaska",earthquake,,0.2,,,reviewed,ak,ak
+2023-12-29T08:37:45.697Z,60.3748,-152.5153,87.4,1.5,ml,,,,0.22,ak,ak023goh2h49,2024-01-18T23:43:53.282Z,"59 km NW of Ninilchik, Alaska",earthquake,,0.3,,,reviewed,ak,ak
+2023-12-29T08:23:54.860Z,60.0396666666667,-153.096,0.18,-0.41,ml,5,110,,0.08,av,av92167961,2023-12-29T22:36:52.230Z,"63 km ENE of Pedro Bay, Alaska",earthquake,0.28,1.25,0.494966769369394,4,reviewed,av,av
+2023-12-29T07:05:29.082Z,59.7413,-153.0086,103.8,1.6,ml,,,,0.25,ak,ak023goga5bg,2024-01-18T23:43:52.484Z,"61 km E of Pedro Bay, Alaska",earthquake,,0.4,,,reviewed,ak,ak
+2023-12-29T06:00:24.700Z,60.0398333333333,-153.088,-1.31,-0.25,ml,5,102,,0.08,av,av92167861,2023-12-29T21:21:42.740Z,"63 km ENE of Pedro Bay, Alaska",earthquake,0.35,4.14,0.187601666132423,4,reviewed,av,av
+2023-12-29T05:25:30.980Z,60.7354,-152.0127,82.2,1.7,ml,,,,0.47,ak,ak023gof7kki,2024-01-18T23:43:45.556Z,"39 km W of Nikiski, Alaska",earthquake,,0.3,,,reviewed,ak,ak
+2023-12-29T05:22:12.711Z,60.3014,-150.9611,52.7,1.5,ml,,,,0.31,ak,ak023gof6w0x,2024-01-18T23:43:45.327Z,"17 km ESE of Kasilof, Alaska",earthquake,,0.5,,,reviewed,ak,ak
+2023-12-29T05:19:48.790Z,60.0441666666667,-153.094666666667,-0.81,-0.7,ml,6,105,,0.08,av,av92167841,2023-12-29T21:14:30.100Z,"63 km ENE of Pedro Bay, Alaska",earthquake,0.19,1.19,0.261244388085607,6,reviewed,av,av
+2023-12-29T05:06:38.634Z,60.5195,-152.6489,102.2,1.5,ml,,,,0.21,ak,ak023gof3ik7,2024-01-18T23:43:51.856Z,"73 km W of Salamatof, Alaska",earthquake,,0.5,,,reviewed,ak,ak
+2023-12-29T04:49:48.747Z,58.9559,-154.495,121.4,1.9,ml,,,,0.44,ak,ak023goerbh0,2024-01-18T23:43:44.866Z,"56 km SSE of Kokhanok, Alaska",earthquake,,0.4,,,reviewed,ak,ak
+2023-12-29T02:13:56.903Z,59.9594,-153.0764,123.7,3.5,ml,,,,0.68,ak,ak023godcr3i,2024-03-02T21:39:33.040Z,"60 km ENE of Pedro Bay, Alaska",earthquake,,0.2,,,reviewed,ak,ak
+2023-12-29T00:09:04.702Z,57.8531,-153.7367,40.6,2.7,ml,,,,0.61,ak,ak023goc4x00,2024-03-02T21:39:33.040Z,"37 km NNE of Larsen Bay, Alaska",earthquake,,0.6,,,reviewed,ak,ak
+2023-12-28T23:35:37.610Z,59.3695,-153.1553,82.4,1.5,ml,,,,0.25,ak,ak023gn2g6n5,2024-01-17T16:56:43.537Z,"70 km W of Nanwalek, Alaska",earthquake,,0.3,,,reviewed,ak,ak
+2023-12-28T23:08:21.562Z,59.725,-152.641,99.1,1.6,ml,,,,0.34,ak,ak023gn2aczg,2024-01-17T16:56:40.299Z,"45 km W of Anchor Point, Alaska",earthquake,,0.3,,,reviewed,ak,ak
+2023-12-28T22:14:46.710Z,60.0415,-153.082666666667,-2.01,-0.93,ml,5,98,,0.08,av,av92167321,2023-12-29T01:21:21.780Z,"63 km ENE of Pedro Bay, Alaska",earthquake,0.23,3.52,0.345891924530818,5,reviewed,av,av
+2023-12-28T21:42:04.928Z,60.2928,-152.214,86.6,1.8,ml,,,,0.45,ak,ak023gn1aqw6,2024-01-17T16:56:39.202Z,"40 km NW of Ninilchik, Alaska",earthquake,,0.3,,,reviewed,ak,ak
+2023-12-28T20:54:05.637Z,60.2385,-150.1392,33.5,1.3,ml,,,,0.18,ak,ak023gn0rvu9,2024-01-17T16:56:37.960Z,"32 km SSW of Cooper Landing, Alaska",earthquake,,0.2,,,reviewed,ak,ak
+2023-12-28T20:41:11.120Z,60.0528333333333,-153.077,0.62,-0.84,ml,4,134,,0.05,av,av92167231,2023-12-29T00:59:23.060Z,"64 km ENE of Pedro Bay, Alaska",earthquake,0.71,0.42,0.388506453747825,4,reviewed,av,av
+2023-12-28T17:57:14.481Z,59.3132,-153.2982,111.4,1.7,ml,,,,0.33,ak,ak023gmz08yq,2024-01-17T16:56:35.834Z,"69 km SE of Pedro Bay, Alaska",earthquake,,0.3,,,reviewed,ak,ak
+2023-12-28T17:47:28.350Z,60.495,-152.6705,6.72,-0.67,ml,6,157,,0.02,av,av91125958,2023-12-29T00:14:23.980Z,"74 km NW of Ninilchik, Alaska",earthquake,0.32,0.52,0.287350995859104,6,reviewed,av,av
+2023-12-28T16:36:36.285Z,59.1451,-153.7086,92.2,1.7,ml,,,,0.35,ak,ak023gmyad0r,2024-01-17T16:56:35.369Z,"64 km SE of Pope-Vannoy Landing, Alaska",earthquake,,0.2,,,reviewed,ak,ak
+2023-12-28T16:34:44.915Z,60.5881,-150.7108,44.9,1.4,ml,,,,0.47,ak,ak023gmy9y7g,2024-01-17T16:56:35.163Z,"6 km NNE of Sterling, Alaska",earthquake,,0.5,,,reviewed,ak,ak
+2023-12-28T16:02:08.384Z,57.0531,-154.7664,9.7,1.9,ml,,,,0.63,ak,ak023gmy30iu,2024-01-17T16:56:42.184Z,"38 km WNW of Akhiok, Alaska",earthquake,,1.1,,,reviewed,ak,ak
+2023-12-28T14:18:18.192Z,59.2181,-152.4145,62.4,1.8,ml,,,,0.35,ak,ak023gmwzlh9,2024-01-17T16:56:32.566Z,"32 km WSW of Nanwalek, Alaska",earthquake,,0.3,,,reviewed,ak,ak
+2023-12-28T13:52:00.432Z,59.4182,-152.6311,74.6,1.5,ml,,,,0.2,ak,ak023gmwlewb,2024-01-17T16:56:40.968Z,"40 km W of Nanwalek, Alaska",earthquake,,0.5,,,reviewed,ak,ak
+2023-12-28T13:44:42.446Z,60.0983,-152.4501,88.1,2,ml,,,,0.54,ak,ak023gmwjsbk,2024-01-17T16:56:31.523Z,"43 km WNW of Happy Valley, Alaska",earthquake,,0.2,,,reviewed,ak,ak
+2023-12-28T13:25:52.515Z,60.2678,-152.6526,109,1.9,ml,,,,0.44,ak,ak023gmwfqiu,2024-01-17T16:56:31.269Z,"59 km WNW of Ninilchik, Alaska",earthquake,,0.2,,,reviewed,ak,ak
+2023-12-28T12:26:56.012Z,58.4501,-154.3507,2.2,0.9,ml,,,,0.26,ak,ak023gmvuixe,2024-01-17T16:56:29.826Z,"95 km WNW of Aleneva, Alaska",earthquake,,1,,,reviewed,ak,ak
+2023-12-28T09:15:11.743Z,60.305,-152.5982,106.1,1.5,ml,,,,0.78,ak,ak023gmtzruu,2024-01-17T21:52:43.571Z,"58 km WNW of Ninilchik, Alaska",earthquake,,0.3,,,reviewed,ak,ak
+2023-12-28T08:15:23.768Z,59.6074,-153.1336,116.4,1.6,ml,,,,0.39,ak,ak023gmted6g,2024-01-17T21:52:42.946Z,"58 km ESE of Pedro Bay, Alaska",earthquake,,0.3,,,reviewed,ak,ak
+2023-12-28T08:02:33.721Z,59.8654,-153.3953,133.7,1.7,ml,,,,0.47,ak,ak023gmtbln0,2024-01-17T21:52:42.723Z,"40 km ENE of Pedro Bay, Alaska",earthquake,,0.2,,,reviewed,ak,ak
+2023-12-28T07:42:35.298Z,59.2939,-152.1856,54.8,1.7,ml,,,,0.62,ak,ak023gmsyqsb,2024-01-17T21:52:34.474Z,"16 km WSW of Nanwalek, Alaska",earthquake,,0.6,,,reviewed,ak,ak
+2023-12-28T06:15:40.412Z,60.1858,-152.3489,78.5,1.4,ml,,,,0.35,ak,ak023gms7j95,2024-01-17T21:52:41.288Z,"40 km WNW of Ninilchik, Alaska",earthquake,,0.4,,,reviewed,ak,ak
+2023-12-28T04:45:32.616Z,60.0041,-151.6414,49.2,2.1,ml,,,,0.69,ak,ak023gmr72wb,2024-01-17T21:52:32.308Z,"5 km SSE of Ninilchik, Alaska",earthquake,,0.5,,,reviewed,ak,ak
+2023-12-28T04:39:19.958Z,59.7732,-152.2903,70.5,1.6,ml,,,,0.54,ak,ak023gmr5rnf,2024-01-17T21:52:39.785Z,"25 km W of Anchor Point, Alaska",earthquake,,0.7,,,reviewed,ak,ak
+2023-12-28T04:21:13.776Z,60.8232,-151.1483,6.5,1.4,ml,,,,0.61,ak,ak023gmr1wan,2024-01-17T21:52:31.342Z,"16 km NNE of Nikiski, Alaska",earthquake,,0.5,,,reviewed,ak,ak
+2023-12-28T03:51:47.899Z,59.8687,-152.5284,75.2,1.4,ml,,,,0.36,ak,ak023gmqmysl,2024-01-17T21:52:38.935Z,"40 km WNW of Anchor Point, Alaska",earthquake,,0.2,,,reviewed,ak,ak
+2023-12-28T03:48:17.183Z,59.9143,-153.1895,119.6,1.8,ml,,,,0.71,ak,ak023gmqm99y,2024-01-17T21:52:39.147Z,"53 km ENE of Pedro Bay, Alaska",earthquake,,0.2,,,reviewed,ak,ak
+2023-12-28T03:26:04.946Z,60.046,-152.9389,111.6,1.8,ml,,,,0.52,ak,ak023gmqhiku,2024-01-17T21:52:38.514Z,"68 km W of Happy Valley, Alaska",earthquake,,0.3,,,reviewed,ak,ak
+2023-12-28T03:11:10.720Z,59.7125,-151.254,44.3,1.2,ml,,,,0.45,ak,ak023gmqeba8,2024-01-17T21:52:38.101Z,"3 km SE of Fritz Creek, Alaska",earthquake,,0.3,,,reviewed,ak,ak
+2023-12-28T02:34:58.390Z,58.5074,-151.7146,29.7,1.8,ml,,,,1.04,ak,ak023gmpxwtr,2024-01-18T13:32:36.347Z,"79 km NE of Ouzinkie, Alaska",earthquake,,0.3,,,reviewed,ak,ak
+2023-12-28T01:36:31.472Z,60.0188,-151.7419,61.3,1.4,ml,,,,0.46,ak,ak023gmpcukr,2024-01-17T21:52:37.666Z,"5 km SW of Ninilchik, Alaska",earthquake,,0.5,,,reviewed,ak,ak
+2023-12-27T20:51:04.328Z,60.6539,-151.8313,80.9,1.7,ml,,,,0.49,ak,ak023gld7w9s,2024-01-15T01:45:43.189Z,"28 km W of Salamatof, Alaska",earthquake,,0.7,,,reviewed,ak,ak
+2023-12-27T19:19:18.949Z,59.957,-152.1939,76.4,1.4,ml,,,,0.43,ak,ak023glcfmty,2024-01-15T01:45:46.648Z,"25 km W of Happy Valley, Alaska",earthquake,,0.8,,,reviewed,ak,ak
+2023-12-27T17:26:38.060Z,58.4212,-154.7526,4.3,0.9,ml,,,,0.55,ak,ak023glbab3x,2024-01-15T01:45:40.160Z,"96 km N of Karluk, Alaska",earthquake,,0.3,,,reviewed,ak,ak
+2023-12-27T16:48:59.678Z,59.9122,-153.2291,117.7,2.1,ml,,,,0.44,ak,ak023glatmw4,2024-01-15T01:45:39.706Z,"51 km ENE of Pedro Bay, Alaska",earthquake,,0.4,,,reviewed,ak,ak
+2023-12-27T15:24:55.509Z,60.8128,-152.4956,118.4,2.5,ml,,,,0.64,ak,ak023gla31r6,2024-03-02T21:39:32.040Z,"67 km W of Nikiski, Alaska",earthquake,,0.4,,,reviewed,ak,ak
+2023-12-27T13:43:31.250Z,59.8461,-151.7772,63.9,1.7,ml,,,,0.58,ak,ak023gl9077c,2024-01-15T01:45:37.358Z,"8 km NNE of Anchor Point, Alaska",earthquake,,0.5,,,reviewed,ak,ak
+2023-12-27T13:15:44.074Z,60.3763,-150.5001,41.3,2,ml,,,,0.5,ak,ak023gl8u88y,2024-01-15T01:45:36.678Z,"20 km SE of Funny River, Alaska",earthquake,,0.5,,,reviewed,ak,ak
+2023-12-27T12:45:13.271Z,58.82,-153.6399,5.1,1.4,ml,,,,0.79,ak,ak023gl8f5rz,2024-01-15T01:45:45.456Z,"94 km NNW of Aleneva, Alaska",earthquake,,0.8,,,reviewed,ak,ak
+2023-12-27T12:02:40.568Z,59.6619,-153.0712,97.7,1.8,ml,,,,0.18,ak,ak023gl8603c,2024-01-15T01:45:45.060Z,"59 km ESE of Pedro Bay, Alaska",earthquake,,0.6,,,reviewed,ak,ak
+2023-12-27T11:43:04.377Z,60.4006,-152.5866,105.7,1.7,ml,,,,0.5,ak,ak023gl7ta1x,2024-01-13T05:32:20.099Z,"64 km NW of Ninilchik, Alaska",earthquake,,0.7,,,reviewed,ak,ak
+2023-12-27T09:02:36.447Z,60.4298,-151.1548,58.3,1.6,ml,,,,0.42,ak,ak023gl6doyk,2024-01-13T05:32:19.362Z,"7 km E of Kalifornsky, Alaska",earthquake,,0.7,,,reviewed,ak,ak
+2023-12-27T07:22:58.030Z,59.9952,-153.1962,123.6,1.9,ml,,,,0.59,ak,ak023gl5b5sa,2024-01-13T05:32:12.619Z,"55 km ENE of Pedro Bay, Alaska",earthquake,,0.5,,,reviewed,ak,ak
+2023-12-27T06:58:41.440Z,58.0435,-153.3058,60,2,ml,,,,0.49,ak,ak023gl4xemo,2024-01-13T05:32:18.930Z,"23 km W of Aleneva, Alaska",earthquake,,0.8,,,reviewed,ak,ak
+2023-12-27T05:06:28.506Z,59.7533,-152.0992,82.8,2.8,ml,,,,0.65,ak,ak023gl40spb,2024-03-02T21:39:31.040Z,"15 km W of Anchor Point, Alaska",earthquake,,0.3,,,reviewed,ak,ak
+2023-12-27T02:19:32.677Z,60.9801,-151.2605,79.2,1.6,ml,,,,0.27,ak,ak023gl2bakc,2024-01-13T05:32:09.335Z,"11 km SW of Tyonek, Alaska",earthquake,,0.7,,,reviewed,ak,ak
+2023-12-27T00:51:11.660Z,58.2925,-154.985,3.13,-0.32,ml,7,132,,0.11,av,av91125823,2023-12-27T21:13:45.870Z,"86 km NNW of Karluk, Alaska",earthquake,0.38,0.79,0.217980744257767,7,reviewed,av,av
+2023-12-27T00:43:06.921Z,60.19,-153.0007,125.1,1.9,ml,,,,0.32,ak,ak023gl19ilg,2024-01-13T05:32:17.489Z,"72 km E of Port Alsworth, Alaska",earthquake,,0.6,,,reviewed,ak,ak
+2023-12-26T23:24:53.230Z,58.914,-152.4455,56.7,1.9,ml,,,,0.55,ak,ak023gjrb5zf,2024-01-13T00:18:19.191Z,"57 km SSW of Nanwalek, Alaska",earthquake,,0.4,,,reviewed,ak,ak
+2023-12-26T20:28:21.289Z,58.4323,-152.9103,59.6,1.9,ml,,,,0.69,ak,ak023gjpjnkg,2024-01-13T00:18:17.261Z,"41 km N of Aleneva, Alaska",earthquake,,0.7,,,reviewed,ak,ak
+2023-12-26T20:19:05.130Z,59.9709,-151.2609,54.6,2,ml,,,,0.65,ak,ak023gjphouq,2024-01-13T00:18:09.379Z,"21 km NW of Fox River, Alaska",earthquake,,0.6,,,reviewed,ak,ak
+2023-12-26T19:35:42.384Z,59.9698,-151.8539,61.4,1.3,ml,,,,0.34,ak,ak023gjozrlq,2024-01-13T00:18:16.505Z,"7 km WNW of Happy Valley, Alaska",earthquake,,0.3,,,reviewed,ak,ak
+2023-12-26T19:30:13.506Z,60.5672,-150.4598,13.1,1.3,ml,,,,0.58,ak,ak023gjoymsm,2024-01-13T00:18:16.283Z,"17 km E of Sterling, Alaska",earthquake,,0.6,,,reviewed,ak,ak
+2023-12-26T19:02:20.365Z,60.9295,-151.5677,78.1,1.6,ml,,,,0.43,ak,ak023gjosne6,2024-01-13T00:18:08.102Z,"27 km WSW of Tyonek, Alaska",earthquake,,0.5,,,reviewed,ak,ak
+2023-12-26T18:37:37.988Z,60.6048,-150.5028,13.2,2.7,ml,,,,0.7,ak,ak023gjoer2s,2024-03-02T21:39:31.040Z,"16 km ENE of Sterling, Alaska",earthquake,,0.1,,,reviewed,ak,ak
+2023-12-26T18:09:47.614Z,58.8468,-152.2174,52.2,1.8,ml,,,,0.67,ak,ak023gjo8rs9,2024-01-13T00:18:16.063Z,"59 km SSW of Nanwalek, Alaska",earthquake,,0.3,,,reviewed,ak,ak
+2023-12-26T18:06:10.410Z,58.941,-152.2139,67.7,2,ml,,,,0.45,ak,ak023gjo81qv,2024-01-13T00:18:07.060Z,"49 km SSW of Nanwalek, Alaska",earthquake,,0.8,,,reviewed,ak,ak
+2023-12-26T17:10:53.388Z,60.8207,-151.2674,66.2,1.5,ml,,,,0.67,ak,ak023gjnnkca,2024-01-13T00:18:15.620Z,"14 km N of Nikiski, Alaska",earthquake,,0.6,,,reviewed,ak,ak
+2023-12-26T16:01:25.580Z,60.4366,-152.977,134,1.7,ml,,,,0.72,ak,ak023gjn055a,2024-01-13T00:18:14.469Z,"78 km ENE of Port Alsworth, Alaska",earthquake,,0.3,,,reviewed,ak,ak
+2023-12-26T14:36:18.048Z,60.44,-150.0351,26.6,1.6,ml,,,,0.6,ak,ak023gjm0rc3,2024-01-13T00:18:04.248Z,"12 km WSW of Cooper Landing, Alaska",earthquake,,0.9,,,reviewed,ak,ak
+2023-12-26T14:33:16.700Z,58.2317,-152.9175,43.1,2,ml,,,,0.56,ak,ak023gjm041z,2024-01-13T00:18:03.901Z,"19 km N of Aleneva, Alaska",earthquake,,0.6,,,reviewed,ak,ak
+2023-12-26T14:28:21.573Z,58.5711,-153.5359,79.6,1.7,ml,,,,0.79,ak,ak023gjlz1yl,2024-01-13T00:18:13.746Z,"67 km NNW of Aleneva, Alaska",earthquake,,0.5,,,reviewed,ak,ak
+2023-12-26T13:06:06.190Z,60.384,-152.4709,89.7,1.6,ml,,,,0.51,ak,ak023gjl8vez,2024-01-13T00:18:12.669Z,"57 km NW of Ninilchik, Alaska",earthquake,,0.5,,,reviewed,ak,ak
+2023-12-26T12:44:15.070Z,59.1147,-154.2472,126.2,1.9,ml,,,,0.55,ak,ak023gjkvlpf,2024-01-13T00:18:12.449Z,"47 km SE of Kokhanok, Alaska",earthquake,,0.5,,,reviewed,ak,ak
+2023-12-26T12:30:04.191Z,57.3698,-154.2608,8.6,1.8,ml,,,,0.16,ak,ak023gjksktk,2024-01-13T09:13:40.391Z,"25 km SSE of Karluk, Alaska",earthquake,,0.5,,,reviewed,ak,ak
+2023-12-26T12:08:08.537Z,60.7479,-151.4632,67.8,2.1,ml,,,,0.64,ak,ak023gjknved,2024-01-13T00:18:47.997Z,"11 km NW of Nikiski, Alaska",earthquake,,0.4,,,reviewed,ak,ak
+2023-12-26T11:27:22.379Z,59.9758,-152.5688,77.1,1.5,ml,,,,0.35,ak,ak023gjk6jlk,2024-01-16T17:09:29.725Z,"46 km W of Happy Valley, Alaska",earthquake,,0.1,,,reviewed,ak,ak
+2023-12-26T10:25:12.021Z,60.4195,-151.7166,69.5,2,ml,,,,0.73,ak,ak023gjjknn7,2024-01-16T17:09:29.255Z,"23 km WNW of Cohoe, Alaska",earthquake,,0.2,,,reviewed,ak,ak
+2023-12-26T09:15:54.960Z,58.3093333333333,-154.799833333333,4.86,0.12,ml,8,173,,0.18,av,av92165296,2023-12-26T16:38:12.200Z,"84 km NNW of Karluk, Alaska",earthquake,0.64,1.66,0.160807395473157,8,reviewed,av,av
+2023-12-26T09:13:18.744Z,60.9367,-150.9478,19.7,1.5,ml,,,,0.89,ak,ak023gjiwnuq,2024-01-16T17:09:28.318Z,"14 km W of Point Possession, Alaska",earthquake,,0.4,,,reviewed,ak,ak
+2023-12-26T08:00:11.112Z,59.8863,-152.896,98.1,1.6,ml,,,,0.35,ak,ak023gji8fjv,2024-01-16T17:09:27.418Z,"60 km W of Anchor Point, Alaska",earthquake,,0.3,,,reviewed,ak,ak
+2023-12-26T07:54:30.101Z,60.0661,-153.259,135,2.2,ml,,,,0.51,ak,ak023gjhylze,2024-01-16T17:09:27.124Z,"56 km ENE of Pedro Bay, Alaska",earthquake,,0.1,,,reviewed,ak,ak
+2023-12-26T07:19:13.931Z,59.7978,-152.9944,90.2,1.6,ml,,,,0.4,ak,ak023gjhr2ox,2024-01-16T17:09:33.397Z,"62 km E of Pedro Bay, Alaska",earthquake,,0.3,,,reviewed,ak,ak
+2023-12-26T07:16:45.774Z,60.147,-152.5551,95.3,1.7,ml,,,,0.35,ak,ak023gjhqi01,2024-01-16T17:09:33.621Z,"50 km WNW of Ninilchik, Alaska",earthquake,,0.3,,,reviewed,ak,ak
+2023-12-26T06:30:03.917Z,60.3268,-151.7401,63.3,3,ml,,,,0.72,ak,ak023gjh7z6v,2024-01-16T17:09:33.859Z,"21 km WNW of Clam Gulch, Alaska",earthquake,,0.2,,,reviewed,ak,ak
+2023-12-26T06:30:02.910Z,60.3349,-151.7544,71.33,3.2,ml,52,38,0.402,0.4,us,us7000llga,2024-03-02T21:39:40.040Z,"23 km WNW of Clam Gulch, Alaska",earthquake,3.37,6.119,0.029,152,reviewed,us,us
+2023-12-26T05:28:39.289Z,59.765,-153.4212,124.9,1.7,ml,,,,0.4,ak,ak023gjgm6vs,2024-01-16T17:09:32.369Z,"38 km E of Pedro Bay, Alaska",earthquake,,0.4,,,reviewed,ak,ak
+2023-12-26T05:13:54.587Z,59.8763,-151.984,74.8,1.6,ml,,,,0.4,ak,ak023gjgizwm,2024-01-16T17:09:24.694Z,"14 km NW of Anchor Point, Alaska",earthquake,,0.4,,,reviewed,ak,ak
+2023-12-26T00:36:34.476Z,60.5795,-152.9981,138.8,1.7,ml,,,,0.47,ak,ak023gjdoq7r,2024-01-16T17:09:31.316Z,"83 km ENE of Port Alsworth, Alaska",earthquake,,0.5,,,reviewed,ak,ak
+2023-12-26T00:03:18.700Z,58.2891666666667,-154.985833333333,3.18,0.43,ml,8,133,,0.12,av,av92164941,2024-01-16T17:07:59.482Z,"86 km NNW of Karluk, Alaska",earthquake,0.38,0.78,0.277399374434185,8,reviewed,av,av
+2023-12-25T23:20:40.168Z,60.661,-150.1654,42.1,1.8,ml,,,,0.5,ak,ak023gi3qxm8,2024-01-11T20:44:54.660Z,"26 km NW of Cooper Landing, Alaska",earthquake,,0.2,,,reviewed,ak,ak
+2023-12-25T22:52:24.080Z,60.0401666666667,-153.135166666667,3.97,0.06,ml,4,240,,0.06,av,av92164886,2023-12-27T19:07:00.130Z,"61 km ENE of Pedro Bay, Alaska",earthquake,0.74,1.03,0.150944654741938,4,reviewed,av,av
+2023-12-25T22:44:50.991Z,60.7564,-151.5763,78.2,1.7,ml,,,,0.54,ak,ak023gi3ao17,2024-01-11T20:44:53.966Z,"17 km WNW of Nikiski, Alaska",earthquake,,0.6,,,reviewed,ak,ak
+2023-12-25T21:05:38.134Z,60.1724,-152.1411,77.3,1.4,ml,,,,0.45,ak,ak023gi2guid,2024-01-11T20:44:52.668Z,"29 km WNW of Ninilchik, Alaska",earthquake,,0.5,,,reviewed,ak,ak
+2023-12-25T20:52:54.763Z,60.1387,-153.2025,136.8,1.9,ml,,,,0.5,ak,ak023gi25isv,2024-01-11T22:43:31.092Z,"62 km E of Port Alsworth, Alaska",earthquake,,0.3,,,reviewed,ak,ak
+2023-12-25T20:45:20.040Z,59.7007,-151.1597,44.3,2.1,ml,,,,0.74,ak,ak023gi23y4y,2024-01-11T20:44:44.506Z,"8 km ESE of Fritz Creek, Alaska",earthquake,,0.3,,,reviewed,ak,ak
+2023-12-25T19:42:37.893Z,59.936,-152.61,85.5,1.6,ml,,,,0.33,ak,ak023gi1hwrx,2024-01-11T20:44:52.226Z,"47 km WNW of Anchor Point, Alaska",earthquake,,0.6,,,reviewed,ak,ak
+2023-12-25T19:34:13.748Z,58.7849,-154.2854,91.5,1.6,ml,,,,0.4,ak,ak023gi1g56m,2024-01-11T20:44:51.792Z,"78 km SSE of Kokhanok, Alaska",earthquake,,0.7,,,reviewed,ak,ak
+2023-12-25T19:33:38.921Z,60.1695,-151.6104,59.4,1.3,ml,,,,0.51,ak,ak023gi1fzes,2024-01-11T20:44:52.023Z,"13 km NNE of Ninilchik, Alaska",earthquake,,0.8,,,reviewed,ak,ak
+2023-12-25T18:08:17.258Z,60.0824,-153.4055,167,2,ml,,,,0.54,ak,ak023gi0p58d,2024-01-11T20:44:50.891Z,"51 km NE of Pedro Bay, Alaska",earthquake,,0.2,,,reviewed,ak,ak
+2023-12-25T17:20:25.234Z,59.1335,-153.8179,99.5,1.9,ml,,,,0.48,ak,ak023gi069bn,2024-01-11T20:44:42.146Z,"60 km SE of Pope-Vannoy Landing, Alaska",earthquake,,0.5,,,reviewed,ak,ak
+2023-12-25T17:14:48.453Z,59.559,-152.8651,100.8,2,ml,,,,0.47,ak,ak023gi052bk,2024-01-11T20:44:41.858Z,"58 km WNW of Nanwalek, Alaska",earthquake,,0.4,,,reviewed,ak,ak
+2023-12-25T16:19:27.552Z,59.6701,-152.035,69,1.4,ml,,,,0.32,ak,ak023ghzknoz,2024-01-11T20:44:49.961Z,"16 km SW of Anchor Point, Alaska",earthquake,,0.4,,,reviewed,ak,ak
+2023-12-25T15:55:06.929Z,59.8,-153.8854,146.8,2.2,ml,,,,0.53,ak,ak023ghz6w86,2024-03-02T21:39:40.040Z,"12 km E of Pedro Bay, Alaska",earthquake,,0.4,,,reviewed,ak,ak
+2023-12-25T15:04:00.366Z,57.6813,-153.2834,53.6,1.9,ml,,,,0.49,ak,ak023ghyvy8w,2024-01-11T22:43:31.315Z,"31 km SW of Port Lions, Alaska",earthquake,,0.6,,,reviewed,ak,ak
+2023-12-25T14:37:34.411Z,58.5343,-153.7657,76.3,1.7,ml,,,,0.56,ak,ak023ghyhnwh,2024-01-11T20:44:48.470Z,"72 km NW of Aleneva, Alaska",earthquake,,0.6,,,reviewed,ak,ak
+2023-12-25T13:44:06.210Z,58.8165,-154.9596,134.2,2.3,ml,,,,0.61,ak,ak023ghxxo68,2024-01-11T20:44:38.943Z,"70 km S of Kokhanok, Alaska",earthquake,,0.5,,,reviewed,ak,ak
+2023-12-25T13:28:55.809Z,58.2767,-154.9317,7.4,0.9,ml,,,,0.49,ak,ak023ghxuclk,2024-01-11T20:44:38.746Z,"83 km NNW of Karluk, Alaska",earthquake,,0.2,,,reviewed,ak,ak
+2023-12-25T13:26:04.767Z,58.2761,-154.9442,4.4,0.9,ml,,,,0.5,ak,ak023ghxtt50,2024-01-11T20:44:38.546Z,"83 km NNW of Karluk, Alaska",earthquake,,0.4,,,reviewed,ak,ak
+2023-12-25T13:16:44.780Z,58.2756666666667,-154.929333333333,3.5,0.14,ml,6,158,,0.18,av,av92164511,2023-12-27T19:24:21.770Z,"83 km NNW of Karluk, Alaska",earthquake,0.46,1.61,0.142161769759646,6,reviewed,av,av
+2023-12-25T12:39:46.891Z,59.5148,-152.8868,88,1.8,ml,,,,0.53,ak,ak023ghxb935,2024-01-11T20:44:47.799Z,"57 km WNW of Nanwalek, Alaska",earthquake,,0.1,,,reviewed,ak,ak
+2023-12-25T12:14:20.936Z,59.5938,-152.7554,89.1,1.9,ml,,,,0.51,ak,ak023ghx5u51,2024-01-11T20:44:38.309Z,"54 km WNW of Nanwalek, Alaska",earthquake,,0.4,,,reviewed,ak,ak
+2023-12-25T11:57:38.470Z,58.2828333333333,-154.9435,4.44,0.42,ml,14,143,,0.21,av,av92164461,2023-12-26T01:45:23.670Z,"84 km NNW of Karluk, Alaska",earthquake,0.44,0.73,0.253144329926723,14,reviewed,av,av
+2023-12-25T11:48:04.641Z,59.8296,-153.5386,113.1,1.8,ml,,,,0.63,ak,ak023ghwrno0,2024-01-11T22:49:51.294Z,"32 km E of Pedro Bay, Alaska",earthquake,,1,,,reviewed,ak,ak
+2023-12-25T10:36:33.459Z,60.8016,-152.4125,102.9,1.8,ml,,,,0.46,ak,ak023ghw3pox,2024-01-11T22:49:51.085Z,"62 km W of Nikiski, Alaska",earthquake,,0.7,,,reviewed,ak,ak
+2023-12-25T10:05:15.045Z,58.281,-154.9366,2.5,1.3,ml,,,,0.54,ak,ak023ghvx0yo,2024-01-11T22:49:43.959Z,"84 km NNW of Karluk, Alaska",earthquake,,0.5,,,reviewed,ak,ak
+2023-12-25T09:37:57.629Z,59.4314,-153.3232,99,2,ml,,,,0.27,ak,ak023ghvijmd,2024-01-11T22:49:43.487Z,"59 km SE of Pedro Bay, Alaska",earthquake,,0.5,,,reviewed,ak,ak
+2023-12-25T09:10:32.704Z,58.7238,-153.6016,16.4,1.5,ml,,,,0.94,ak,ak023ghvcppy,2024-01-11T22:49:43.075Z,"84 km NNW of Aleneva, Alaska",earthquake,,0.2,,,reviewed,ak,ak
+2023-12-25T09:07:55.074Z,60.3827,-151.4675,71.4,1.6,ml,,,,0.28,ak,ak023ghvc2u1,2024-01-11T22:49:42.868Z,"9 km W of Cohoe, Alaska",earthquake,,0.5,,,reviewed,ak,ak
+2023-12-25T08:48:27.130Z,58.2958333333333,-154.9925,2.97,-0.17,ml,9,129,,0.08,av,av92164321,2023-12-26T00:29:41.470Z,"86 km NNW of Karluk, Alaska",earthquake,0.35,0.52,0.214865884542645,10,reviewed,av,av
+2023-12-25T07:22:47.380Z,59.9365,-153.2713,118.3,2.2,ml,,,,0.57,ak,ak023ghu8fw6,2024-01-11T22:49:40.907Z,"49 km ENE of Pedro Bay, Alaska",earthquake,,0.4,,,reviewed,ak,ak
+2023-12-25T06:06:03.040Z,60.2074,-152.4977,95.5,1.7,ml,,,,0.28,ak,ak023ghtjih4,2024-01-11T22:49:40.043Z,"49 km WNW of Ninilchik, Alaska",earthquake,,0.7,,,reviewed,ak,ak
+2023-12-25T05:43:22.390Z,60.0593333333333,-153.074333333333,1.85,-0.22,ml,4,266,,0.13,av,av92164156,2023-12-25T22:27:50.800Z,"65 km ENE of Pedro Bay, Alaska",earthquake,1.17,0.97,0.473123128594719,4,reviewed,av,av
+2023-12-25T00:02:51.779Z,60.0502,-152.9198,101.8,2.1,ml,,,,0.54,ak,ak023ghpy4ms,2024-01-11T22:49:36.756Z,"67 km W of Happy Valley, Alaska",earthquake,,0.4,,,reviewed,ak,ak
+2023-12-24T21:35:38.472Z,60.9284,-152.202,98.3,1.8,ml,,,,0.28,ak,ak023ggf3wjk,2024-01-10T23:12:31.005Z,"56 km WNW of Nikiski, Alaska",earthquake,,0.4,,,reviewed,ak,ak
+2023-12-24T21:18:20.822Z,59.8445,-152.6845,76.5,1.9,ml,,,,0.33,ak,ak023ggf08zm,2024-01-10T23:12:35.615Z,"48 km W of Anchor Point, Alaska",earthquake,,0.3,,,reviewed,ak,ak
+2023-12-24T17:58:41.283Z,60.2446,-153.143,132.6,2.8,ml,,,,0.53,ak,ak023ggcv4qb,2024-03-02T21:39:39.040Z,"65 km E of Port Alsworth, Alaska",earthquake,,0.3,,,reviewed,ak,ak
+2023-12-24T15:36:21.955Z,59.7325,-154.2782,186.8,2.5,ml,,,,0.43,ak,ak023ggbjic3,2024-03-02T21:39:37.040Z,"11 km WSW of Pedro Bay, Alaska",earthquake,,0.9,,,reviewed,ak,ak
+2023-12-24T14:40:34.028Z,59.5092,-152.8688,91.5,2,ml,,,,0.26,ak,ak023ggayyiy,2024-01-10T23:12:33.042Z,"56 km WNW of Nanwalek, Alaska",earthquake,,0.5,,,reviewed,ak,ak
+2023-12-24T13:08:18.059Z,60.6769,-150.4359,44.9,1.7,ml,,,,0.42,ak,ak023gga6mr9,2024-01-10T23:12:26.894Z,"23 km NE of Sterling, Alaska",earthquake,,0.4,,,reviewed,ak,ak
+2023-12-24T12:43:28.742Z,59.6891,-151.6126,53.5,2.3,ml,,,,0.47,ak,ak023gg9sq1l,2024-01-10T23:12:26.401Z,"3 km WNW of Diamond Ridge, Alaska",earthquake,,0.2,,,reviewed,ak,ak
+2023-12-24T11:55:10.930Z,58.2913333333333,-154.889333333333,4.81,0.63,ml,6,170,,0.16,av,av92163666,2023-12-24T20:57:39.460Z,"84 km NNW of Karluk, Alaska",earthquake,0.48,1.5,0.270443077726767,6,reviewed,av,av
+2023-12-24T11:00:10.319Z,60.3437,-152.22,90.2,2.1,ml,,,,0.46,ak,ak023gg8y168,2024-01-11T01:26:02.944Z,"44 km NW of Ninilchik, Alaska",earthquake,,0.4,,,reviewed,ak,ak
+2023-12-24T10:35:19.903Z,59.8968,-153.566,132.5,2.2,ml,,,,0.49,ak,ak023gg8k4fe,2024-03-02T21:39:39.040Z,"32 km ENE of Pedro Bay, Alaska",earthquake,,0.3,,,reviewed,ak,ak
+2023-12-24T09:01:31.573Z,59.7226,-153.4299,121.2,2.4,ml,,,,0.38,ak,ak023gg7rfd5,2024-03-02T21:39:39.040Z,"38 km E of Pedro Bay, Alaska",earthquake,,0.3,,,reviewed,ak,ak
+2023-12-24T08:40:36.100Z,60.2366,-152.6477,104,2.1,ml,,,,0.34,ak,ak023gg7ed11,2024-03-02T21:39:31.040Z,"58 km WNW of Ninilchik, Alaska",earthquake,,0.4,,,reviewed,ak,ak
+2023-12-24T08:19:47.067Z,60.4637,-151.0267,47,1.9,ml,,,,0.44,ak,ak023gg79vvj,2024-01-11T01:26:01.024Z,"3 km SSE of Soldotna, Alaska",earthquake,,0.6,,,reviewed,ak,ak
+2023-12-24T05:49:06.130Z,60.0308333333333,-153.081,-2.47,-0.44,ml,5,102,,0.06,av,av92163526,2023-12-25T01:36:51.540Z,"63 km ENE of Pedro Bay, Alaska",earthquake,0.31,2.31,0.446122883208542,5,reviewed,av,av
+2023-12-24T05:01:54.437Z,59.5219,-151.9591,58.6,3,ml,,,,0.65,ak,ak023gg5dqnq,2024-03-02T21:39:39.040Z,"16 km WNW of Seldovia, Alaska",earthquake,,0.2,,,reviewed,ak,ak
+2023-12-24T00:28:44.382Z,59.2129,-153.1117,68.3,2,ml,,,,0.54,ak,ak023gg2kc73,2024-01-11T01:25:57.430Z,"69 km WSW of Nanwalek, Alaska",earthquake,,0.5,,,reviewed,ak,ak
+2023-12-24T00:02:08.122Z,60.1624,-153.3152,143.5,2.1,ml,,,,0.38,ak,ak023gg2eouk,2024-01-11T01:26:03.433Z,"55 km E of Port Alsworth, Alaska",earthquake,,0.4,,,reviewed,ak,ak
+2023-12-23T22:40:49.640Z,60.2201,-150.3711,40.7,1.7,ml,,,,0.22,ak,ak023ges742s,2024-01-09T18:57:42.471Z,"38 km SE of Funny River, Alaska",earthquake,,0.5,,,reviewed,ak,ak
+2023-12-23T17:45:21.924Z,59.7741,-152.507,82,2.3,ml,,,,0.49,ak,ak023gep8ykn,2024-02-27T22:57:05.040Z,"37 km W of Anchor Point, Alaska",earthquake,,0.3,,,reviewed,ak,ak
+2023-12-23T14:14:46.850Z,58.6136666666667,-154.442833333333,9.47,0.62,ml,9,288,,0.2,av,av92163061,2023-12-25T01:01:18.670Z,"93 km SSE of Kokhanok, Alaska",earthquake,1.14,0.78,0.232319329083026,9,reviewed,av,av
+2023-12-23T14:06:10.183Z,60.4019,-152.17,78.4,1.8,ml,,,,0.26,ak,ak023gen89ui,2024-01-09T18:57:38.888Z,"46 km WNW of Clam Gulch, Alaska",earthquake,,0.4,,,reviewed,ak,ak
+2023-12-23T13:45:51.770Z,60.0491666666667,-153.014166666667,3.14,-0.28,ml,5,255,,0.24,av,av92163031,2023-12-25T00:46:19.050Z,"67 km ENE of Pedro Bay, Alaska",earthquake,2.37,1.25,0.233865287564825,5,reviewed,av,av
+2023-12-23T13:09:45.727Z,59.9387,-150.9825,56.3,1.8,ml,,,,0.28,ak,ak023gemnk4s,2024-01-09T18:57:38.213Z,"9 km N of Fox River, Alaska",earthquake,,0.5,,,reviewed,ak,ak
+2023-12-23T11:13:52.241Z,60.1346,-153.4974,157.6,2.8,ml,,,,0.61,ak,ak023gelhk7i,2024-02-27T22:57:05.040Z,"46 km E of Port Alsworth, Alaska",earthquake,,0.3,,,reviewed,ak,ak
+2023-12-23T10:23:06.585Z,57.8381,-154.9823,58.7,1.9,ml,,,,0.32,ak,ak023geky61u,2024-01-10T18:03:37.106Z,"43 km NW of Karluk, Alaska",earthquake,,0.5,,,reviewed,ak,ak
+2023-12-23T08:28:49.910Z,60.1174,-152.63,111.2,1.8,ml,,,,0.55,ak,ak023gejsh1b,2024-01-09T22:00:44.624Z,"53 km WNW of Happy Valley, Alaska",earthquake,,0.3,,,reviewed,ak,ak
+2023-12-23T05:26:09.632Z,60.6804,-151.7336,75.4,3,ml,,,,0.66,ak,ak023gehzno2,2024-02-27T22:57:05.040Z,"23 km WNW of Salamatof, Alaska",earthquake,,0.3,,,reviewed,ak,ak
+2023-12-23T03:35:21.190Z,60.024,-153.077666666667,3.15,-0.6,ml,4,152,,0.07,av,av92162571,2023-12-24T19:36:55.400Z,"63 km ENE of Pedro Bay, Alaska",earthquake,0.49,1.15,0.203999451273701,4,reviewed,av,av
+2023-12-23T03:29:49.366Z,60.7004,-152.0291,84.4,1.9,ml,,,,0.56,ak,ak023gegtims,2024-01-09T22:00:36.498Z,"39 km WNW of Salamatof, Alaska",earthquake,,0.5,,,reviewed,ak,ak
+2023-12-23T03:20:38.747Z,59.6605,-151.236,49,1.5,ml,,,,0.21,ak,ak023gegrkf6,2024-01-09T22:00:42.992Z,"7 km N of Halibut Cove, Alaska",earthquake,,0.5,,,reviewed,ak,ak
+2023-12-23T02:31:14.646Z,60.3474,-150.4509,39.9,1.7,ml,,,,0.5,ak,ak023geg8ftb,2024-01-09T22:00:35.838Z,"24 km SE of Funny River, Alaska",earthquake,,0.5,,,reviewed,ak,ak
+2023-12-23T01:36:21.018Z,60.0107,-151.9478,69.2,1.5,ml,,,,0.51,ak,ak023gefo3at,2024-01-09T22:00:42.189Z,"13 km WNW of Happy Valley, Alaska",earthquake,,0.7,,,reviewed,ak,ak
+2023-12-23T00:56:35.918Z,60.7686,-151.8509,84,1.5,ml,,,,0.42,ak,ak023gef6z5z,2024-01-09T22:00:41.560Z,"31 km WNW of Nikiski, Alaska",earthquake,,0.3,,,reviewed,ak,ak
+2023-12-23T00:35:13.050Z,60.6537,-151.0834,55.3,1.9,ml,,,,0.6,ak,ak023gef2fc1,2024-01-09T22:00:34.746Z,"11 km ESE of Nikiski, Alaska",earthquake,,0.5,,,reviewed,ak,ak
+2023-12-23T00:21:47.781Z,60.9118,-151.7821,80.9,1.7,ml,,,,0.49,ak,ak023geezh38,2024-01-09T22:00:34.336Z,"36 km NW of Nikiski, Alaska",earthquake,,0.6,,,reviewed,ak,ak
+2023-12-22T22:41:56.292Z,59.8941,-152.8898,101.9,1.8,ml,,,,0.37,ak,ak023gd4nztb,2024-01-06T03:00:17.805Z,"60 km WNW of Anchor Point, Alaska",earthquake,,0.5,,,reviewed,ak,ak
+2023-12-22T19:08:07.180Z,60.0335,-153.073166666667,-2.5,-0.58,ml,5,111,,0.14,av,av92162151,2023-12-23T00:19:43.780Z,"63 km ENE of Pedro Bay, Alaska",earthquake,0.31,2.44,0.424362067157908,4,reviewed,av,av
+2023-12-22T18:29:28.962Z,60.2256,-150.9652,71.2,1.7,ml,,,,0.63,ak,ak023gd27mot,2024-01-06T03:00:15.747Z,"21 km SE of Kasilof, Alaska",earthquake,,0.4,,,reviewed,ak,ak
+2023-12-22T16:55:17.403Z,60.2004,-152.4251,95.1,1.6,ml,,,,0.3,ak,ak023gd16b7g,2024-01-06T03:00:20.732Z,"45 km WNW of Ninilchik, Alaska",earthquake,,0.8,,,reviewed,ak,ak
+2023-12-22T16:47:11.800Z,60.036,-153.066666666667,0.43,-0.72,ml,5,126,,0.09,av,av92162021,2023-12-23T00:00:21.730Z,"64 km ENE of Pedro Bay, Alaska",earthquake,0.45,1.33,0.497318634166749,5,reviewed,av,av
+2023-12-22T15:33:44.820Z,60.0318333333333,-153.091,-1.95,-0.72,ml,5,111,,0.05,av,av91125458,2023-12-22T23:29:51.850Z,"62 km ENE of Pedro Bay, Alaska",earthquake,0.26,3.56,0.414542487453292,5,reviewed,av,av
+2023-12-22T15:33:31.950Z,60.0298333333333,-153.095833333333,-1.02,-0.22,ml,5,117,,0.1,av,av92161956,2023-12-22T23:27:00.210Z,"62 km ENE of Pedro Bay, Alaska",earthquake,0.34,4.23,0.378888072033164,5,reviewed,av,av
+2023-12-22T15:15:25.658Z,60.7445,-152.2337,92.3,1.7,ml,,,,0.66,ak,ak023gd0cblh,2024-01-06T03:00:20.126Z,"51 km W of Nikiski, Alaska",earthquake,,1,,,reviewed,ak,ak
+2023-12-22T15:12:23.216Z,59.9191,-153.0903,110.9,1.7,ml,,,,0.3,ak,ak023gd0bo9d,2024-01-06T03:00:19.921Z,"58 km ENE of Pedro Bay, Alaska",earthquake,,0.7,,,reviewed,ak,ak
+2023-12-22T15:07:27.640Z,60.5973333333333,-153.156833333333,7.09,0.37,ml,5,318,,0.05,av,av92161936,2023-12-22T23:21:38.810Z,"77 km NE of Port Alsworth, Alaska",earthquake,0.63,1.55,0.137889871108956,5,reviewed,av,av
+2023-12-22T13:59:35.620Z,60.5778333333333,-152.79,7.89,-0.33,ml,6,177,,0.06,av,av91125453,2023-12-22T23:06:27.640Z,"80 km W of Salamatof, Alaska",earthquake,0.35,0.66,0.133360559336642,6,reviewed,av,av
+2023-12-22T13:22:58.540Z,58.2898333333333,-154.977166666667,3.24,0.1,ml,10,135,,0.21,av,av92161891,2023-12-22T22:56:54.530Z,"86 km NNW of Karluk, Alaska",earthquake,0.39,1.13,0.207400253777352,10,reviewed,av,av
+2023-12-22T13:08:37.570Z,58.5551666666667,-154.883833333333,-0.57,0.43,ml,11,143,,0.17,av,av92161886,2024-01-06T02:58:36.997Z,"98 km S of Kokhanok, Alaska",earthquake,0.28,1.06,0.173346441855056,12,reviewed,av,av
+2023-12-22T12:54:19.050Z,60.426,-152.723666666667,10.99,0.12,ml,9,154,,0.05,av,av92161881,2023-12-22T22:41:28.150Z,"71 km NW of Ninilchik, Alaska",earthquake,0.38,0.28,0.231923742459594,9,reviewed,av,av
+2023-12-22T11:55:37.630Z,59.3643333333333,-153.453333333333,-1.2,-0.45,ml,6,87,,0.31,av,av91125438,2023-12-22T22:14:02.680Z,"59 km SE of Pedro Bay, Alaska",earthquake,0.43,1.39,0.307258374984621,6,reviewed,av,av
+2023-12-22T11:10:51.021Z,59.0407,-153.8046,100.9,1.7,ml,,,,0.33,ak,ak023gcxxkjy,2024-01-06T02:13:42.182Z,"69 km SE of Pope-Vannoy Landing, Alaska",earthquake,,0.6,,,reviewed,ak,ak
+2023-12-22T10:50:48.800Z,59.3655,-153.433333333333,-0.5,-0.54,ml,5,156,,0.13,av,av91125428,2023-12-22T21:55:25.330Z,"60 km SE of Pedro Bay, Alaska",earthquake,0.29,0.51,0.0568560880578635,5,reviewed,av,av
+2023-12-22T10:23:17.959Z,59.3722,-152.9813,86.6,1.6,ml,,,,0.24,ak,ak023gcxeupf,2024-01-06T02:13:41.733Z,"60 km W of Nanwalek, Alaska",earthquake,,0.7,,,reviewed,ak,ak
+2023-12-22T09:40:58.445Z,60.1807,-151.1188,63.3,1.5,ml,,,,0.49,ak,ak023gcwx5ez,2024-01-06T02:13:38.474Z,"16 km ESE of Clam Gulch, Alaska",earthquake,,0.6,,,reviewed,ak,ak
+2023-12-22T08:11:29.120Z,60.0615,-153.082666666667,4.56,-0.61,ml,5,207,,0.14,av,av92161676,2023-12-22T20:41:05.060Z,"64 km ENE of Pedro Bay, Alaska",earthquake,0.89,1.07,0.219492278259495,5,reviewed,av,av
+2023-12-22T06:28:56.611Z,59.9734,-152.8892,118.5,3.1,ml,,,,0.65,ak,ak023gcv29ry,2024-02-27T22:57:04.040Z,"63 km WNW of Anchor Point, Alaska",earthquake,,0.2,,,reviewed,ak,ak
+2023-12-22T05:10:59.216Z,60.1563,-152.6852,90.1,1.4,ml,,,,0.24,ak,ak023gcuczk1,2024-01-06T02:13:40.705Z,"57 km WNW of Ninilchik, Alaska",earthquake,,0.7,,,reviewed,ak,ak
+2023-12-22T04:15:16.200Z,60.0001666666667,-153.073833333333,0.07,-0.98,ml,5,118,,0.14,av,av92161466,2023-12-22T20:02:26.520Z,"62 km ENE of Pedro Bay, Alaska",earthquake,0.34,2.1,0.202771910036627,5,reviewed,av,av
+2023-12-22T03:44:28.844Z,59.8776,-153.43,131.4,1.9,ml,,,,0.67,ak,ak023gctdcn6,2024-01-06T02:13:34.666Z,"39 km ENE of Pedro Bay, Alaska",earthquake,,0.3,,,reviewed,ak,ak
+2023-12-22T03:31:24.138Z,60.6636,-151.2607,65.7,1.7,ml,,,,0.64,ak,ak023gctajpc,2024-01-06T02:13:34.186Z,"3 km SSE of Nikiski, Alaska",earthquake,,0.4,,,reviewed,ak,ak
+2023-12-22T03:14:35.780Z,59.6657,-153.1835,99.7,1.8,ml,,,,0.33,ak,ak023gct6xei,2024-01-06T02:13:40.479Z,"53 km ESE of Pedro Bay, Alaska",earthquake,,0.3,,,reviewed,ak,ak
+2023-12-22T01:54:30.542Z,59.4586,-152.7803,78.8,2.1,ml,,,,0.56,ak,ak023gcs8md7,2024-01-06T02:13:33.183Z,"50 km WNW of Nanwalek, Alaska",earthquake,,0.3,,,reviewed,ak,ak
+2023-12-22T01:48:44.706Z,59.85,-153.221,113,1.9,ml,,,,0.43,ak,ak023gcs7d6l,2024-01-06T02:13:32.929Z,"50 km E of Pedro Bay, Alaska",earthquake,,0.4,,,reviewed,ak,ak
+2023-12-22T01:11:30.928Z,60.6073,-152.0656,100.5,1.6,ml,,,,0.26,ak,ak023gcrzeo4,2024-01-06T02:13:39.627Z,"40 km W of Salamatof, Alaska",earthquake,,0.5,,,reviewed,ak,ak
+2023-12-21T23:52:02.731Z,59.8042,-153.2622,108.4,1.9,ml,,,,0.54,ak,ak023gbhsbjl,2024-01-08T15:39:04.583Z,"47 km E of Pedro Bay, Alaska",earthquake,,0.4,,,reviewed,ak,ak
+2023-12-21T22:14:19.497Z,60.4179,-152.4149,94,3.4,ml,,,,0.71,ak,ak023gbgys2j,2024-02-27T22:57:04.040Z,"58 km NW of Ninilchik, Alaska",earthquake,,0.2,,,reviewed,ak,ak
+2023-12-21T19:46:53.975Z,60.2399,-153.5788,177.8,2.6,ml,,,,0.65,ak,ak023gbfdetw,2024-02-27T22:57:03.040Z,"41 km E of Port Alsworth, Alaska",earthquake,,0.3,,,reviewed,ak,ak
+2023-12-21T17:53:39.020Z,57.5796,-154.8181,3.3,1.6,ml,,,,0.47,ak,ak023gbe80hg,2024-01-08T15:38:59.755Z,"21 km W of Karluk, Alaska",earthquake,,0.3,,,reviewed,ak,ak
+2023-12-21T17:41:00.675Z,59.846,-152.8807,84.9,1.5,ml,,,,0.23,ak,ak023gbe5d03,2024-01-08T15:39:07.900Z,"59 km W of Anchor Point, Alaska",earthquake,,0.6,,,reviewed,ak,ak
+2023-12-21T17:22:13.986Z,59.5917,-152.9792,96.7,1.7,ml,,,,0.39,ak,ak023gbe1bfa,2024-01-08T15:39:07.461Z,"65 km WNW of Nanwalek, Alaska",earthquake,,0.4,,,reviewed,ak,ak
+2023-12-21T16:14:30.503Z,60.2646,-153.7348,187,3.1,ml,,,,0.58,ak,ak023gbde7b2,2024-02-27T22:57:03.040Z,"32 km ENE of Port Alsworth, Alaska",earthquake,,0.3,,,reviewed,ak,ak
+2023-12-21T13:16:15.500Z,60.8951,-152.0394,91.6,1.6,ml,,,,0.31,ak,ak023gbbmatq,2024-01-08T15:39:05.844Z,"46 km WNW of Nikiski, Alaska",earthquake,,0.5,,,reviewed,ak,ak
+2023-12-21T13:06:21.176Z,60.3284,-151.8189,71.4,1.8,ml,,,,0.41,ak,ak023gbbk64j,2024-01-08T15:38:56.330Z,"25 km WNW of Clam Gulch, Alaska",earthquake,,0.5,,,reviewed,ak,ak
+2023-12-21T12:43:33.280Z,60.0486666666667,-153.077333333333,0.61,-0.14,ml,4,191,,0.07,av,av92160666,2023-12-22T03:31:26.850Z,"64 km ENE of Pedro Bay, Alaska",earthquake,0.37,0.3,0.362789439449528,4,reviewed,av,av
+2023-12-21T12:09:31.838Z,59.6847,-153.2838,104.7,2,ml,,,,0.37,ak,ak023gbazef5,2024-01-08T15:38:55.846Z,"47 km ESE of Pedro Bay, Alaska",earthquake,,0.2,,,reviewed,ak,ak
+2023-12-21T09:49:25.400Z,58.3698,-152.5818,38.7,1.7,ml,,,,0.57,ak,ak023gb9fnss,2024-01-05T21:08:01.124Z,"39 km NNE of Aleneva, Alaska",earthquake,,1,,,reviewed,ak,ak
+2023-12-21T09:33:34.242Z,59.0586,-154.0796,105.2,1.6,ml,,,,0.51,ak,ak023gb9c90w,2024-01-05T21:08:00.919Z,"58 km SE of Kokhanok, Alaska",earthquake,,1.1,,,reviewed,ak,ak
+2023-12-21T08:58:46.300Z,60.0423333333333,-153.059666666667,0.86,-1.03,ml,6,85,,0.07,av,av92160571,2023-12-22T02:07:45.100Z,"65 km ENE of Pedro Bay, Alaska",earthquake,0.26,0.31,0.390924365452983,6,reviewed,av,av
+2023-12-21T07:53:34.410Z,60.0471666666667,-153.049166666667,3.25,-0.57,ml,5,188,,0.23,av,av92160526,2023-12-22T05:12:16.960Z,"65 km ENE of Pedro Bay, Alaska",earthquake,1.13,1.47,0.35131982880865,5,reviewed,av,av
+2023-12-21T07:37:33.015Z,60.48,-152.7141,120.6,1.7,ml,,,,0.28,ak,ak023gb868l1,2024-01-05T21:08:00.276Z,"75 km NW of Ninilchik, Alaska",earthquake,,0.8,,,reviewed,ak,ak
+2023-12-21T07:35:56.306Z,59.9488,-152.5561,96.9,1.6,ml,,,,0.32,ak,ak023gb85uy6,2024-01-05T21:08:00.489Z,"44 km WNW of Anchor Point, Alaska",earthquake,,0.5,,,reviewed,ak,ak
+2023-12-21T07:20:34.512Z,60.3243,-153.0816,130.5,1.7,ml,,,,0.64,ak,ak023gb82liz,2024-01-05T21:08:00.061Z,"69 km E of Port Alsworth, Alaska",earthquake,,0.7,,,reviewed,ak,ak
+2023-12-21T06:23:25.863Z,59.9918,-152.7774,94.2,1.7,ml,,,,0.4,ak,ak023gb7hsei,2024-01-05T21:07:54.666Z,"58 km WNW of Anchor Point, Alaska",earthquake,,0.4,,,reviewed,ak,ak
+2023-12-21T04:51:18.202Z,59.7912,-153.5089,124.1,1.9,ml,,,,0.57,ak,ak023gb6gxwo,2024-01-05T21:07:53.746Z,"33 km E of Pedro Bay, Alaska",earthquake,,0.5,,,reviewed,ak,ak
+2023-12-21T04:26:10.950Z,60.0701666666667,-153.0785,1.93,-0.42,ml,5,258,,0.09,av,av92160411,2023-12-21T22:28:16.200Z,"65 km ENE of Pedro Bay, Alaska",earthquake,0.65,0.57,0.292986383983786,4,reviewed,av,av
+2023-12-21T03:43:15.781Z,60.2545,-152.8378,116.7,1.8,ml,,,,0.53,ak,ak023gb5tr3n,2024-01-05T21:07:53.044Z,"68 km WNW of Ninilchik, Alaska",earthquake,,0.5,,,reviewed,ak,ak
+2023-12-21T03:22:05.920Z,58.238,-154.924166666667,15.33,-0.57,ml,6,246,,0.12,av,av91125213,2023-12-21T22:05:54.730Z,"79 km NNW of Karluk, Alaska",earthquake,0.77,0.84,0.188110103906095,7,reviewed,av,av
+2023-12-21T03:21:43.920Z,58.2535,-154.896833333333,14.12,-0.22,ml,6,178,,0.16,av,av91125208,2023-12-21T21:53:08.510Z,"80 km NNW of Karluk, Alaska",earthquake,0.79,1.36,0.325452208054733,6,reviewed,av,av
+2023-12-21T03:17:44.660Z,60.0143333333333,-153.084,-0.14,-0.91,ml,5,105,,0.18,av,av92160361,2023-12-21T21:38:52.750Z,"62 km ENE of Pedro Bay, Alaska",earthquake,0.38,2.97,0.313392002251673,5,reviewed,av,av
+2023-12-21T02:35:44.530Z,60.0445,-153.084,-2.65,-0.6,ml,5,100,,0.11,av,av92160321,2023-12-21T21:15:03.580Z,"63 km ENE of Pedro Bay, Alaska",earthquake,0.29,1.78,0.467436515198157,5,reviewed,av,av
+2023-12-21T02:16:20.188Z,60.1097,-152.781,105.2,1.8,ml,,,,0.43,ak,ak023gb52j0y,2024-01-05T21:07:52.000Z,"61 km WNW of Happy Valley, Alaska",earthquake,,0.5,,,reviewed,ak,ak
+2023-12-21T01:45:48.250Z,59.3596666666667,-153.432666666667,-0.71,0.73,ml,8,91,,0.1,av,av92160276,2023-12-21T21:10:00.170Z,"60 km SE of Pedro Bay, Alaska",earthquake,0.14,0.24,0.172697011151423,8,reviewed,av,av
+2023-12-21T01:28:12.072Z,60.1949,-151.4071,55.5,1.7,ml,,,,0.61,ak,ak023gb4jnwl,2024-01-05T21:07:51.337Z,"4 km S of Clam Gulch, Alaska",earthquake,,0.5,,,reviewed,ak,ak
+2023-12-20T22:46:44.860Z,59.358,-153.4355,-0.68,0.36,ml,5,162,,0.08,av,av92160171,2023-12-21T03:43:20.740Z,"61 km SE of Pedro Bay, Alaska",earthquake,0.15,0.16,0.17974697631274,5,reviewed,av,av
+2023-12-20T22:31:28.276Z,60.3373,-153.0324,126.9,2.1,ml,,,,0.61,ak,ak023g9tj3ha,2024-01-07T01:05:35.675Z,"72 km ENE of Port Alsworth, Alaska",earthquake,,0.3,,,reviewed,ak,ak
+2023-12-20T22:20:03.786Z,60.0594,-153.064,114.3,1.6,ml,,,,0.41,ak,ak023g9tgoqi,2024-01-07T01:05:41.168Z,"65 km ENE of Pedro Bay, Alaska",earthquake,,0.3,,,reviewed,ak,ak
+2023-12-20T20:49:50.091Z,60.3284,-150.3275,55.1,3,ml,,,,0.79,ak,ak023g9sg4tn,2024-02-27T22:57:02.040Z,"30 km SE of Funny River, Alaska",earthquake,,0.3,,,reviewed,ak,ak
+2023-12-20T20:36:18.695Z,57.7947,-154.5202,59.5,1.7,ml,,,,0.74,ak,ak023g9sda6u,2024-01-07T01:05:33.246Z,"25 km N of Karluk, Alaska",earthquake,,0.6,,,reviewed,ak,ak
+2023-12-20T20:00:08.140Z,60.5798333333333,-152.819666666667,5.17,0.05,ml,5,186,,0.07,av,av92160016,2023-12-21T03:10:08.650Z,"82 km W of Salamatof, Alaska",earthquake,0.35,1,0.348132242323797,5,reviewed,av,av
+2023-12-20T19:30:53.597Z,59.8423,-152.1942,72,1.3,ml,,,,0.39,ak,ak023g9rqmxb,2024-01-07T01:05:40.559Z,"21 km WNW of Anchor Point, Alaska",earthquake,,0.9,,,reviewed,ak,ak
+2023-12-20T19:24:11.470Z,60.0421666666667,-153.090166666667,0.31,-0.54,ml,4,196,,0.07,av,av92160001,2023-12-21T03:01:55.500Z,"63 km ENE of Pedro Bay, Alaska",earthquake,0.39,1.14,0.316651396055569,4,reviewed,av,av
+2023-12-20T18:53:22.049Z,59.24,-151.8625,63.5,1.4,ml,,,,0.56,ak,ak023g9ra2cs,2024-01-07T01:05:40.358Z,"12 km S of Port Graham, Alaska",earthquake,,0.7,,,reviewed,ak,ak
+2023-12-20T18:45:08.788Z,59.0693,-153.1274,77.6,1.6,ml,,,,0.45,ak,ak023g9r8axu,2024-01-07T01:05:31.126Z,"75 km WSW of Nanwalek, Alaska",earthquake,,0.7,,,reviewed,ak,ak
+2023-12-20T18:00:38.357Z,58.2665,-154.9424,4.1,1.5,ml,,,,0.82,ak,ak023g9qyqo0,2024-01-07T01:05:29.645Z,"82 km NNW of Karluk, Alaska",earthquake,,0.2,,,reviewed,ak,ak
+2023-12-20T17:32:57.779Z,59.6984,-153.1128,105.7,2.1,ml,,,,0.61,ak,ak023g9qk7fm,2024-01-07T01:05:29.135Z,"56 km E of Pedro Bay, Alaska",earthquake,,0.2,,,reviewed,ak,ak
+2023-12-20T16:32:36.631Z,60.2397,-152.4614,101.8,1.5,ml,,,,0.39,ak,ak023g9pyq8f,2024-01-07T01:05:38.396Z,"48 km WNW of Ninilchik, Alaska",earthquake,,0.4,,,reviewed,ak,ak
+2023-12-20T16:09:35.825Z,59.9511,-150.9027,47.6,1.4,ml,,,,0.58,ak,ak023g9ptson,2024-01-07T01:05:28.445Z,"10 km NNE of Fox River, Alaska",earthquake,,0.7,,,reviewed,ak,ak
+2023-12-20T14:03:18.733Z,60.1249,-152.4895,90.7,2,ml,,,,0.53,ak,ak023g9olltl,2024-01-07T01:05:26.684Z,"46 km W of Ninilchik, Alaska",earthquake,,0.3,,,reviewed,ak,ak
+2023-12-20T13:56:23.550Z,58.2615,-154.895166666667,4.94,-0.01,ml,9,161,,0.27,av,av92159791,2023-12-21T01:59:48.240Z,"81 km NNW of Karluk, Alaska",earthquake,0.64,2.63,0.189181934843576,9,reviewed,av,av
+2023-12-20T13:31:37.019Z,60.9384,-150.7218,43.3,1.3,ml,,,,0.54,ak,ak023g9o67qd,2024-01-07T01:05:37.946Z,"2 km NW of Point Possession, Alaska",earthquake,,0.6,,,reviewed,ak,ak
+2023-12-20T13:17:34.426Z,59.9191,-152.7182,100.5,1.6,ml,,,,0.44,ak,ak023g9o37ia,2024-01-07T01:05:37.715Z,"52 km WNW of Anchor Point, Alaska",earthquake,,0.1,,,reviewed,ak,ak
+2023-12-20T12:54:18.811Z,60.9407,-150.6402,63.5,1.4,ml,,,,0.52,ak,ak023g9npo6x,2024-01-07T01:05:37.507Z,"3 km NE of Point Possession, Alaska",earthquake,,0.9,,,reviewed,ak,ak
+2023-12-20T12:15:47.062Z,59.6077,-152.4785,89.2,1.6,ml,,,,0.59,ak,ak023g9nhce7,2024-01-07T01:05:25.692Z,"41 km WSW of Anchor Point, Alaska",earthquake,,0.2,,,reviewed,ak,ak
+2023-12-20T11:40:12.570Z,58.2966666666667,-154.9775,2.51,-0.57,ml,6,148,,0.09,av,av91125128,2023-12-21T01:03:19.220Z,"86 km NNW of Karluk, Alaska",earthquake,0.27,0.48,0.250160112744335,6,reviewed,av,av
+2023-12-20T10:58:46.687Z,60.0324,-151.9576,62.7,1.4,ml,,,,0.44,ak,ak023g9mjpzw,2024-01-05T02:21:11.526Z,"15 km NW of Happy Valley, Alaska",earthquake,,0.7,,,reviewed,ak,ak
+2023-12-20T10:31:55.869Z,60.0278,-152.3436,72.9,1.3,ml,,,,0.53,ak,ak023g9mdy9e,2024-01-05T02:21:07.940Z,"35 km WNW of Happy Valley, Alaska",earthquake,,0.7,,,reviewed,ak,ak
+2023-12-20T10:20:52.786Z,60.1797,-152.6133,85.2,1.5,ml,,,,0.43,ak,ak023g9mbla1,2024-01-05T02:21:07.705Z,"54 km WNW of Ninilchik, Alaska",earthquake,,0.4,,,reviewed,ak,ak
+2023-12-20T09:21:40.360Z,59.9654,-152.8623,108.6,1.6,ml,,,,0.45,ak,ak023g9lqces,2024-01-05T02:21:11.105Z,"61 km WNW of Anchor Point, Alaska",earthquake,,0.5,,,reviewed,ak,ak
+2023-12-20T06:21:15.484Z,59.9132,-151.6462,71.6,1.9,ml,,,,0.58,ak,ak023g9jxzns,2024-01-05T02:21:04.835Z,"6 km SE of Happy Valley, Alaska",earthquake,,0.4,,,reviewed,ak,ak
+2023-12-20T05:05:35.150Z,58.2883333333333,-154.970666666667,2.64,-0.59,ml,8,139,,0.15,av,av91125103,2023-12-20T23:28:24.960Z,"85 km NNW of Karluk, Alaska",earthquake,0.3,0.51,0.252715284286231,8,reviewed,av,av
+2023-12-20T03:52:54.916Z,60.1408,-153.2376,140.5,1.9,ml,,,,0.52,ak,ak023g9icf1f,2024-02-27T22:57:02.040Z,"60 km E of Port Alsworth, Alaska",earthquake,,0.4,,,reviewed,ak,ak
+2023-12-20T03:07:41.097Z,60.367,-150.705,44.7,1.8,ml,,,,0.5,ak,ak023g9i2qqn,2024-01-05T02:21:02.638Z,"15 km SSE of Funny River, Alaska",earthquake,,0.5,,,reviewed,ak,ak
+2023-12-20T02:10:32.127Z,59.9833,-152.7848,96.9,2.1,ml,,,,0.39,ak,ak023g9hhxls,2024-01-05T02:21:01.462Z,"58 km WNW of Anchor Point, Alaska",earthquake,,0.3,,,reviewed,ak,ak
+2023-12-20T01:52:41.694Z,59.1774,-152.4596,60.1,1.6,ml,,,,0.41,ak,ak023g9h5ivd,2024-01-05T02:21:09.225Z,"36 km WSW of Nanwalek, Alaska",earthquake,,0.7,,,reviewed,ak,ak
+2023-12-20T01:10:10.389Z,60.9887,-151.6368,75.2,1.5,ml,,,,0.44,ak,ak023g9gwgib,2024-01-05T02:21:00.441Z,"28 km WSW of Tyonek, Alaska",earthquake,,0.6,,,reviewed,ak,ak
+2023-12-20T00:50:25.277Z,59.8805,-152.7011,79.4,1.5,ml,,,,0.35,ak,ak023g9gjmkf,2024-01-05T02:21:09.027Z,"50 km WNW of Anchor Point, Alaska",earthquake,,0.5,,,reviewed,ak,ak
+2023-12-20T00:00:19.660Z,60.0766666666667,-152.989666666667,3.73,-0.46,ml,5,297,,0.17,av,av92159231,2023-12-20T20:56:09.380Z,"70 km ENE of Pedro Bay, Alaska",earthquake,1.08,1.25,0.294278241225975,5,reviewed,av,av
+2023-12-19T22:28:26.551Z,58.771,-154.3218,91.3,1.8,ml,,,,0.38,ak,ak023g85z45x,2024-01-05T07:48:53.651Z,"78 km SSE of Kokhanok, Alaska",earthquake,,0.5,,,reviewed,ak,ak
+2023-12-19T21:34:35.096Z,59.816,-152.2224,83.3,1.8,ml,,,,0.33,ak,ak023g85ez1g,2024-01-05T07:48:53.039Z,"22 km W of Anchor Point, Alaska",earthquake,,0.4,,,reviewed,ak,ak
+2023-12-19T20:16:05.604Z,58.5833,-154.841,3.7,1.4,ml,,,,0.34,ak,ak023g84pai8,2024-01-05T07:48:52.614Z,"95 km S of Kokhanok, Alaska",earthquake,,0.3,,,reviewed,ak,ak
+2023-12-19T20:13:30.047Z,59.6775,-153.2269,101.6,1.8,ml,,,,0.3,ak,ak023g84p11o,2024-01-05T07:48:58.770Z,"50 km ESE of Pedro Bay, Alaska",earthquake,,0.3,,,reviewed,ak,ak
+2023-12-19T20:11:40.514Z,59.7401,-152.8835,89.4,1.8,ml,,,,0.28,ak,ak023g84omf7,2024-01-05T07:48:59.207Z,"59 km W of Anchor Point, Alaska",earthquake,,0.4,,,reviewed,ak,ak
+2023-12-19T19:50:18.590Z,60.0268333333333,-153.101,3.94,-0.22,ml,5,124,,0.06,av,av92159081,2023-12-20T04:02:22.020Z,"62 km ENE of Pedro Bay, Alaska",earthquake,0.44,0.97,0.193552942697316,5,reviewed,av,av
+2023-12-19T19:49:13.375Z,60.598,-151.8444,76.8,1.8,ml,,,,0.44,ak,ak023g84b9wo,2024-01-05T07:48:52.383Z,"28 km W of Salamatof, Alaska",earthquake,,0.4,,,reviewed,ak,ak
+2023-12-19T16:00:44.380Z,60.0176666666667,-152.961833333333,1.01,-0.45,ml,5,274,,0.23,av,av92158966,2023-12-20T03:32:11.950Z,"68 km WNW of Anchor Point, Alaska",earthquake,1.56,0.44,0.137603004374267,5,reviewed,av,av
+2023-12-19T13:55:09.364Z,60.2403,-150.9791,64.5,1.4,ml,,,,0.32,ak,ak023g80ryag,2024-01-05T07:48:55.477Z,"19 km ESE of Kasilof, Alaska",earthquake,,0.5,,,reviewed,ak,ak
+2023-12-19T12:38:56.111Z,59.8986,-152.5305,83.5,1.6,ml,,,,0.28,ak,ak023g802z4b,2024-01-05T07:48:55.054Z,"41 km WNW of Anchor Point, Alaska",earthquake,,0.3,,,reviewed,ak,ak
+2023-12-19T12:34:37.180Z,60.04,-153.051,2.32,-0.14,ml,4,165,,0.11,av,av92158826,2023-12-20T02:53:33.460Z,"65 km ENE of Pedro Bay, Alaska",earthquake,0.82,1.21,0.246498951662245,4,reviewed,av,av
+2023-12-19T12:14:42.683Z,58.8037,-153.7225,9.1,1.3,ml,,,,0.64,ak,ak023g7zxswc,2024-01-05T07:48:54.854Z,"93 km SE of Kokhanok, Alaska",earthquake,,0.5,,,reviewed,ak,ak
+2023-12-19T12:09:18.303Z,58.375,-153.0925,55.1,1.7,ml,,,,0.31,ak,ak023g7zwofq,2024-01-05T07:48:54.640Z,"36 km NNW of Aleneva, Alaska",earthquake,,0.7,,,reviewed,ak,ak
+2023-12-19T11:32:58.167Z,60.0568,-150.3469,48.9,1.7,ml,,,,0.59,ak,ak023g7zg9cq,2024-01-05T04:11:48.636Z,"40 km ENE of Fox River, Alaska",earthquake,,0.3,,,reviewed,ak,ak
+2023-12-19T10:52:11.862Z,59.2261,-153.6771,118.5,1.9,ml,,,,0.49,ak,ak023g7yz0iq,2024-01-05T04:11:53.448Z,"59 km SE of Pope-Vannoy Landing, Alaska",earthquake,,0.2,,,reviewed,ak,ak
+2023-12-19T10:17:11.706Z,60.7169,-150.8918,54.8,1.3,ml,,,,0.64,ak,ak023g7yrig2,2024-01-05T04:11:53.236Z,"21 km NNW of Sterling, Alaska",earthquake,,0.7,,,reviewed,ak,ak
+2023-12-19T10:00:52.144Z,59.6846,-153.2284,101,2,ml,,,,0.51,ak,ak023g7ynybo,2024-01-05T04:11:47.265Z,"50 km ESE of Pedro Bay, Alaska",earthquake,,0.4,,,reviewed,ak,ak
+2023-12-19T09:47:02.278Z,60.5548,-152.5726,13.5,1.1,ml,,,,0.63,ak,ak023g7yce95,2024-01-05T04:11:47.054Z,"69 km W of Salamatof, Alaska",earthquake,,0.1,,,reviewed,ak,ak
+2023-12-19T09:30:36.307Z,60.0081,-152.7119,100.7,1.6,ml,,,,0.33,ak,ak023g7y8xe3,2024-01-05T04:11:46.585Z,"55 km W of Happy Valley, Alaska",earthquake,,0.3,,,reviewed,ak,ak
+2023-12-19T09:06:17.659Z,58.668,-152.761,56,1.9,ml,,,,0.6,ak,ak023g7y3qe0,2024-01-05T04:11:45.809Z,"68 km N of Aleneva, Alaska",earthquake,,0.3,,,reviewed,ak,ak
+2023-12-19T07:57:44.063Z,60.2065,-151.9583,81,1.4,ml,,,,0.51,ak,ak023g7x7urq,2024-01-05T04:11:52.751Z,"23 km NW of Ninilchik, Alaska",earthquake,,0.2,,,reviewed,ak,ak
+2023-12-19T07:29:19.103Z,60.2807,-151.1905,57.7,1.3,ml,,,,0.54,ak,ak023g7x1ssm,2024-01-05T04:11:52.521Z,"7 km SE of Kasilof, Alaska",earthquake,,0.9,,,reviewed,ak,ak
+2023-12-19T06:54:59.655Z,60.2239,-153.1747,147.1,1.9,ml,,,,0.57,ak,ak023g7wlt6q,2024-01-05T04:11:44.468Z,"63 km E of Port Alsworth, Alaska",earthquake,,0.3,,,reviewed,ak,ak
+2023-12-19T05:31:19.320Z,60.4905,-152.8093,130.5,1.6,ml,,,,0.45,ak,ak023g7vvd18,2024-01-05T04:11:52.117Z,"79 km NW of Ninilchik, Alaska",earthquake,,0.1,,,reviewed,ak,ak
+2023-12-19T04:48:06.229Z,60.8773,-152.2614,106.3,1.7,ml,,,,0.59,ak,ak023g7vdjla,2024-01-05T04:11:51.647Z,"56 km WNW of Nikiski, Alaska",earthquake,,0.1,,,reviewed,ak,ak
+2023-12-19T04:23:16.477Z,60.4136,-152.2271,83.9,1.4,ml,,,,0.36,ak,ak023g7v87hb,2024-01-05T04:11:51.009Z,"50 km WNW of Clam Gulch, Alaska",earthquake,,0.5,,,reviewed,ak,ak
+2023-12-19T02:34:46.768Z,57.8935,-153.7653,56.3,1.5,ml,,,,0.32,ak,ak023g7u3rhc,2024-01-05T18:45:34.407Z,"41 km NNE of Larsen Bay, Alaska",earthquake,,0.5,,,reviewed,ak,ak
+2023-12-19T02:12:27.413Z,59.3019,-152.7218,72.4,1.6,ml,,,,0.39,ak,ak023g7tz08l,2024-01-05T04:11:50.178Z,"45 km W of Nanwalek, Alaska",earthquake,,0.7,,,reviewed,ak,ak
+2023-12-19T02:08:56.596Z,60.1921,-150.8567,59.5,1.3,ml,,,,0.68,ak,ak023g7ty7mj,2024-01-05T04:11:49.976Z,"28 km SE of Kasilof, Alaska",earthquake,,0.7,,,reviewed,ak,ak
+2023-12-19T01:40:43.485Z,59.5715,-152.9609,98.3,1.8,ml,,,,0.41,ak,ak023g7tjlx8,2024-01-05T04:11:49.731Z,"63 km WNW of Nanwalek, Alaska",earthquake,,0.1,,,reviewed,ak,ak
+2023-12-19T01:13:15.408Z,59.8582,-152.8484,97.2,1.8,ml,,,,0.63,ak,ak023g7tdrf8,2024-01-05T04:11:49.301Z,"57 km W of Anchor Point, Alaska",earthquake,,0.5,,,reviewed,ak,ak
+2023-12-19T00:39:49.464Z,60.2543,-150.9839,57.2,2.2,ml,,,,0.66,ak,ak023g7sxz09,2024-01-05T04:11:39.799Z,"18 km ESE of Kasilof, Alaska",earthquake,,0.5,,,reviewed,ak,ak
+2023-12-18T21:54:42.111Z,59.095,-154.0484,124.3,2.4,ml,,,,0.46,ak,ak023g6hzxdi,2024-02-27T22:57:00.040Z,"56 km SE of Kokhanok, Alaska",earthquake,,0.3,,,reviewed,ak,ak
+2023-12-18T21:50:56.866Z,59.9406,-153.3342,134.9,1.8,ml,,,,0.4,ak,ak023g6hz3py,2024-01-03T19:52:53.966Z,"46 km ENE of Pedro Bay, Alaska",earthquake,,0.7,,,reviewed,ak,ak
+2023-12-18T21:47:19.001Z,59.7962,-152.8309,106.2,1.7,ml,,,,0.36,ak,ak023g6hydn7,2024-01-03T19:52:48.550Z,"56 km W of Anchor Point, Alaska",earthquake,,0.3,,,reviewed,ak,ak
+2023-12-18T20:29:55.357Z,59.554,-152.5174,67.1,1.4,ml,,,,0.25,ak,ak023g6h95yn,2024-01-03T19:52:53.391Z,"40 km WNW of Nanwalek, Alaska",earthquake,,0.3,,,reviewed,ak,ak
+2023-12-18T19:50:54.731Z,59.8407,-152.9438,99.8,1.8,ml,,,,0.35,ak,ak023g6gs8ch,2024-01-03T19:52:52.979Z,"62 km W of Anchor Point, Alaska",earthquake,,0.5,,,reviewed,ak,ak
+2023-12-18T19:32:36.024Z,60.3775,-150.706,68.8,1.7,ml,,,,0.29,ak,ak023g6goc0i,2024-01-03T19:52:52.758Z,"14 km SSE of Funny River, Alaska",earthquake,,0.4,,,reviewed,ak,ak
+2023-12-18T19:02:38.721Z,59.6997,-153.3126,4.8,1.4,ml,,,,0.62,ak,ak023g6ghwpl,2024-01-03T19:52:46.992Z,"45 km ESE of Pedro Bay, Alaska",earthquake,,0.2,,,reviewed,ak,ak
+2023-12-18T18:44:46.271Z,59.7707,-152.5468,79.3,1.7,ml,,,,0.34,ak,ak023g6g5hsj,2024-01-03T19:52:52.520Z,"40 km W of Anchor Point, Alaska",earthquake,,0.2,,,reviewed,ak,ak
+2023-12-18T17:40:46.958Z,60.6749,-151.2156,67,1.5,ml,,,,0.77,ak,ak023g6fj7dj,2024-01-03T19:52:52.315Z,"4 km ESE of Nikiski, Alaska",earthquake,,0.8,,,reviewed,ak,ak
+2023-12-18T17:24:45.881Z,60.2,-152.867,96.8,1.7,ml,,,,0.37,ak,ak023g6ffru4,2024-01-03T19:52:51.907Z,"68 km WNW of Ninilchik, Alaska",earthquake,,0.2,,,reviewed,ak,ak
+2023-12-18T16:48:31.631Z,60.9744,-151.494,70.1,1.5,ml,,,,0.42,ak,ak023g6ezgbf,2024-01-03T19:52:51.698Z,"21 km WSW of Tyonek, Alaska",earthquake,,0.5,,,reviewed,ak,ak
+2023-12-18T13:28:53.455Z,60.0887,-152.2302,90.6,1.6,ml,,,,0.3,ak,ak023g6d2wv5,2024-01-03T19:52:50.507Z,"31 km W of Ninilchik, Alaska",earthquake,,0.7,,,reviewed,ak,ak
+2023-12-18T11:46:12.961Z,60.9431,-152.2216,98.1,1.6,ml,,,,0.84,ak,ak023g6bztf4,2024-01-03T22:00:51.926Z,"58 km WNW of Nikiski, Alaska",earthquake,,0.4,,,reviewed,ak,ak
+2023-12-18T11:26:46.288Z,59.733,-153.4997,125,1.9,ml,,,,0.6,ak,ak023g6bvmd2,2024-01-03T22:00:47.346Z,"34 km E of Pedro Bay, Alaska",earthquake,,0.4,,,reviewed,ak,ak
+2023-12-18T10:34:29.730Z,58.3278333333333,-154.838166666667,5.28,0.19,ml,13,159,,0.21,av,av92157356,2023-12-19T19:04:31.470Z,"87 km NNW of Karluk, Alaska",earthquake,0.52,1.15,0.179706169781567,13,reviewed,av,av
+2023-12-18T10:32:55.980Z,60.0867,-152.311,88.5,1.7,ml,,,,0.35,ak,ak023g6bbh3y,2024-01-03T22:00:51.301Z,"35 km WNW of Happy Valley, Alaska",earthquake,,0.8,,,reviewed,ak,ak
+2023-12-18T09:41:52.870Z,60.0136666666667,-153.102833333333,2.79,-0.91,ml,5,125,,0.12,av,av92157336,2023-12-19T18:36:45.970Z,"61 km ENE of Pedro Bay, Alaska",earthquake,0.43,1.37,0.0843662724249623,5,reviewed,av,av
+2023-12-18T09:25:11.560Z,58.3141666666667,-154.867,7.38,-0.04,ml,9,271,,0.16,av,av91124953,2023-12-19T18:53:35.980Z,"86 km NNW of Karluk, Alaska",earthquake,0.69,1.39,0.160657144972452,9,reviewed,av,av
+2023-12-18T06:37:26.381Z,60.3525,-152.1837,92,1.8,ml,,,,0.48,ak,ak023g68yqzc,2024-01-03T22:00:46.258Z,"44 km NW of Ninilchik, Alaska",earthquake,,0.6,,,reviewed,ak,ak
+2023-12-18T06:35:17.534Z,60.5586,-151.8032,77.7,1.4,ml,,,,0.6,ak,ak023g68yavd,2024-01-03T22:00:49.457Z,"27 km WSW of Salamatof, Alaska",earthquake,,0.3,,,reviewed,ak,ak
+2023-12-18T06:08:33.751Z,60.6433,-151.6728,73.4,1.5,ml,,,,0.8,ak,ak023g68sjsf,2024-01-03T22:00:49.216Z,"19 km W of Salamatof, Alaska",earthquake,,0.6,,,reviewed,ak,ak
+2023-12-18T05:45:44.920Z,58.6625,-154.0655,25.43,0.64,ml,7,326,,0.27,av,av91124923,2023-12-19T05:02:42.180Z,"95 km NW of Aleneva, Alaska",earthquake,2.5,1.22,0.134309723934923,7,reviewed,av,av
+2023-12-18T05:09:47.980Z,60.0125,-153.099333333333,1.45,-0.97,ml,4,164,,0.22,av,av92157241,2023-12-19T04:37:41.310Z,"61 km ENE of Pedro Bay, Alaska",earthquake,0.81,0.54,0.0850692033900181,4,reviewed,av,av
+2023-12-18T02:19:36.938Z,59.7156,-152.1803,75.9,1.9,ml,,,,0.77,ak,ak023g66h6hp,2024-01-03T22:00:48.786Z,"20 km WSW of Anchor Point, Alaska",earthquake,,0.2,,,reviewed,ak,ak
+2023-12-18T01:14:06.178Z,58.3219,-150.9302,25,1.9,ml,,,,0.89,ak,ak023g65ulxl,2024-01-03T22:00:47.814Z,"102 km ENE of Ouzinkie, Alaska",earthquake,,0.7,,,reviewed,ak,ak
+2023-12-17T19:06:57.100Z,59.1725,-152.6662,69.7,1.7,ml,,,,0.39,ak,ak023g4szgj2,2023-12-29T23:17:39.025Z,"47 km WSW of Nanwalek, Alaska",earthquake,,1.2,,,reviewed,ak,ak
+2023-12-17T16:49:00.554Z,57.9239,-154.5266,62.2,1.4,ml,,,,0.23,ak,ak023g4rg953,2023-12-29T23:17:37.467Z,"39 km N of Karluk, Alaska",earthquake,,1.1,,,reviewed,ak,ak
+2023-12-17T16:41:45.004Z,59.3371,-152.9607,95.1,1.8,ml,,,,0.35,ak,ak023g4remuc,2023-12-29T23:17:37.266Z,"59 km W of Nanwalek, Alaska",earthquake,,0.6,,,reviewed,ak,ak
+2023-12-17T16:38:07.948Z,60.5754,-151.263,69.1,1.6,ml,,,,0.42,ak,ak023g4rdsqu,2023-12-29T23:17:30.887Z,"2 km N of Kenai, Alaska",earthquake,,0.7,,,reviewed,ak,ak
+2023-12-17T16:27:29.770Z,60.3737,-151.9432,84.9,1.7,ml,,,,0.38,ak,ak023g4rbln5,2023-12-29T23:17:37.054Z,"34 km WNW of Clam Gulch, Alaska",earthquake,,0.7,,,reviewed,ak,ak
+2023-12-17T15:15:50.740Z,59.9948333333333,-153.051833333333,-3,-0.55,ml,4,157,,0.06,av,av92156836,2023-12-18T23:38:22.560Z,"63 km ENE of Pedro Bay, Alaska",earthquake,0.3,1.08,0.267104493050993,4,reviewed,av,av
+2023-12-17T14:29:09.031Z,60.0931,-152.6787,106.9,2.6,ml,,,,0.59,ak,ak023g4q5477,2024-02-27T22:56:59.040Z,"55 km WNW of Happy Valley, Alaska",earthquake,,0.3,,,reviewed,ak,ak
+2023-12-17T13:04:55.427Z,60.8795,-151.5922,76,1.6,ml,,,,0.38,ak,ak023g4pefc6,2023-12-29T23:17:35.956Z,"26 km NW of Nikiski, Alaska",earthquake,,0.7,,,reviewed,ak,ak
+2023-12-17T12:58:46.822Z,58.267,-154.7875,89.3,1.7,ml,,,,0.43,ak,ak023g4p4idf,2023-12-29T23:17:29.816Z,"80 km NNW of Karluk, Alaska",earthquake,,0.4,,,reviewed,ak,ak
+2023-12-17T11:40:00.239Z,59.6686,-153.3232,97.8,1.7,ml,,,,0.32,ak,ak023g4of5nb,2024-01-07T23:22:17.407Z,"45 km ESE of Pedro Bay, Alaska",earthquake,,0.5,,,reviewed,ak,ak
+2023-12-17T11:18:40.561Z,60.5276,-151.1847,26.9,1.4,ml,,,,0.54,ak,ak023g4oaj08,2024-01-07T23:22:17.190Z,"5 km SE of Kenai, Alaska",earthquake,,1.7,,,reviewed,ak,ak
+2023-12-17T10:26:59.605Z,59.834,-153.3801,105.1,2,ml,,,,0.61,ak,ak023g4nquj9,2024-01-07T23:22:11.287Z,"41 km E of Pedro Bay, Alaska",earthquake,,0.3,,,reviewed,ak,ak
+2023-12-17T09:43:51.237Z,59.8566,-153.13,107.9,1.9,ml,,,,0.57,ak,ak023g4n91ir,2024-01-07T23:22:16.377Z,"55 km E of Pedro Bay, Alaska",earthquake,,0.6,,,reviewed,ak,ak
+2023-12-17T09:05:32.245Z,60.0938,-152.2799,71.9,1.6,ml,,,,0.31,ak,ak023g4n0uug,2024-01-07T23:22:16.162Z,"34 km W of Ninilchik, Alaska",earthquake,,0.9,,,reviewed,ak,ak
+2023-12-17T08:08:06.672Z,59.8442,-152.8918,96.6,1.8,ml,,,,0.28,ak,ak023g4mg0ez,2024-01-07T23:22:15.734Z,"59 km W of Anchor Point, Alaska",earthquake,,0.6,,,reviewed,ak,ak
+2023-12-17T07:37:58.693Z,59.88,-152.1355,60.9,2.3,ml,,,,0.61,ak,ak023g4m0wks,2024-01-07T23:22:10.180Z,"20 km NW of Anchor Point, Alaska",earthquake,,0.4,,,reviewed,ak,ak
+2023-12-17T05:19:56.517Z,60.9404,-150.7138,41,1.8,ml,,,,0.51,ak,ak023g4kq6ao,2024-01-07T23:22:08.842Z,"2 km NW of Point Possession, Alaska",earthquake,,0.5,,,reviewed,ak,ak
+2023-12-17T05:07:54.723Z,58.3226,-154.8429,5.1,1.2,ml,,,,0.65,ak,ak023g4knln7,2024-01-07T23:22:08.412Z,"87 km NNW of Karluk, Alaska",earthquake,,0.3,,,reviewed,ak,ak
+2023-12-17T03:54:11.314Z,59.9157,-152.239,65.1,1.8,ml,,,,0.53,ak,ak023g4jqpor,2024-01-07T23:22:13.430Z,"27 km NW of Anchor Point, Alaska",earthquake,,0.5,,,reviewed,ak,ak
+2023-12-17T00:48:44.897Z,60.935,-150.7466,37.9,1.5,ml,,,,0.39,ak,ak023g4hx6ea,2024-01-07T23:22:06.195Z,"3 km WNW of Point Possession, Alaska",earthquake,,0.8,,,reviewed,ak,ak
+2023-12-16T20:52:33.753Z,59.915,-152.8708,84.9,1.9,ml,,,,0.43,ak,ak023g36bcqx,2023-12-29T22:55:04.689Z,"60 km WNW of Anchor Point, Alaska",earthquake,,0.3,,,reviewed,ak,ak
+2023-12-16T19:24:40.053Z,60.2477,-153.6125,188.2,4.7,mww,,,,0.86,ak,ak023g35jxin,2024-02-17T22:43:12.040Z,"39 km E of Port Alsworth, Alaska",earthquake,,0.3,,,reviewed,ak,ak
+2023-12-16T19:12:58.181Z,59.8135,-153.6045,136.3,2.1,ml,,,,0.59,ak,ak023g35heey,2023-12-29T22:55:07.085Z,"28 km E of Pedro Bay, Alaska",earthquake,,0.5,,,reviewed,ak,ak
+2023-12-16T18:37:15.977Z,59.6409,-152.6687,73.6,1.8,ml,,,,0.42,ak,ak023g3518gd,2023-12-29T22:55:06.877Z,"49 km WSW of Anchor Point, Alaska",earthquake,,0.3,,,reviewed,ak,ak
+2023-12-16T18:28:33.047Z,59.6738,-152.2186,59.4,2.5,ml,,,,0.57,ak,ak023g34zcbc,2024-02-17T22:43:12.040Z,"24 km WSW of Anchor Point, Alaska",earthquake,,0.3,,,reviewed,ak,ak
+2023-12-16T15:10:42.671Z,59.4139,-153.0233,94.9,2.2,ml,,,,0.47,ak,ak023g3337bf,2023-12-29T22:55:01.970Z,"62 km W of Nanwalek, Alaska",earthquake,,0.3,,,reviewed,ak,ak
+2023-12-16T12:42:53.920Z,59.3912,-152.9641,87.1,1.8,ml,,,,0.33,ak,ak023g31hsi2,2023-12-29T22:54:59.828Z,"59 km W of Nanwalek, Alaska",earthquake,,0.5,,,reviewed,ak,ak
+2023-12-16T10:03:44.007Z,60.0458,-151.2503,40.6,1.5,ml,,,,0.62,ak,ak023g302jc6,2023-12-30T01:50:09.015Z,"22 km SSE of Clam Gulch, Alaska",earthquake,,0.5,,,reviewed,ak,ak
+2023-12-16T09:53:12.248Z,60.4827,-151.0609,50.1,1.4,ml,,,,0.56,ak,ak023g2zrr6a,2023-12-30T01:50:08.792Z,"0 km SSW of Soldotna, Alaska",earthquake,,0.9,,,reviewed,ak,ak
+2023-12-16T09:08:23.790Z,60.6511666666667,-152.69,4.82,-0.14,ml,6,246,,0.07,av,av91124748,2023-12-17T20:59:35.320Z,"75 km W of Salamatof, Alaska",earthquake,0.52,0.95,0.382383704810644,6,reviewed,av,av
+2023-12-16T08:57:16.999Z,58.2516,-154.9552,2.9,1.5,ml,,,,0.42,ak,ak023g2z76tq,2023-12-30T01:50:07.860Z,"81 km NNW of Karluk, Alaska",earthquake,,0.4,,,reviewed,ak,ak
+2023-12-16T08:50:03.907Z,58.1396,-153.2572,7.2,1.3,ml,,,,0.35,ak,ak023g2z5ns6,2023-12-30T01:50:12.761Z,"22 km WNW of Aleneva, Alaska",earthquake,,0.5,,,reviewed,ak,ak
+2023-12-16T07:15:02.847Z,60.2999,-152.5901,95.6,1.8,ml,,,,0.63,ak,ak023g2ycq18,2023-12-30T01:50:12.143Z,"58 km WNW of Ninilchik, Alaska",earthquake,,0.3,,,reviewed,ak,ak
+2023-12-16T07:05:00.191Z,59.9674,-153.1955,146.4,2,ml,,,,0.55,ak,ak023g2yako3,2023-12-30T01:50:11.925Z,"54 km ENE of Pedro Bay, Alaska",earthquake,,0.3,,,reviewed,ak,ak
+2023-12-16T07:01:35.634Z,60.8916,-150.1805,45.9,1.3,ml,,,,0.44,ak,ak023g2y9sjf,2023-12-30T01:50:11.725Z,"27 km E of Point Possession, Alaska",earthquake,,0.3,,,reviewed,ak,ak
+2023-12-16T06:22:09.198Z,58.7407,-152.9855,61.1,2,ml,,,,0.55,ak,ak023g2xsokd,2023-12-30T01:50:05.757Z,"75 km N of Aleneva, Alaska",earthquake,,0.6,,,reviewed,ak,ak
+2023-12-16T06:14:04.773Z,59.9048,-153.1937,139.4,1.9,ml,,,,0.56,ak,ak023g2xr3u2,2023-12-30T01:50:05.548Z,"52 km ENE of Pedro Bay, Alaska",earthquake,,0.2,,,reviewed,ak,ak
+2023-12-16T04:12:41.178Z,59.2287,-153.3619,90.9,2,ml,,,,0.53,ak,ak023g2wjuzw,2023-12-30T01:50:03.978Z,"73 km ESE of Pope-Vannoy Landing, Alaska",earthquake,,0.5,,,reviewed,ak,ak
+2023-12-16T03:58:40.932Z,60.8103,-152.5462,115.6,1.8,ml,,,,0.49,ak,ak023g2w8acd,2023-12-30T01:50:11.080Z,"69 km W of Nikiski, Alaska",earthquake,,0.2,,,reviewed,ak,ak
+2023-12-16T02:26:34.320Z,60.0951,-151.4496,50.7,3.1,ml,,,,0.73,ak,ak023g2vfz9u,2024-02-17T22:43:12.040Z,"13 km ENE of Ninilchik, Alaska",earthquake,,0.4,,,reviewed,ak,ak
+2023-12-16T02:09:56.375Z,59.8967,-152.3982,86,1.9,ml,,,,0.54,ak,ak023g2vcdx6,2023-12-30T01:50:02.451Z,"34 km WNW of Anchor Point, Alaska",earthquake,,0.5,,,reviewed,ak,ak
+2023-12-16T02:07:12.952Z,60.0974,-151.3645,41.1,1.8,ml,,,,0.65,ak,ak023g2vbuzs,2023-12-30T01:50:02.204Z,"14 km S of Clam Gulch, Alaska",earthquake,,0.6,,,reviewed,ak,ak
+2023-12-16T00:45:15.770Z,60.2211,-150.2747,33.3,1.6,ml,,,,0.5,ak,ak023g2ud580,2023-12-30T01:50:00.878Z,"38 km SW of Cooper Landing, Alaska",earthquake,,0.6,,,reviewed,ak,ak
+2023-12-15T23:25:05.100Z,58.3081666666667,-154.991833333333,1.87,-0.44,ml,6,200,,0.08,av,av91124698,2023-12-16T03:02:15.200Z,"88 km NNW of Karluk, Alaska",earthquake,0.57,0.72,0.246421283529659,6,reviewed,av,av
+2023-12-15T23:14:28.942Z,60.635,-152.498,98.3,1.7,ml,,,,0.37,ak,ak023g1kc5hy,2023-12-29T00:21:28.747Z,"64 km W of Salamatof, Alaska",earthquake,,0.6,,,reviewed,ak,ak
+2023-12-15T19:35:44.377Z,59.5338,-152.9405,88.8,2.1,ml,,,,0.49,ak,ak023g1i2yaf,2023-12-29T00:21:25.995Z,"61 km WNW of Nanwalek, Alaska",earthquake,,0.3,,,reviewed,ak,ak
+2023-12-15T19:22:13.158Z,58.0645,-153.8061,54,2,ml,,,,0.42,ak,ak023g1i03k1,2023-12-29T00:21:25.503Z,"52 km W of Aleneva, Alaska",earthquake,,0.7,,,reviewed,ak,ak
+2023-12-15T17:59:46.357Z,60.7374,-152.3663,95.6,1.6,ml,,,,0.38,ak,ak023g1h18gb,2023-12-29T00:21:32.085Z,"58 km WNW of Salamatof, Alaska",earthquake,,0.7,,,reviewed,ak,ak
+2023-12-15T17:50:29.098Z,59.1467,-153.1288,74,1.8,ml,,,,0.38,ak,ak023g1gz9mq,2023-12-29T00:21:24.848Z,"72 km WSW of Nanwalek, Alaska",earthquake,,0.5,,,reviewed,ak,ak
+2023-12-15T16:24:19.747Z,60.4606,-152.1231,85.8,1.8,ml,,,,0.52,ak,ak023g1g88rs,2023-12-29T00:21:23.204Z,"46 km W of Kalifornsky, Alaska",earthquake,,0.5,,,reviewed,ak,ak
+2023-12-15T15:53:14.404Z,59.0673,-151.0025,46.8,2.1,ml,,,,0.49,ak,ak023g1ft0hc,2023-12-29T00:21:31.242Z,"56 km SE of Port Graham, Alaska",earthquake,,0.3,,,reviewed,ak,ak
+2023-12-15T15:29:15.808Z,58.2784,-154.9605,2.8,1.4,ml,,,,0.53,ak,ak023g1fnvea,2023-12-29T00:21:22.573Z,"84 km NNW of Karluk, Alaska",earthquake,,0.4,,,reviewed,ak,ak
+2023-12-15T13:40:11.839Z,60.6562,-150.9877,55.1,2.6,ml,,,,0.88,ak,ak023g1ejcqt,2024-02-17T22:43:11.040Z,"14 km NNE of Ridgeway, Alaska",earthquake,,0.3,,,reviewed,ak,ak
+2023-12-15T12:03:12.265Z,60.3265,-151.7755,66.2,1.4,ml,,,,0.5,ak,ak023g1dpzp6,2023-12-29T00:21:30.011Z,"23 km WNW of Clam Gulch, Alaska",earthquake,,0.9,,,reviewed,ak,ak
+2023-12-15T10:40:51.575Z,59.9685,-152.5003,77.5,1.4,ml,,,,0.31,ak,ak023g1cr50l,2023-12-29T18:04:16.103Z,"42 km W of Happy Valley, Alaska",earthquake,,0.4,,,reviewed,ak,ak
+2023-12-15T10:14:43.028Z,59.5662,-153.067,79.4,1.5,ml,,,,0.35,ak,ak023g1cljqm,2023-12-29T18:04:15.474Z,"63 km ESE of Pedro Bay, Alaska",earthquake,,0.4,,,reviewed,ak,ak
+2023-12-15T09:53:43.919Z,60.9962,-152.4187,117.4,3.5,ml,,,,0.63,ak,ak023g1c8h24,2024-02-17T22:43:10.040Z,"69 km W of Tyonek, Alaska",earthquake,,0.2,,,reviewed,ak,ak
+2023-12-15T08:30:57.314Z,60.9357,-150.3388,42.3,1.4,ml,,,,0.38,ak,ak023g1bi8qh,2023-12-29T18:04:10.510Z,"19 km E of Point Possession, Alaska",earthquake,,0.3,,,reviewed,ak,ak
+2023-12-15T07:46:41.633Z,60.6388,-152.7158,123.4,1.8,ml,,,,0.44,ak,ak023g1b03qb,2023-12-29T18:04:14.297Z,"76 km W of Salamatof, Alaska",earthquake,,0.3,,,reviewed,ak,ak
+2023-12-15T07:02:46.940Z,60.0631666666667,-153.067666666667,6,-0.49,ml,4,306,,0.17,av,av92154631,2023-12-15T21:52:42.800Z,"65 km ENE of Pedro Bay, Alaska",earthquake,1.94,1.01,0.226429911116233,4,reviewed,av,av
+2023-12-15T05:38:44.986Z,60.2519,-153.1805,120.2,1.9,ml,,,,0.32,ak,ak023g19rj1u,2023-12-29T18:04:13.685Z,"63 km E of Port Alsworth, Alaska",earthquake,,0.3,,,reviewed,ak,ak
+2023-12-15T03:51:53.665Z,60.2936,-151.1791,46.9,1.9,ml,,,,0.48,ak,ak023g18ngs1,2023-12-29T18:04:07.723Z,"7 km SE of Kasilof, Alaska",earthquake,,0.3,,,reviewed,ak,ak
+2023-12-15T01:58:10.373Z,59.3712,-154.3241,9,1.6,ml,,,,0.81,ak,ak023g17i09v,2023-12-29T18:04:06.528Z,"22 km SSE of Pope-Vannoy Landing, Alaska",earthquake,,0.2,,,reviewed,ak,ak
+2023-12-15T01:35:44.230Z,59.6388,-152.7228,78.2,2.1,ml,,,,0.42,ak,ak023g17d5d9,2023-12-29T18:04:06.047Z,"52 km WSW of Anchor Point, Alaska",earthquake,,0.2,,,reviewed,ak,ak
+2023-12-15T00:27:51.815Z,60.0469,-152.9168,113.5,2.1,ml,,,,0.5,ak,ak023g16q0m3,2023-12-29T18:04:05.541Z,"67 km W of Happy Valley, Alaska",earthquake,,0.2,,,reviewed,ak,ak
+2023-12-14T23:34:33.960Z,60.0291666666667,-153.027833333333,6.74,0.12,ml,4,191,,0.11,av,av92154366,2023-12-15T01:29:37.740Z,"66 km ENE of Pedro Bay, Alaska",earthquake,0.96,0.76,0.278746325941972,4,reviewed,av,av
+2023-12-14T22:06:19.171Z,59.9544,-153.5517,149.1,2,ml,,,,0.53,ak,ak023fzw5mxp,2023-12-29T06:11:23.919Z,"36 km ENE of Pedro Bay, Alaska",earthquake,,0.7,,,reviewed,ak,ak
+2023-12-14T21:52:34.440Z,60.0286666666667,-153.080166666667,3.91,-0.62,ml,5,101,,0.14,av,av92154316,2023-12-15T01:25:36.240Z,"63 km ENE of Pedro Bay, Alaska",earthquake,0.54,1.37,0.205988051374142,5,reviewed,av,av
+2023-12-14T21:40:14.329Z,60.687,-150.5915,48.3,1.6,ml,,,,0.46,ak,ak023fzvrh8q,2023-12-29T06:11:18.827Z,"19 km NNE of Sterling, Alaska",earthquake,,0.3,,,reviewed,ak,ak
+2023-12-14T16:20:56.892Z,59.1438,-153.6765,96.2,1.9,ml,,,,0.4,ak,ak023fzso48p,2023-12-29T06:11:22.139Z,"65 km SE of Pope-Vannoy Landing, Alaska",earthquake,,0.3,,,reviewed,ak,ak
+2023-12-14T14:58:21.264Z,59.8951,-153.1756,109.2,2,ml,,,,0.32,ak,ak023fzrpbhq,2023-12-29T06:11:21.542Z,"53 km ENE of Pedro Bay, Alaska",earthquake,,0.5,,,reviewed,ak,ak
+2023-12-14T14:05:16.549Z,59.931,-152.1963,69.2,1.8,ml,,,,0.27,ak,ak023fzrdy6e,2023-12-29T06:11:20.890Z,"26 km W of Happy Valley, Alaska",earthquake,,0.4,,,reviewed,ak,ak
+2023-12-14T13:56:52.530Z,60.0755,-153.062166666667,2.2,-0.39,ml,4,271,,0.06,av,av92154056,2023-12-14T23:59:34.330Z,"66 km ENE of Pedro Bay, Alaska",earthquake,0.84,0.54,0.420562827641233,5,reviewed,av,av
+2023-12-14T13:42:12.487Z,59.4813,-152.727,72.3,2.6,ml,,,,0.74,ak,ak023fzr0fny,2024-02-17T22:43:09.040Z,"47 km WNW of Nanwalek, Alaska",earthquake,,0.2,,,reviewed,ak,ak
+2023-12-14T13:30:17.620Z,58.5795,-154.6565,7.75,0.36,ml,7,215,,0.2,av,av91124548,2023-12-15T00:08:07.590Z,"96 km S of Kokhanok, Alaska",earthquake,0.93,1.4,0.265555924145343,7,reviewed,av,av
+2023-12-14T11:18:31.882Z,60.2432,-152.5737,100.6,1.7,ml,,,,0.39,ak,ak023fzpogus,2023-12-27T23:48:50.591Z,"54 km WNW of Ninilchik, Alaska",earthquake,,0.6,,,reviewed,ak,ak
+2023-12-14T10:19:28.103Z,57.4083,-154.7285,57.3,1.9,ml,,,,0.43,ak,ak023fzp38oa,2023-12-27T23:48:49.955Z,"24 km SW of Karluk, Alaska",earthquake,,1.9,,,reviewed,ak,ak
+2023-12-14T09:36:15.717Z,60.3767,-152.457,91.7,1.9,ml,,,,0.53,ak,ak023fzolf8w,2023-12-27T23:48:45.729Z,"56 km NW of Ninilchik, Alaska",earthquake,,0.6,,,reviewed,ak,ak
+2023-12-14T09:18:17.501Z,60.7666,-150.6014,15,1.5,ml,,,,0.79,ak,ak023fzohkg0,2023-12-27T23:48:45.513Z,"18 km SSE of Point Possession, Alaska",earthquake,,0.5,,,reviewed,ak,ak
+2023-12-14T09:17:21.473Z,58.4448,-154.0387,82.1,1.7,ml,,,,0.29,ak,ak023fzohd4j,2023-12-27T23:48:49.762Z,"78 km WNW of Aleneva, Alaska",earthquake,,0.8,,,reviewed,ak,ak
+2023-12-14T07:57:53.826Z,59.4571,-152.8125,96.5,1.9,ml,,,,0.45,ak,ak023fznj52z,2023-12-27T23:48:44.823Z,"51 km WNW of Nanwalek, Alaska",earthquake,,0.5,,,reviewed,ak,ak
+2023-12-14T07:34:50.633Z,57.4793,-154.6706,20.9,1.7,ml,,,,0.44,ak,ak023fzne7c7,2023-12-27T23:48:49.347Z,"16 km SW of Karluk, Alaska",earthquake,,0.9,,,reviewed,ak,ak
+2023-12-14T06:49:46.450Z,59.1835,-153.1896,79.2,1.9,ml,,,,0.4,ak,ak023fzmvz4r,2023-12-27T23:48:44.131Z,"74 km WSW of Nanwalek, Alaska",earthquake,,0.4,,,reviewed,ak,ak
+2023-12-14T06:11:22.390Z,59.3593333333333,-153.428333333333,-0.82,0.53,ml,8,89,,0.17,av,av91124518,2023-12-14T22:50:51.230Z,"61 km SE of Pedro Bay, Alaska",earthquake,0.23,0.31,0.175327794887364,8,reviewed,av,av
+2023-12-14T05:06:12.890Z,58.2973333333333,-154.973833333333,2.47,-0.21,ml,9,198,,0.09,av,av91124493,2023-12-14T21:56:15.100Z,"86 km NNW of Karluk, Alaska",earthquake,0.61,0.38,0.213671617603712,9,reviewed,av,av
+2023-12-14T04:20:43.920Z,60.1473,-153.4585,161.5,2.4,ml,,,,0.59,ak,ak023fzliw3r,2024-02-17T22:43:09.040Z,"47 km E of Port Alsworth, Alaska",earthquake,,0.5,,,reviewed,ak,ak
+2023-12-14T03:51:39.920Z,58.2986666666667,-154.976333333333,2.57,-0.38,ml,7,197,,0.08,av,av91124483,2023-12-14T21:24:33.030Z,"86 km NNW of Karluk, Alaska",earthquake,0.63,0.33,0.244780868037815,7,reviewed,av,av
+2023-12-14T03:28:27.508Z,60.1913,-151.2143,50.7,1.6,ml,,,,0.6,ak,ak023fzkz4ty,2023-12-27T23:48:41.431Z,"10 km ESE of Clam Gulch, Alaska",earthquake,,0.9,,,reviewed,ak,ak
+2023-12-14T02:02:39.510Z,60.9949,-150.9853,62.7,1.7,ml,,,,0.49,ak,ak023fzk85i4,2023-12-27T23:48:41.003Z,"11 km SE of Tyonek, Alaska",earthquake,,0.7,,,reviewed,ak,ak
+2023-12-14T01:56:59.515Z,60.4948,-150.1546,39.7,1.6,ml,,,,0.3,ak,ak023fzjyc4t,2023-12-27T23:48:40.770Z,"18 km W of Cooper Landing, Alaska",earthquake,,0.4,,,reviewed,ak,ak
+2023-12-14T01:36:04.164Z,60.0683,-151.3244,51.9,1.5,ml,,,,0.33,ak,ak023fzjtxjh,2023-12-27T23:48:40.552Z,"18 km SSE of Clam Gulch, Alaska",earthquake,,1.3,,,reviewed,ak,ak
+2023-12-14T00:48:40.945Z,59.7885,-153.0654,100.6,1.8,ml,,,,0.28,ak,ak023fzjb5dq,2023-12-27T23:48:47.488Z,"58 km E of Pedro Bay, Alaska",earthquake,,0.6,,,reviewed,ak,ak
+2023-12-13T23:35:18.316Z,59.3929,-152.761,69.3,1.8,ml,,,,0.46,ak,ak023fy9dxqv,2023-12-28T20:30:09.725Z,"47 km W of Nanwalek, Alaska",earthquake,,0.5,,,reviewed,ak,ak
+2023-12-13T23:12:26.158Z,59.5243,-153.1807,102.8,2.1,ml,,,,0.4,ak,ak023fy990vr,2023-12-28T20:30:09.497Z,"59 km ESE of Pedro Bay, Alaska",earthquake,,0.5,,,reviewed,ak,ak
+2023-12-13T20:00:42.150Z,60.1888,-152.72,104.8,1.7,ml,,,,0.49,ak,ak023fy7e6pj,2023-12-28T20:30:07.646Z,"60 km WNW of Ninilchik, Alaska",earthquake,,0.4,,,reviewed,ak,ak
+2023-12-13T19:01:38.088Z,59.697,-151.3989,61.1,1.6,ml,,,,0.75,ak,ak023fy6syi8,2023-12-28T20:30:07.445Z,"3 km NE of Kachemak, Alaska",earthquake,,0.3,,,reviewed,ak,ak
+2023-12-13T18:55:51.322Z,59.4903,-152.0578,43.7,1.9,ml,,,,0.75,ak,ak023fy6j4l8,2023-12-28T20:30:07.227Z,"16 km NNW of Nanwalek, Alaska",earthquake,,0.9,,,reviewed,ak,ak
+2023-12-13T18:26:34.879Z,59.9355,-151.2947,14.8,1.3,ml,,,,0.65,ak,ak023fy6cvjz,2023-12-28T20:30:07.019Z,"20 km WNW of Fox River, Alaska",earthquake,,0.7,,,reviewed,ak,ak
+2023-12-13T17:38:01.436Z,59.4877,-152.5445,72.2,2.3,ml,,,,0.59,ak,ak023fy5txyf,2024-02-17T22:43:09.040Z,"38 km WNW of Nanwalek, Alaska",earthquake,,0.5,,,reviewed,ak,ak
+2023-12-13T17:29:55.027Z,59.2061,-152.9911,74.7,1.9,ml,,,,0.58,ak,ak023fy5s4wy,2023-12-28T20:30:01.316Z,"63 km WSW of Nanwalek, Alaska",earthquake,,0.3,,,reviewed,ak,ak
+2023-12-13T15:53:42.834Z,60.6877,-152.5974,109.1,1.9,ml,,,,0.59,ak,ak023fy4qdoh,2023-12-28T20:30:00.816Z,"70 km W of Salamatof, Alaska",earthquake,,0.3,,,reviewed,ak,ak
+2023-12-13T14:45:21.056Z,59.9515,-153.4616,137.6,2,ml,,,,0.48,ak,ak023fy436m4,2023-12-28T23:14:37.858Z,"40 km ENE of Pedro Bay, Alaska",earthquake,,0.7,,,reviewed,ak,ak
+2023-12-13T13:16:09.944Z,59.2117,-152.3979,60.8,2.2,ml,,,,0.62,ak,ak023fy3bifc,2023-12-28T20:29:59.564Z,"31 km WSW of Nanwalek, Alaska",earthquake,,0.6,,,reviewed,ak,ak
+2023-12-13T13:00:29.589Z,59.5701,-152.4792,71.9,1.9,ml,,,,0.83,ak,ak023fy384i6,2023-12-28T20:30:05.344Z,"39 km NW of Nanwalek, Alaska",earthquake,,0.6,,,reviewed,ak,ak
+2023-12-13T12:07:57.558Z,59.8461,-152.833,85.5,1.9,ml,,,,0.8,ak,ak023fy2o92j,2023-12-28T20:30:04.928Z,"56 km W of Anchor Point, Alaska",earthquake,,0.3,,,reviewed,ak,ak
+2023-12-13T08:03:55.052Z,60.773,-150.7796,46,1.5,ml,,,,0.51,ak,ak023fy09njc,2023-12-27T19:52:10.960Z,"17 km SSW of Point Possession, Alaska",earthquake,,0.5,,,reviewed,ak,ak
+2023-12-13T07:37:14.476Z,59.5293,-151.3259,9.9,1.7,ml,,,,0.41,ak,ak023fxzvf7g,2023-12-27T19:52:10.760Z,"9 km SW of Halibut Cove, Alaska",earthquake,,0.1,,,reviewed,ak,ak
+2023-12-13T07:23:53.384Z,59.7976,-153.0922,100.7,1.8,ml,,,,0.29,ak,ak023fxzsi6i,2023-12-27T19:52:14.724Z,"56 km E of Pedro Bay, Alaska",earthquake,,0.4,,,reviewed,ak,ak
+2023-12-13T06:06:02.518Z,58.2636,-153.0411,45.8,2.3,ml,,,,0.56,ak,ak023fxz3bfg,2024-02-17T22:43:07.040Z,"23 km NNW of Aleneva, Alaska",earthquake,,0.4,,,reviewed,ak,ak
+2023-12-13T02:13:21.752Z,59.7928,-152.9149,96,2,ml,,,,0.29,ak,ak023fxwr4jz,2023-12-27T19:52:12.684Z,"60 km W of Anchor Point, Alaska",earthquake,,0.4,,,reviewed,ak,ak
+2023-12-13T01:49:00.972Z,59.8266,-150.7428,37.1,1.7,ml,,,,0.36,ak,ak023fxwdd3c,2023-12-27T19:52:08.257Z,"12 km ESE of Fox River, Alaska",earthquake,,0.3,,,reviewed,ak,ak
+2023-12-13T00:45:11.581Z,59.4093,-153.0285,78.2,2,ml,,,,0.38,ak,ak023fxvr3h2,2023-12-27T19:52:11.585Z,"63 km W of Nanwalek, Alaska",earthquake,,0.3,,,reviewed,ak,ak
+2023-12-12T23:29:47.602Z,60.6504,-151.7417,65.2,1.6,ml,,,,0.64,ak,ak023fwltd7s,2023-12-27T23:23:29.190Z,"23 km W of Salamatof, Alaska",earthquake,,0.3,,,reviewed,ak,ak
+2023-12-12T22:12:56.720Z,59.5428,-152.4382,57.2,1.9,ml,,,,0.5,ak,ak023fwl4b2v,2023-12-27T23:23:22.001Z,"35 km NW of Nanwalek, Alaska",earthquake,,0.4,,,reviewed,ak,ak
+2023-12-12T21:35:56.971Z,59.8994,-153.0694,119.5,2.2,ml,,,,0.39,ak,ak023fwknsz1,2024-02-17T22:43:07.040Z,"59 km ENE of Pedro Bay, Alaska",earthquake,,0.3,,,reviewed,ak,ak
+2023-12-12T21:16:30.064Z,60.1093,-151.4587,53.8,1.4,ml,,,,0.2,ak,ak023fwkjoce,2023-12-27T23:23:27.996Z,"13 km ENE of Ninilchik, Alaska",earthquake,,1.2,,,reviewed,ak,ak
+2023-12-12T20:41:13.236Z,59.7783,-151.7564,48.1,1.9,ml,,,,0.54,ak,ak023fwk3kag,2023-12-27T23:23:21.508Z,"4 km E of Anchor Point, Alaska",earthquake,,0.4,,,reviewed,ak,ak
+2023-12-12T19:12:49.305Z,60.0253,-153.3153,138.9,2.2,ml,,,,0.5,ak,ak023fwjbzr6,2023-12-27T23:23:27.396Z,"51 km ENE of Pedro Bay, Alaska",earthquake,,0.5,,,reviewed,ak,ak
+2023-12-12T18:45:35.790Z,60.0188333333333,-153.098333333333,0.65,-0.63,ml,4,172,,0.04,av,av92152151,2023-12-13T20:18:44.780Z,"62 km ENE of Pedro Bay, Alaska",earthquake,0.34,1.11,0.11293316030337,4,reviewed,av,av
+2023-12-12T18:21:46.026Z,59.8643,-153.3963,138.6,2.2,ml,,,,0.4,ak,ak023fwishnc,2023-12-27T23:23:20.388Z,"40 km ENE of Pedro Bay, Alaska",earthquake,,0.4,,,reviewed,ak,ak
+2023-12-12T17:05:23.930Z,58.4961666666667,-154.502666666667,4.86,0.44,ml,9,294,,0.15,av,av91124293,2023-12-13T20:08:55.140Z,"103 km N of Karluk, Alaska",earthquake,0.72,0.46,0.201570201816694,9,reviewed,av,av
+2023-12-12T15:51:17.628Z,60.8633,-150.7495,15,1.4,ml,,,,0.97,ak,ak023fwh6jte,2023-12-27T23:23:26.004Z,"7 km SSW of Point Possession, Alaska",earthquake,,0.9,,,reviewed,ak,ak
+2023-12-12T15:45:23.440Z,58.2996,-152.7868,52.1,2.2,ml,,,,0.47,ak,ak023fwh59xp,2024-02-17T22:43:07.040Z,"27 km NNE of Aleneva, Alaska",earthquake,,0.6,,,reviewed,ak,ak
+2023-12-12T14:56:49.454Z,58.5063,-154.4684,0.1,1.4,ml,,,,0.61,ak,ak023fwgm99v,2023-12-27T23:23:17.977Z,"104 km WNW of Aleneva, Alaska",earthquake,,1.1,,,reviewed,ak,ak
+2023-12-12T13:42:22.487Z,59.4153,-153.1501,88.6,1.9,ml,,,,0.61,ak,ak023fwfxrji,2023-12-27T23:23:17.307Z,"68 km SE of Pedro Bay, Alaska",earthquake,,0.4,,,reviewed,ak,ak
+2023-12-12T12:47:21.398Z,60.1098,-151.7596,66.1,1.9,ml,,,,0.65,ak,ak023fwfdedx,2023-12-27T23:23:17.051Z,"8 km NW of Ninilchik, Alaska",earthquake,,0.4,,,reviewed,ak,ak
+2023-12-12T11:03:57.192Z,59.6432,-150.1531,43.5,1.7,ml,,,,0.33,ak,ak023fweim45,2023-12-22T20:45:20.019Z,"51 km ESE of Fox River, Alaska",earthquake,,0.5,,,reviewed,ak,ak
+2023-12-12T10:05:14.590Z,57.6533,-153.3513,38.4,1.8,ml,,,,0.32,ak,ak023fwdximb,2023-12-22T20:45:25.148Z,"36 km SW of Port Lions, Alaska",earthquake,,2.9,,,reviewed,ak,ak
+2023-12-12T10:04:12.785Z,59.6466,-153.3585,113.6,1.9,ml,,,,0.34,ak,ak023fwdxari,2023-12-22T20:45:24.542Z,"44 km ESE of Pedro Bay, Alaska",earthquake,,0.6,,,reviewed,ak,ak
+2023-12-12T09:49:20.264Z,59.4939,-151.9523,54.4,1.9,ml,,,,0.51,ak,ak023fwdlizu,2023-12-22T20:45:19.048Z,"15 km WNW of Seldovia, Alaska",earthquake,,0.6,,,reviewed,ak,ak
+2023-12-12T09:09:32.039Z,59.1475,-152.295,63.6,2,ml,,,,0.45,ak,ak023fwdcz83,2023-12-22T20:45:24.077Z,"31 km SW of Nanwalek, Alaska",earthquake,,0.7,,,reviewed,ak,ak
+2023-12-12T08:52:51.133Z,60.1773,-151.9522,73.7,1.7,ml,,,,0.58,ak,ak023fwd0svt,2023-12-22T20:45:23.491Z,"21 km NW of Ninilchik, Alaska",earthquake,,0.8,,,reviewed,ak,ak
+2023-12-12T07:07:54.903Z,59.4211,-152.7128,69.3,1.9,ml,,,,0.35,ak,ak023fwc5qbl,2023-12-22T20:45:18.610Z,"45 km W of Nanwalek, Alaska",earthquake,,0.4,,,reviewed,ak,ak
+2023-12-12T06:17:02.138Z,60.0613,-151.603,78,1.7,ml,,,,0.37,ak,ak023fwbm70p,2023-12-22T20:45:18.214Z,"3 km ENE of Ninilchik, Alaska",earthquake,,0.7,,,reviewed,ak,ak
+2023-12-12T06:08:38.009Z,60.0215,-152.8938,102.4,1.9,ml,,,,0.36,ak,ak023fwbkh9o,2023-12-22T20:45:18.001Z,"65 km W of Happy Valley, Alaska",earthquake,,0.5,,,reviewed,ak,ak
+2023-12-12T05:41:42.476Z,59.7498,-152.6984,86,1.9,ml,,,,0.35,ak,ak023fwb64hc,2023-12-22T20:45:17.777Z,"48 km W of Anchor Point, Alaska",earthquake,,0.4,,,reviewed,ak,ak
+2023-12-12T05:40:13.016Z,60.903,-150.6596,45,1.6,ml,,,,0.36,ak,ak023fwb5uhx,2023-12-22T20:45:17.563Z,"2 km SE of Point Possession, Alaska",earthquake,,0.8,,,reviewed,ak,ak
+2023-12-12T04:53:19.263Z,59.9788,-152.8936,111.7,1.8,ml,,,,0.27,ak,ak023fwan7py,2023-12-22T20:45:22.141Z,"63 km WNW of Anchor Point, Alaska",earthquake,,0.5,,,reviewed,ak,ak
+2023-12-12T04:08:55.310Z,60.429,-152.721833333333,10.95,-0.31,ml,6,204,,0.04,av,av91124258,2023-12-13T05:07:50.980Z,"72 km NW of Ninilchik, Alaska",earthquake,0.45,0.45,0.211496123208196,6,reviewed,av,av
+2023-12-12T03:43:34.124Z,58.8359,-152.7464,65.3,1.8,ml,,,,0.28,ak,ak023fw9zo3o,2023-12-22T20:45:21.347Z,"74 km SW of Nanwalek, Alaska",earthquake,,0.9,,,reviewed,ak,ak
+2023-12-12T02:32:09.240Z,60.0485,-153.0572,104.1,1.9,ml,,,,0.55,ak,ak023fw9btnh,2023-12-22T20:45:16.710Z,"65 km ENE of Pedro Bay, Alaska",earthquake,,0.6,,,reviewed,ak,ak
+2023-12-12T01:46:13.725Z,60.824,-150.9458,28.4,1.4,ml,,,,0.45,ak,ak023fw8tegs,2023-12-22T20:45:20.988Z,"17 km SW of Point Possession, Alaska",earthquake,,1.7,,,reviewed,ak,ak
+2023-12-12T01:07:14.020Z,60.2549,-150.968,65.3,2.1,ml,,,,0.51,ak,ak023fw8l1j2,2023-12-22T20:45:15.812Z,"19 km ESE of Kasilof, Alaska",earthquake,,0.4,,,reviewed,ak,ak
+2023-12-12T00:58:42.177Z,60.4409,-152.4411,87.6,1.8,ml,,,,0.29,ak,ak023fw8aln2,2023-12-22T20:45:15.586Z,"61 km NW of Ninilchik, Alaska",earthquake,,0.5,,,reviewed,ak,ak
+2023-12-11T23:58:34.990Z,58.3011666666667,-154.991,3.16,-0.52,ml,4,207,,0.07,av,av91124238,2023-12-13T02:09:29.320Z,"87 km NNW of Karluk, Alaska",earthquake,0.54,0.57,0.25671197375801,4,reviewed,av,av
+2023-12-11T23:43:35.519Z,60.3867,-150.7609,48.5,2.4,ml,,,,0.55,ak,ak023fuyczsg,2024-02-17T22:43:06.040Z,"12 km S of Funny River, Alaska",earthquake,,0.2,,,reviewed,ak,ak
+2023-12-11T23:18:06.320Z,60.041,-153.0535,-2.25,-0.43,ml,5,161,,0.07,av,av92151251,2023-12-13T01:47:54.500Z,"65 km ENE of Pedro Bay, Alaska",earthquake,0.33,1.86,0.529237045185888,5,reviewed,av,av
+2023-12-11T22:33:43.275Z,60.2903,-153.0831,128.6,2.6,ml,,,,0.63,ak,ak023fuxpfln,2024-02-17T22:43:06.040Z,"68 km E of Port Alsworth, Alaska",earthquake,,0.2,,,reviewed,ak,ak
+2023-12-11T22:16:22.296Z,60.188,-151.1386,40.9,2.1,ml,,,,0.45,ak,ak023fuxlqsq,2023-12-24T06:09:15.903Z,"14 km ESE of Clam Gulch, Alaska",earthquake,,0.4,,,reviewed,ak,ak
+2023-12-11T21:14:09.080Z,60.0431666666667,-153.0845,-2.92,-0.63,ml,5,95,,0.09,av,av91124233,2023-12-13T01:19:44.830Z,"63 km ENE of Pedro Bay, Alaska",earthquake,0.28,1.41,0.457741363014253,5,reviewed,av,av
+2023-12-11T20:06:56.384Z,60.5419,-153.7109,8.5,1.4,ml,,,,0.45,ak,ak023fuwct46,2023-12-24T06:09:18.860Z,"50 km NE of Port Alsworth, Alaska",earthquake,,0.7,,,reviewed,ak,ak
+2023-12-11T19:43:03.445Z,60.6258,-152.4939,109.6,2.6,ml,,,,0.55,ak,ak023fuvz6tq,2024-02-17T22:43:06.040Z,"64 km W of Salamatof, Alaska",earthquake,,0.2,,,reviewed,ak,ak
+2023-12-11T19:13:47.601Z,60.9101,-151.0425,5.5,1.7,ml,,,,0.83,ak,ak023fuvsuu6,2023-12-24T06:09:14.346Z,"18 km SSE of Tyonek, Alaska",earthquake,,0.2,,,reviewed,ak,ak
+2023-12-11T17:14:04.789Z,60.4321,-150.2234,37.7,1.6,ml,,,,0.33,ak,ak023fuum41q,2023-12-24T06:09:18.271Z,"22 km WSW of Cooper Landing, Alaska",earthquake,,0.2,,,reviewed,ak,ak
+2023-12-11T16:38:04.113Z,59.9506,-153.5607,153.4,2.8,ml,,,,0.56,ak,ak023fuu5ti2,2024-02-17T22:43:06.040Z,"35 km ENE of Pedro Bay, Alaska",earthquake,,0.2,,,reviewed,ak,ak
+2023-12-11T15:19:50.451Z,59.2183,-152.6362,71.2,2,ml,,,,0.38,ak,ak023futgexx,2023-12-24T06:09:17.872Z,"43 km WSW of Nanwalek, Alaska",earthquake,,0.2,,,reviewed,ak,ak
+2023-12-11T13:46:43.998Z,59.9348,-153.0152,120.7,2.4,ml,,,,0.4,ak,ak023fusfbid,2023-12-24T06:09:12.506Z,"63 km ENE of Pedro Bay, Alaska",earthquake,,0.3,,,reviewed,ak,ak
+2023-12-11T12:47:03.188Z,59.3547,-152.7708,72.4,2.3,ml,,,,0.47,ak,ak023furu0hx,2023-12-24T06:09:11.864Z,"48 km W of Nanwalek, Alaska",earthquake,,0.4,,,reviewed,ak,ak
+2023-12-11T11:13:58.016Z,58.1357,-154.9992,91.3,2.1,ml,,,,0.41,ak,ak023fur1erk,2023-12-22T02:33:01.322Z,"70 km NNW of Karluk, Alaska",earthquake,,0.4,,,reviewed,ak,ak
+2023-12-11T09:25:37.186Z,60.1722,-152.5765,94.2,2.4,ml,,,,0.58,ak,ak023fupx2j3,2023-12-22T02:33:00.600Z,"52 km WNW of Ninilchik, Alaska",earthquake,,0.4,,,reviewed,ak,ak
+2023-12-11T03:04:55.568Z,59.4716,-152.8824,93.8,2.1,ml,,,,0.34,ak,ak023fum80c4,2023-12-22T02:33:02.460Z,"56 km WNW of Nanwalek, Alaska",earthquake,,0.7,,,reviewed,ak,ak
+2023-12-10T23:35:48.108Z,60.8769,-151.7031,82,1.9,ml,,,,0.55,ak,ak023ftaryj4,2023-12-23T21:34:03.765Z,"30 km NW of Nikiski, Alaska",earthquake,,0.6,,,reviewed,ak,ak
+2023-12-10T22:56:34.110Z,58.2986666666667,-154.9895,3.02,-0.34,ml,6,195,,0.09,av,av91124093,2023-12-12T19:43:03.320Z,"87 km NNW of Karluk, Alaska",earthquake,0.57,0.65,0.243939001374205,6,reviewed,av,av
+2023-12-10T21:08:54.309Z,60.8812,-150.745,53.5,1.4,ml,,,,0.51,ak,ak023ft9fbhy,2023-12-23T21:34:08.770Z,"5 km SSW of Point Possession, Alaska",earthquake,,0.8,,,reviewed,ak,ak
+2023-12-10T17:21:39.523Z,59.8785,-152.6744,95.8,1.9,ml,,,,0.24,ak,ak023ft74c8w,2023-12-23T21:34:06.692Z,"48 km WNW of Anchor Point, Alaska",earthquake,,0.5,,,reviewed,ak,ak
+2023-12-10T17:03:48.044Z,59.293,-153.733,107,2,ml,,,,0.38,ak,ak023ft70i0k,2023-12-23T21:34:06.494Z,"52 km SE of Pope-Vannoy Landing, Alaska",earthquake,,0.6,,,reviewed,ak,ak
+2023-12-10T16:46:30.708Z,59.5306,-152.9645,97,2.2,ml,,,,0.38,ak,ak023ft6o8sl,2024-02-17T22:43:05.040Z,"62 km WNW of Nanwalek, Alaska",earthquake,,0.4,,,reviewed,ak,ak
+2023-12-10T16:06:20.332Z,59.8411,-152.7804,98.4,1.8,ml,,,,0.51,ak,ak023ft6fnk2,2023-12-23T21:34:01.242Z,"53 km W of Anchor Point, Alaska",earthquake,,0.3,,,reviewed,ak,ak
+2023-12-10T15:47:38.334Z,59.6767,-153.4135,116.4,2,ml,,,,0.32,ak,ak023ft631jj,2023-12-24T06:26:30.536Z,"40 km ESE of Pedro Bay, Alaska",earthquake,,0.4,,,reviewed,ak,ak
+2023-12-10T15:25:30.727Z,59.7765,-150.9554,46.6,1.8,ml,,,,0.61,ak,ak023ft5yb80,2023-12-23T21:34:05.621Z,"9 km S of Fox River, Alaska",earthquake,,0.3,,,reviewed,ak,ak
+2023-12-10T15:14:52.381Z,60.351,-152.7982,125.1,1.8,ml,,,,0.33,ak,ak023ft5w00m,2023-12-23T21:34:05.432Z,"71 km WNW of Ninilchik, Alaska",earthquake,,0.3,,,reviewed,ak,ak
+2023-12-10T14:46:32.420Z,60.3192,-150.7318,50.9,1.5,ml,,,,0.47,ak,ak023ft5hdse,2023-12-23T21:34:00.319Z,"20 km S of Funny River, Alaska",earthquake,,0.7,,,reviewed,ak,ak
+2023-12-10T14:36:12.232Z,59.8973,-153.5063,125.6,1.8,ml,,,,0.67,ak,ak023ft5f72f,2023-12-23T21:34:05.037Z,"35 km ENE of Pedro Bay, Alaska",earthquake,,0.1,,,reviewed,ak,ak
+2023-12-10T14:30:18.491Z,60.7919,-151.6743,84.6,1.7,ml,,,,0.57,ak,ak023ft5dxh7,2023-12-23T21:34:00.106Z,"23 km WNW of Nikiski, Alaska",earthquake,,0.5,,,reviewed,ak,ak
+2023-12-10T14:00:34.801Z,60.6231,-151.7025,76.8,1.6,ml,,,,0.47,ak,ak023ft57hva,2023-12-23T21:33:59.877Z,"20 km W of Salamatof, Alaska",earthquake,,0.9,,,reviewed,ak,ak
+2023-12-10T13:25:13.686Z,58.9627,-154.0422,102.8,2.1,ml,,,,0.43,ak,ak023ft4renu,2023-12-23T21:33:59.190Z,"67 km SE of Kokhanok, Alaska",earthquake,,0.5,,,reviewed,ak,ak
+2023-12-10T13:24:31.212Z,59.453,-152.3071,83.5,1.5,ml,,,,0.6,ak,ak023ft4r8c1,2023-12-23T21:34:04.644Z,"24 km WNW of Nanwalek, Alaska",earthquake,,0.3,,,reviewed,ak,ak
+2023-12-10T13:07:35.610Z,60.0325,-153.079166666667,-2.81,-0.15,ml,4,164,,0.06,av,av92150071,2023-12-12T18:44:47.560Z,"63 km ENE of Pedro Bay, Alaska",earthquake,0.3,1.58,0.10331557670294,3,reviewed,av,av
+2023-12-10T12:25:36.630Z,58.4803333333333,-154.486,4.73,0.4,ml,7,297,,0.17,av,av92150031,2023-12-12T19:44:38.630Z,"101 km N of Karluk, Alaska",earthquake,1.02,0.47,0.14290951792637,7,reviewed,av,av
+2023-12-10T10:19:20.936Z,60.066,-152.6509,93.9,2.1,ml,,,,0.45,ak,ak023ft2xu3c,2023-12-22T04:45:33.206Z,"52 km WNW of Happy Valley, Alaska",earthquake,,0.2,,,reviewed,ak,ak
+2023-12-10T10:02:11.110Z,58.4966666666667,-154.548166666667,4.83,0.43,ml,10,239,,0.22,av,av92149971,2023-12-12T04:50:40.780Z,"103 km N of Karluk, Alaska",earthquake,0.79,0.77,0.274965152268765,10,reviewed,av,av
+2023-12-10T09:26:59.660Z,60.0315,-153.133,2.44,-0.61,ml,4,227,,0.09,av,av92149946,2023-12-12T04:34:59.650Z,"60 km ENE of Pedro Bay, Alaska",earthquake,0.75,1.62,0.184132844850298,4,reviewed,av,av
+2023-12-10T07:37:38.775Z,60.4811,-150.6356,45.4,1.4,ml,,,,0.35,ak,ak023ft19fkd,2023-12-22T04:45:30.827Z,"7 km ESE of Funny River, Alaska",earthquake,,0.8,,,reviewed,ak,ak
+2023-12-10T07:09:39.233Z,59.0317,-150.0959,32.9,3.1,ml,,,,0.45,ak,ak023ft13fif,2024-02-17T22:43:05.040Z,"89 km SE of Halibut Cove, Alaska",earthquake,,1.3,,,reviewed,ak,ak
+2023-12-10T06:49:27.848Z,59.9436,-152.2352,69.3,1.4,ml,,,,0.52,ak,ak023ft0qjoi,2023-12-22T04:45:30.035Z,"28 km W of Happy Valley, Alaska",earthquake,,0.5,,,reviewed,ak,ak
+2023-12-10T06:33:12.100Z,59.358,-153.443333333333,-0.58,-0.04,ml,5,144,,0.09,av,av92149861,2023-12-12T04:07:28.830Z,"60 km SE of Pedro Bay, Alaska",earthquake,0.14,0.13,0.266001102961748,5,reviewed,av,av
+2023-12-10T06:17:14.388Z,60.1831,-152.6655,105.5,1.8,ml,,,,0.42,ak,ak023ft0jnev,2023-12-22T04:45:29.377Z,"57 km WNW of Ninilchik, Alaska",earthquake,,0.3,,,reviewed,ak,ak
+2023-12-10T06:00:56.910Z,59.358,-153.4305,-0.82,1.01,ml,8,96,,0.08,av,av92149841,2023-12-22T04:44:17.753Z,"61 km SE of Pedro Bay, Alaska",earthquake,0.14,0.21,0.285991208758234,8,reviewed,av,av
+2023-12-10T04:24:51.539Z,59.5073,-151.7066,53.4,1.3,ml,,,,0.52,ak,ak023fszedgh,2023-12-22T04:45:35.438Z,"4 km NW of Seldovia Village, Alaska",earthquake,,0.7,,,reviewed,ak,ak
+2023-12-10T03:27:30.640Z,59.3711666666667,-153.437166666667,4.57,-0.38,ml,8,152,,0.07,av,av91124028,2023-12-12T03:32:14.620Z,"59 km SE of Pedro Bay, Alaska",earthquake,0.73,0.57,0.344624263347683,8,reviewed,av,av
+2023-12-10T02:51:27.920Z,60.0233333333333,-153.096333333333,-1.97,-0.32,ml,4,174,,0.09,av,av92149706,2023-12-12T00:58:11.990Z,"62 km ENE of Pedro Bay, Alaska",earthquake,0.35,4.26,0.251139246957161,4,reviewed,av,av
+2023-12-10T02:46:26.547Z,60.6951,-150.2335,44,1.6,ml,,,,0.47,ak,ak023fsyc5zt,2023-12-22T04:45:28.624Z,"31 km NW of Cooper Landing, Alaska",earthquake,,0.5,,,reviewed,ak,ak
+2023-12-10T01:48:31.092Z,59.7895,-153.1137,101.1,1.9,ml,,,,0.35,ak,ak023fsxr66b,2023-12-22T04:45:28.180Z,"55 km E of Pedro Bay, Alaska",earthquake,,0.3,,,reviewed,ak,ak
+2023-12-09T22:20:30.421Z,60.2969,-152.6158,99.4,1.7,ml,,,,0.35,ak,ak023frmjxcy,2023-12-21T01:44:11.803Z,"59 km WNW of Ninilchik, Alaska",earthquake,,0.5,,,reviewed,ak,ak
+2023-12-09T21:58:02.829Z,60.6625,-150.7076,43,2.4,ml,,,,0.63,ak,ak023frm6krz,2024-02-10T23:47:47.040Z,"14 km NNE of Sterling, Alaska",earthquake,,0.4,,,reviewed,ak,ak
+2023-12-09T19:26:16.190Z,58.2913333333333,-154.979,2.56,-0.52,ml,7,202,,0.08,av,av91123993,2023-12-11T21:32:11.340Z,"86 km NNW of Karluk, Alaska",earthquake,0.59,0.37,0.352193262545855,7,reviewed,av,av
+2023-12-09T17:02:27.926Z,59.7375,-153.5886,129.4,2,ml,,,,0.54,ak,ak023frjgw94,2023-12-21T01:44:11.011Z,"29 km E of Pedro Bay, Alaska",earthquake,,0.3,,,reviewed,ak,ak
+2023-12-09T16:28:35.339Z,59.9676,-153.4255,137,2.1,ml,,,,0.54,ak,ak023frj11u5,2023-12-21T01:44:10.812Z,"43 km ENE of Pedro Bay, Alaska",earthquake,,1.3,,,reviewed,ak,ak
+2023-12-09T15:56:18.535Z,60.2092,-153.1867,146.8,3.3,ml,,,,0.71,ak,ak023frilkvn,2024-02-10T23:47:46.040Z,"62 km E of Port Alsworth, Alaska",earthquake,,0.3,,,reviewed,ak,ak
+2023-12-09T15:33:26.890Z,60.0215,-153.101333333333,3.39,-0.69,ml,5,125,,0.06,av,av92149391,2023-12-11T20:55:54.780Z,"61 km ENE of Pedro Bay, Alaska",earthquake,0.37,1,0.276429000618014,5,reviewed,av,av
+2023-12-09T15:26:26.090Z,60.5705,-152.613,8.17,-0.53,ml,6,148,,0.06,av,av91123978,2023-12-11T21:02:31.650Z,"71 km W of Salamatof, Alaska",earthquake,0.36,0.69,0.195713021265932,6,reviewed,av,av
+2023-12-09T14:54:50.593Z,60.7354,-151.9787,80.8,1.8,ml,,,,0.54,ak,ak023frhzses,2023-12-21T01:44:04.126Z,"37 km W of Nikiski, Alaska",earthquake,,0.4,,,reviewed,ak,ak
+2023-12-09T13:31:22.874Z,60.0259,-151.9985,79,1.8,ml,,,,0.52,ak,ak023frh9d7j,2023-12-21T01:44:09.986Z,"17 km WNW of Happy Valley, Alaska",earthquake,,0.5,,,reviewed,ak,ak
+2023-12-09T12:22:57.963Z,57.5528,-154.8537,73.4,2,ml,,,,0.23,ak,ak023frgm2v8,2023-12-21T01:44:09.185Z,"23 km W of Karluk, Alaska",earthquake,,1.2,,,reviewed,ak,ak
+2023-12-09T11:01:20.460Z,60.0378333333333,-153.073166666667,0.81,-0.5,ml,4,160,,0.11,av,av92149261,2023-12-11T20:17:42.800Z,"64 km ENE of Pedro Bay, Alaska",earthquake,0.41,1.21,0.297423440510934,4,reviewed,av,av
+2023-12-09T10:41:34.506Z,59.9292,-153.8214,145.8,2.1,ml,,,,0.36,ak,ak023frfj8ga,2023-12-22T15:16:04.791Z,"22 km NE of Pedro Bay, Alaska",earthquake,,1,,,reviewed,ak,ak
+2023-12-09T08:04:27.205Z,60.2987,-152.6153,96.8,1.7,ml,,,,0.29,ak,ak023fre4dxj,2023-12-22T15:15:59.580Z,"59 km WNW of Ninilchik, Alaska",earthquake,,0.5,,,reviewed,ak,ak
+2023-12-09T08:02:36.756Z,59.8812,-152.4256,71.4,1.6,ml,,,,0.22,ak,ak023fre40hn,2023-12-22T15:16:04.207Z,"35 km WNW of Anchor Point, Alaska",earthquake,,0.5,,,reviewed,ak,ak
+2023-12-09T06:50:44.196Z,60.0455,-153.0815,2.1,1.7,ml,,,,0.74,ak,ak023frd7g8b,2023-12-22T15:15:58.371Z,"64 km ENE of Pedro Bay, Alaska",earthquake,,0,,,reviewed,ak,ak
+2023-12-09T06:47:03.330Z,59.8853,-152.7953,83.5,1.6,ml,,,,0.41,ak,ak023frd6px9,2023-12-22T15:16:03.422Z,"55 km WNW of Anchor Point, Alaska",earthquake,,0.3,,,reviewed,ak,ak
+2023-12-09T06:27:30.002Z,59.4651,-152.8075,80.2,1.7,ml,,,,0.36,ak,ak023frd2hns,2023-12-22T15:16:03.201Z,"51 km WNW of Nanwalek, Alaska",earthquake,,0.2,,,reviewed,ak,ak
+2023-12-09T06:17:13.244Z,60.4297,-153.1208,131,1.9,ml,,,,0.39,ak,ak023frd0b7g,2023-12-22T15:16:02.985Z,"70 km ENE of Port Alsworth, Alaska",earthquake,,0.5,,,reviewed,ak,ak
+2023-12-09T05:56:58.291Z,59.9321,-153.4156,142.9,1.9,ml,,,,0.45,ak,ak023frcnc05,2023-12-22T15:16:02.771Z,"41 km ENE of Pedro Bay, Alaska",earthquake,,0.7,,,reviewed,ak,ak
+2023-12-09T05:37:44.838Z,59.545,-153.0577,96.7,1.6,ml,,,,0.28,ak,ak023frcj8cz,2023-12-22T15:16:02.572Z,"64 km ESE of Pedro Bay, Alaska",earthquake,,0.5,,,reviewed,ak,ak
+2023-12-09T05:05:21.920Z,59.359,-153.431833333333,-0.17,0.41,ml,4,173,,0.16,av,av92149031,2023-12-11T01:43:25.290Z,"61 km SE of Pedro Bay, Alaska",earthquake,0.34,0.17,0.126669217193813,4,reviewed,av,av
+2023-12-09T04:55:47.300Z,60.029,-153.110166666667,2.76,-0.79,ml,4,199,,0.16,av,av92149016,2023-12-11T22:25:12.980Z,"61 km ENE of Pedro Bay, Alaska",earthquake,0.82,1.96,0.179111159000038,4,reviewed,av,av
+2023-12-09T04:52:59.584Z,59.9144,-151.0824,50,1.6,ml,,,,0.45,ak,ak023frc11l1,2023-12-22T15:15:57.976Z,"9 km NW of Fox River, Alaska",earthquake,,0.5,,,reviewed,ak,ak
+2023-12-09T04:51:49.955Z,60.3542,-152.4788,99.3,1.7,ml,,,,0.58,ak,ak023frc0ta8,2023-12-22T15:15:57.747Z,"56 km NW of Ninilchik, Alaska",earthquake,,0.3,,,reviewed,ak,ak
+2023-12-09T04:40:31.674Z,60.8835,-151.6081,72.7,1.5,ml,,,,0.39,ak,ak023frbyets,2023-12-22T15:15:57.536Z,"27 km NW of Nikiski, Alaska",earthquake,,0.6,,,reviewed,ak,ak
+2023-12-09T03:53:18.808Z,59.676,-152.1451,65.1,1.5,ml,,,,0.32,ak,ak023frbfqjz,2023-12-22T15:15:56.217Z,"20 km WSW of Anchor Point, Alaska",earthquake,,0.5,,,reviewed,ak,ak
+2023-12-09T03:12:35.894Z,59.5764,-152.8294,80.3,1.8,ml,,,,0.59,ak,ak023frb6zib,2023-12-22T15:15:55.605Z,"57 km WNW of Nanwalek, Alaska",earthquake,,0.2,,,reviewed,ak,ak
+2023-12-09T00:37:21.357Z,59.8648,-152.3665,70.5,1.4,ml,,,,0.32,ak,ak023fr9k0iv,2023-12-22T15:16:01.529Z,"31 km WNW of Anchor Point, Alaska",earthquake,,0.4,,,reviewed,ak,ak
+2023-12-09T00:37:18.040Z,57.8912,-154.8279,68.2,1.8,ml,,,,0.4,ak,ak023fr9k0a4,2023-12-22T15:15:53.899Z,"42 km NNW of Karluk, Alaska",earthquake,,0.3,,,reviewed,ak,ak
+2023-12-08T23:46:42.946Z,59.79,-151.3602,39.3,1.6,ml,,,,0.52,ak,ak023fpzrm0g,2023-12-22T17:41:36.921Z,"7 km NNW of Fritz Creek, Alaska",earthquake,,0.4,,,reviewed,ak,ak
+2023-12-08T22:43:02.200Z,59.7784,-152.6682,80.9,1.8,ml,,,,0.43,ak,ak023fpz5g4a,2023-12-22T17:41:35.872Z,"47 km W of Anchor Point, Alaska",earthquake,,0.3,,,reviewed,ak,ak
+2023-12-08T22:36:02.931Z,60.7184,-151.7596,68.9,1.6,ml,,,,0.56,ak,ak023fpz3yfo,2023-12-22T17:41:35.447Z,"25 km W of Nikiski, Alaska",earthquake,,0.5,,,reviewed,ak,ak
+2023-12-08T22:11:03.392Z,60.0474,-151.5472,12.4,1,ml,,,,0.44,ak,ak023fpyylc3,2023-12-22T17:41:42.822Z,"6 km E of Ninilchik, Alaska",earthquake,,0.5,,,reviewed,ak,ak
+2023-12-08T22:09:31.670Z,60.1813,-152.3801,83.7,1.6,ml,,,,0.55,ak,ak023fpyy867,2023-12-22T17:41:34.829Z,"42 km WNW of Ninilchik, Alaska",earthquake,,0.4,,,reviewed,ak,ak
+2023-12-08T22:08:49.900Z,60.2206,-153.0569,114.2,1.6,ml,,,,0.25,ak,ak023fpyy1ry,2023-12-22T17:41:42.616Z,"69 km E of Port Alsworth, Alaska",earthquake,,0.2,,,reviewed,ak,ak
+2023-12-08T20:50:39.281Z,59.8292,-153.0197,98.3,1.7,ml,,,,0.26,ak,ak023fpy05tk,2023-12-22T17:41:41.797Z,"61 km E of Pedro Bay, Alaska",earthquake,,0.3,,,reviewed,ak,ak
+2023-12-08T19:55:05.104Z,60.054,-153.2964,124.2,1.8,ml,,,,0.31,ak,ak023fpxfq3e,2023-12-22T17:41:33.027Z,"54 km ENE of Pedro Bay, Alaska",earthquake,,0.5,,,reviewed,ak,ak
+2023-12-08T18:44:02.371Z,60.085,-150.5811,15.3,1.1,ml,,,,0.59,ak,ak023fpwrxgt,2023-12-22T17:41:40.613Z,"32 km NE of Fox River, Alaska",earthquake,,1.4,,,reviewed,ak,ak
+2023-12-08T18:37:56.490Z,60.05,-153.103166666667,-1.33,-0.55,ml,5,132,,0.06,av,av92148631,2023-12-09T02:57:49.990Z,"63 km ENE of Pedro Bay, Alaska",earthquake,0.39,3.73,0.290075446735042,5,reviewed,av,av
+2023-12-08T18:29:40.962Z,60.1697,-153.1053,126.6,1.8,ml,,,,0.24,ak,ak023fpwospc,2023-12-22T17:41:40.404Z,"67 km E of Port Alsworth, Alaska",earthquake,,0.4,,,reviewed,ak,ak
+2023-12-08T18:24:43.264Z,60.7764,-150.9423,20,1.3,ml,,,,0.66,ak,ak023fpwnqau,2023-12-22T17:41:40.204Z,"21 km ENE of Nikiski, Alaska",earthquake,,0.7,,,reviewed,ak,ak
+2023-12-08T17:30:54.650Z,59.1428,-152.5264,67.4,1.6,ml,,,,0.42,ak,ak023fpw3lvd,2023-12-22T17:41:40.006Z,"41 km SW of Nanwalek, Alaska",earthquake,,0.4,,,reviewed,ak,ak
+2023-12-08T17:30:51.497Z,60.1713,-151.2559,8.3,1.3,ml,,,,0.84,ak,ak023fpw3lml,2023-12-22T17:41:39.796Z,"10 km SE of Clam Gulch, Alaska",earthquake,,0.5,,,reviewed,ak,ak
+2023-12-08T17:22:52.364Z,60.4156,-150.9643,43.9,1.4,ml,,,,0.33,ak,ak023fpw1vys,2023-12-22T17:41:39.561Z,"9 km SSE of Soldotna, Alaska",earthquake,,0.7,,,reviewed,ak,ak
+2023-12-08T14:23:34.600Z,58.4976666666667,-154.4745,4.88,0.29,ml,8,298,,0.21,av,av91123868,2023-12-09T02:16:08.640Z,"103 km N of Karluk, Alaska",earthquake,1.22,0.89,0.278763443079657,8,reviewed,av,av
+2023-12-08T13:25:55.930Z,59.0387,-152.6323,58.3,1.6,ml,,,,0.42,ak,ak023fptosyx,2023-12-22T17:41:37.761Z,"53 km SW of Nanwalek, Alaska",earthquake,,0.7,,,reviewed,ak,ak
+2023-12-08T13:20:52.114Z,60.7231,-150.5451,47.1,1.6,ml,,,,0.38,ak,ak023fptnq23,2023-12-22T17:41:28.789Z,"23 km SSE of Point Possession, Alaska",earthquake,,0.5,,,reviewed,ak,ak
+2023-12-08T09:33:18.745Z,59.0519,-152.6813,50.9,1.7,ml,,,,0.84,ak,ak023fprcpeq,2023-12-22T00:37:20.377Z,"55 km SW of Nanwalek, Alaska",earthquake,,0.5,,,reviewed,ak,ak
+2023-12-08T07:07:11.620Z,59.9147,-153.5423,125.1,2,ml,,,,0.62,ak,ak023fpq08zl,2023-12-22T00:37:14.031Z,"34 km ENE of Pedro Bay, Alaska",earthquake,,0.2,,,reviewed,ak,ak
+2023-12-08T06:45:13.037Z,60.7188,-150.9277,61.8,1.4,ml,,,,0.45,ak,ak023fppmyqv,2023-12-22T00:37:19.738Z,"19 km E of Nikiski, Alaska",earthquake,,0.4,,,reviewed,ak,ak
+2023-12-08T06:29:56.395Z,59.2213,-152.7127,69.7,2.2,ml,,,,0.49,ak,ak023fppjmm7,2023-12-22T00:37:13.356Z,"47 km WSW of Nanwalek, Alaska",earthquake,,0.4,,,reviewed,ak,ak
+2023-12-08T05:44:56.390Z,60.0483333333333,-153.0385,0.68,-0.72,ml,5,216,,0.1,av,av92148081,2023-12-08T22:49:43.480Z,"66 km ENE of Pedro Bay, Alaska",earthquake,0.48,0.26,0.12310396958018,4,reviewed,av,av
+2023-12-08T05:38:19.564Z,60.1231,-152.8442,105.5,1.7,ml,,,,0.4,ak,ak023fpp01ms,2023-12-22T00:37:18.703Z,"65 km WNW of Happy Valley, Alaska",earthquake,,0.5,,,reviewed,ak,ak
+2023-12-08T05:32:53.523Z,59.8914,-152.4018,74.6,1.6,ml,,,,0.73,ak,ak023fpoytyg,2023-12-22T00:37:18.488Z,"34 km WNW of Anchor Point, Alaska",earthquake,,0.1,,,reviewed,ak,ak
+2023-12-08T05:01:33.497Z,60.8899,-150.6271,40.7,1.8,ml,,,,0.66,ak,ak023fpos55u,2023-12-22T00:37:12.280Z,"4 km SE of Point Possession, Alaska",earthquake,,0.7,,,reviewed,ak,ak
+2023-12-08T05:00:28.280Z,60.047,-153.052,-2.24,-0.57,ml,5,180,,0.07,av,av92148041,2023-12-08T22:45:37.150Z,"65 km ENE of Pedro Bay, Alaska",earthquake,0.5,1.59,0.393206253355485,5,reviewed,av,av
+2023-12-08T04:18:13.080Z,60.0864,-152.5177,89.6,2.2,ml,,,,0.51,ak,ak023fpoab2p,2024-02-10T23:47:42.040Z,"46 km WNW of Happy Valley, Alaska",earthquake,,0.4,,,reviewed,ak,ak
+2023-12-08T04:05:58.560Z,60.5868,-152.1961,83.6,1.8,ml,,,,0.49,ak,ak023fpo7mc9,2023-12-22T00:37:11.391Z,"48 km W of Salamatof, Alaska",earthquake,,0.4,,,reviewed,ak,ak
+2023-12-08T03:50:23.460Z,59.3595,-153.434333333333,-0.53,0.78,ml,6,93,,0.08,av,av92147941,2023-12-08T22:27:20.870Z,"60 km SE of Pedro Bay, Alaska",earthquake,0.14,0.13,0.113844757613022,6,reviewed,av,av
+2023-12-08T02:00:40.340Z,60.0258333333333,-153.0275,4.73,-0.34,ml,4,183,,0.07,av,av92147861,2023-12-08T21:13:17.250Z,"65 km ENE of Pedro Bay, Alaska",earthquake,1.14,0.7,0.27216770523183,4,reviewed,av,av
+2023-12-08T01:19:33.044Z,60.5041,-152.0266,74.3,1.9,ml,,,,0.56,ak,ak023fpmi9m6,2023-12-22T00:37:10.383Z,"40 km WSW of Salamatof, Alaska",earthquake,,0.6,,,reviewed,ak,ak
+2023-12-08T00:54:17.580Z,58.7383333333333,-153.815,6.24,0.5,ml,4,333,,0.09,av,av91123788,2023-12-08T20:25:58.270Z,"92 km NW of Aleneva, Alaska",earthquake,2.05,0.9,0.264939485038927,4,reviewed,av,av
+2023-12-07T23:51:48.320Z,60.6731,-152.1296,89.2,1.9,ml,,,,0.5,ak,ak023foc9b42,2023-12-21T22:42:47.579Z,"44 km W of Salamatof, Alaska",earthquake,,0.2,,,reviewed,ak,ak
+2023-12-07T23:37:28.212Z,60.9562,-150.714,35.3,1.6,ml,,,,0.69,ak,ak023foc6awo,2023-12-21T22:42:47.070Z,"3 km NNW of Point Possession, Alaska",earthquake,,1,,,reviewed,ak,ak
+2023-12-07T23:11:23.190Z,59.9997,-153.4227,146.5,2.2,ml,,,,0.47,ak,ak023foc0pz3,2023-12-21T22:42:54.992Z,"44 km ENE of Pedro Bay, Alaska",earthquake,,0.1,,,reviewed,ak,ak
+2023-12-07T22:47:56.124Z,59.9144,-152.8476,96.1,1.8,ml,,,,0.52,ak,ak023fobn2os,2023-12-21T22:42:54.579Z,"58 km WNW of Anchor Point, Alaska",earthquake,,0.5,,,reviewed,ak,ak
+2023-12-07T22:16:24.682Z,60.7256,-152.6353,125.3,1.9,ml,,,,0.56,ak,ak023fobgd2c,2023-12-21T22:42:54.179Z,"72 km W of Salamatof, Alaska",earthquake,,0.3,,,reviewed,ak,ak
+2023-12-07T22:05:40.996Z,60.2637,-152.9916,140.4,2.1,ml,,,,0.64,ak,ak023fobe1g3,2023-12-21T22:42:53.973Z,"73 km E of Port Alsworth, Alaska",earthquake,,0.6,,,reviewed,ak,ak
+2023-12-07T21:08:09.568Z,60.4629,-152.9708,124.3,1.9,ml,,,,0.8,ak,ak023foat6kc,2023-12-21T22:42:53.319Z,"79 km ENE of Port Alsworth, Alaska",earthquake,,0.5,,,reviewed,ak,ak
+2023-12-07T19:39:23.478Z,60.0106,-151.6355,65.5,1.6,ml,,,,0.54,ak,ak023fo9szmj,2023-12-21T22:42:52.656Z,"4 km SSE of Ninilchik, Alaska",earthquake,,0.5,,,reviewed,ak,ak
+2023-12-07T19:07:14.971Z,59.565,-153.3832,110.3,2.3,ml,,,,0.47,ak,ak023fo9lznn,2023-12-21T22:42:44.567Z,"47 km ESE of Pedro Bay, Alaska",earthquake,,0.3,,,reviewed,ak,ak
+2023-12-07T17:55:17.277Z,60.0913,-152.529,97.4,1.7,ml,,,,0.23,ak,ak023fo8pje7,2023-12-21T22:42:51.848Z,"47 km WNW of Happy Valley, Alaska",earthquake,,1,,,reviewed,ak,ak
+2023-12-07T15:53:47.298Z,60.6042,-151.9255,94.6,1.8,ml,,,,0.49,ak,ak023fo7ib1m,2023-12-21T22:42:41.856Z,"33 km W of Salamatof, Alaska",earthquake,,0.8,,,reviewed,ak,ak
+2023-12-07T15:45:20.967Z,59.0775,-151.7803,13.8,1.6,ml,,,,0.75,ak,ak023fo7gjb4,2023-12-21T22:42:50.638Z,"30 km S of Port Graham, Alaska",earthquake,,0.3,,,reviewed,ak,ak
+2023-12-07T15:09:26.171Z,59.4378,-152.9315,78.3,1.5,ml,,,,0.32,ak,ak023fo78txl,2023-12-21T22:42:50.437Z,"58 km W of Nanwalek, Alaska",earthquake,,0.3,,,reviewed,ak,ak
+2023-12-07T15:03:03.061Z,59.9947,-152.1237,59.7,1.4,ml,,,,0.69,ak,ak023fo77huq,2023-12-21T22:42:50.223Z,"22 km WNW of Happy Valley, Alaska",earthquake,,0.7,,,reviewed,ak,ak
+2023-12-07T14:05:26.878Z,60.5296,-150.853,24.6,1.3,ml,,,,0.58,ak,ak023fo6mjin,2023-12-21T22:42:49.814Z,"4 km W of Sterling, Alaska",earthquake,,0.6,,,reviewed,ak,ak
+2023-12-07T13:27:04.627Z,60.0333,-152.797,107.5,1.9,ml,,,,0.4,ak,ak023fo65rxt,2023-12-21T22:42:40.496Z,"60 km W of Happy Valley, Alaska",earthquake,,0.7,,,reviewed,ak,ak
+2023-12-07T13:10:50.620Z,58.8772,-151.1309,42,3,ml,,,,0.73,ak,ak023fo628g5,2024-02-10T23:47:40.040Z,"66 km SE of Port Graham, Alaska",earthquake,,0.5,,,reviewed,ak,ak
+2023-12-07T12:11:45.937Z,59.6614,-152.8361,91.9,1.8,ml,,,,0.44,ak,ak023fo5gz82,2023-12-21T22:42:39.688Z,"57 km WSW of Anchor Point, Alaska",earthquake,,0.4,,,reviewed,ak,ak
+2023-12-07T11:57:50.589Z,59.4131,-152.8799,95.7,1.8,ml,,,,0.46,ak,ak023fo55frm,2023-12-20T02:51:01.092Z,"54 km W of Nanwalek, Alaska",earthquake,,0.6,,,reviewed,ak,ak
+2023-12-07T11:22:16.550Z,60.0553333333333,-153.0545,2.32,-0.68,ml,4,220,,0.09,av,av92147261,2023-12-08T02:23:00.920Z,"65 km ENE of Pedro Bay, Alaska",earthquake,0.72,0.76,0.291344853210498,4,reviewed,av,av
+2023-12-07T11:13:28.374Z,60.3544,-152.3577,87.2,1.8,ml,,,,0.62,ak,ak023fo4vyj7,2023-12-20T02:50:54.177Z,"51 km NW of Ninilchik, Alaska",earthquake,,0.4,,,reviewed,ak,ak
+2023-12-07T11:07:13.950Z,60.0488333333333,-153.074166666667,2.57,-0.46,ml,4,183,,0.14,av,av92147226,2023-12-08T02:20:59.430Z,"64 km ENE of Pedro Bay, Alaska",earthquake,0.84,1.26,0.276584266333606,4,reviewed,av,av
+2023-12-07T10:35:45.826Z,58.4708,-153.7298,87.7,1.8,ml,,,,0.76,ak,ak023fo4fa1i,2023-12-20T02:51:00.257Z,"66 km NW of Aleneva, Alaska",earthquake,,0.3,,,reviewed,ak,ak
+2023-12-07T10:33:57.155Z,60.1722,-152.9003,103.9,1.6,ml,,,,0.63,ak,ak023fo4evhf,2023-12-20T02:51:00.062Z,"69 km WNW of Happy Valley, Alaska",earthquake,,0.4,,,reviewed,ak,ak
+2023-12-07T10:27:30.503Z,60.0871,-152.8833,110.5,2.2,ml,,,,0.54,ak,ak023fo4dj21,2023-12-20T02:50:53.018Z,"66 km WNW of Happy Valley, Alaska",earthquake,,0.4,,,reviewed,ak,ak
+2023-12-07T09:36:43.461Z,59.8894,-153.2883,126,2.1,ml,,,,0.54,ak,ak023fo3u1wc,2023-12-20T02:50:52.750Z,"47 km ENE of Pedro Bay, Alaska",earthquake,,0.4,,,reviewed,ak,ak
+2023-12-07T07:58:03.080Z,58.4838333333333,-154.399166666667,4,0.63,ml,6,305,,0.18,av,av91123718,2023-12-08T01:39:25.590Z,"99 km WNW of Aleneva, Alaska",earthquake,1.01,1.5,0.197788110572425,6,reviewed,av,av
+2023-12-07T07:56:27.930Z,58.3733333333333,-154.7785,3.14,-0.09,ml,7,196,,0.15,av,av91123713,2023-12-08T01:16:01.780Z,"91 km NNW of Karluk, Alaska",earthquake,1.19,0.51,0.263712649468302,7,reviewed,av,av
+2023-12-07T07:41:42.479Z,58.6813,-153.7799,14.8,1.4,ml,,,,0.66,ak,ak023fo2o9eg,2023-12-20T02:50:51.282Z,"85 km NW of Aleneva, Alaska",earthquake,,0.4,,,reviewed,ak,ak
+2023-12-07T07:12:38.282Z,58.6727,-153.7129,0.6,1.4,ml,,,,0.73,ak,ak023fo2i16c,2023-12-20T02:50:57.397Z,"82 km NW of Aleneva, Alaska",earthquake,,0.1,,,reviewed,ak,ak
+2023-12-07T05:54:33.519Z,58.4741,-154.4335,3.6,1.2,ml,,,,0.55,ak,ak023fo1k5qm,2023-12-20T17:46:16.731Z,"100 km WNW of Aleneva, Alaska",earthquake,,0.2,,,reviewed,ak,ak
+2023-12-07T05:50:56.620Z,60.5108333333333,-152.909,6.09,0.31,ml,5,159,,0.09,av,av91123703,2023-12-08T00:22:48.620Z,"84 km ENE of Port Alsworth, Alaska",earthquake,0.39,1.02,0.170509996631274,5,reviewed,av,av
+2023-12-07T05:27:58.080Z,59.0046,-153.9517,96.7,1.8,ml,,,,0.75,ak,ak023fo1ef8g,2023-12-20T02:50:56.389Z,"67 km SE of Kokhanok, Alaska",earthquake,,0.5,,,reviewed,ak,ak
+2023-12-07T04:33:53.750Z,58.4841666666667,-154.494166666667,4.82,0.1,ml,9,296,,0.15,av,av91123693,2023-12-08T00:04:28.400Z,"101 km N of Karluk, Alaska",earthquake,0.75,0.55,0.196862764481628,9,reviewed,av,av
+2023-12-07T04:07:13.650Z,58.3631666666667,-154.7525,5.57,0.02,ml,7,209,,0.09,av,av91123688,2023-12-07T23:58:14.770Z,"90 km NNW of Karluk, Alaska",earthquake,0.71,0.45,0.218496266900646,7,reviewed,av,av
+2023-12-07T02:57:27.077Z,58.9215,-154.3607,121.7,4.3,ml,,,,0.73,ak,ak023fnzshe1,2024-02-10T23:47:39.040Z,"62 km SSE of Kokhanok, Alaska",earthquake,,0.3,,,reviewed,ak,ak
+2023-12-07T02:42:59.995Z,58.3642,-154.7271,5.7,1.1,ml,,,,0.56,ak,ak023fnzpfes,2023-12-20T17:46:15.839Z,"90 km N of Karluk, Alaska",earthquake,,0.2,,,reviewed,ak,ak
+2023-12-07T01:11:31.097Z,59.3722,-153.2205,105.5,1.7,ml,,,,0.44,ak,ak023fnyx79x,2023-12-20T02:50:55.235Z,"68 km SE of Pedro Bay, Alaska",earthquake,,0.6,,,reviewed,ak,ak
+2023-12-07T00:24:15.907Z,59.7207,-153.1686,102.3,2.1,ml,,,,0.52,ak,ak023fnyeirv,2023-12-20T02:50:47.281Z,"53 km E of Pedro Bay, Alaska",earthquake,,0.3,,,reviewed,ak,ak
+2023-12-06T22:59:39.489Z,59.9712,-153.133,115.3,1.9,ml,,,,0.38,ak,ak023fmo69q8,2023-12-20T00:26:27.440Z,"58 km ENE of Pedro Bay, Alaska",earthquake,,0.4,,,reviewed,ak,ak
+2023-12-06T21:31:11.829Z,57.6724,-154.4709,42.5,3,ml,,,,0.55,ak,ak023fmnerno,2024-02-10T23:47:39.040Z,"11 km N of Karluk, Alaska",earthquake,,0.6,,,reviewed,ak,ak
+2023-12-06T20:37:29.995Z,58.8162,-152.0509,46,2,ml,,,,0.57,ak,ak023fmmunt3,2023-12-20T00:26:30.253Z,"60 km S of Nanwalek, Alaska",earthquake,,0.6,,,reviewed,ak,ak
+2023-12-06T20:18:24.033Z,60.2866,-153.1835,129.8,2.4,ml,,,,0.61,ak,ak023fmmqkof,2024-02-10T23:47:39.040Z,"63 km E of Port Alsworth, Alaska",earthquake,,0.3,,,reviewed,ak,ak
+2023-12-06T17:16:03.420Z,58.5098333333333,-154.4745,4.69,0.45,ml,7,297,,0.2,av,av91123588,2023-12-07T20:02:40.270Z,"104 km WNW of Aleneva, Alaska",earthquake,1.19,0.55,0.213838119177246,7,reviewed,av,av
+2023-12-06T14:23:45.144Z,59.7212,-152.7696,86.3,1.9,ml,,,,0.36,ak,ak023fmj73bm,2023-12-20T00:26:28.319Z,"53 km W of Anchor Point, Alaska",earthquake,,0.5,,,reviewed,ak,ak
+2023-12-06T14:15:22.447Z,60.6243,-152.0247,75.8,1.7,ml,,,,0.52,ak,ak023fmj5bsk,2023-12-20T00:26:24.022Z,"38 km W of Salamatof, Alaska",earthquake,,0.5,,,reviewed,ak,ak
+2023-12-06T12:08:26.326Z,59.3164,-152.0953,57.4,2,ml,,,,0.47,ak,ak023fmhwyud,2023-12-20T00:26:22.944Z,"10 km WSW of Nanwalek, Alaska",earthquake,,0.5,,,reviewed,ak,ak
+2023-12-06T10:45:26.839Z,57.2709,-153.6857,43,2,ml,,,,0.31,ak,ak023fmgy18r,2023-12-20T19:27:40.391Z,"24 km WNW of Old Harbor, Alaska",earthquake,,1.4,,,reviewed,ak,ak
+2023-12-06T10:43:32.429Z,60.0234,-152.8811,99.6,1.7,ml,,,,0.32,ak,ak023fmgxm8q,2023-12-20T19:27:41.593Z,"64 km W of Happy Valley, Alaska",earthquake,,0.2,,,reviewed,ak,ak
+2023-12-06T10:39:20.009Z,58.6904,-153.6986,8,1.8,ml,,,,0.57,ak,ak023fmgwqx0,2023-12-20T19:27:36.780Z,"84 km NNW of Aleneva, Alaska",earthquake,,0.2,,,reviewed,ak,ak
+2023-12-06T08:47:45.320Z,58.4808333333333,-154.379,2.88,0.6,ml,6,237,,0.2,av,av91123558,2023-12-07T04:03:09.400Z,"Alaska Peninsula",earthquake,1.04,2.81,0.216064351602256,6,reviewed,av,av
+2023-12-06T08:41:21.004Z,59.4348,-153.258,94.9,1.8,ml,,,,0.31,ak,ak023fmfqapw,2023-12-20T19:27:41.207Z,"61 km SE of Pedro Bay, Alaska",earthquake,,0.7,,,reviewed,ak,ak
+2023-12-06T07:22:43.240Z,58.4995,-154.428833333333,4.94,0.9,ml,10,216,,0.25,av,av92145931,2023-12-07T03:44:18.190Z,"Alaska Peninsula",earthquake,0.93,1.25,0.230039520582003,10,reviewed,av,av
+2023-12-06T06:10:12.876Z,59.9533,-153.2795,124.1,2.1,ml,,,,0.51,ak,ak023fmecron,2023-12-20T19:27:39.001Z,"49 km ENE of Pedro Bay, Alaska",earthquake,,0.3,,,reviewed,ak,ak
+2023-12-06T05:17:36.798Z,58.6795,-153.6825,9.7,1.6,ml,,,,0.52,ak,ak023fmdsvxr,2023-12-20T19:27:38.602Z,"82 km NNW of Aleneva, Alaska",earthquake,,0.6,,,reviewed,ak,ak
+2023-12-06T04:36:43.983Z,58.4861,-154.2997,4.1,1.5,ml,,,,0.54,ak,ak023fmdbjl8,2023-12-20T19:27:33.822Z,"94 km WNW of Aleneva, Alaska",earthquake,,0.3,,,reviewed,ak,ak
+2023-12-06T04:11:08.160Z,58.475,-154.37,1.77,1.03,ml,8,240,,0.2,av,av91123533,2023-12-07T03:06:48.010Z,"Alaska Peninsula",earthquake,0.73,0.89,0.240838289352457,8,reviewed,av,av
+2023-12-06T03:46:24.690Z,58.4846666666667,-154.383166666667,2.27,1.01,ml,5,237,,0.16,av,av91123513,2024-01-18T21:40:51.857Z,"98 km WNW of Aleneva, Alaska",earthquake,0.99,0.69,0.26479152782555,5,reviewed,av,av
+2023-12-06T03:45:41.790Z,58.486,-154.388833333333,2.17,0.08,ml,4,235,,0.15,av,av91123518,2023-12-07T02:46:58.290Z,"98 km WNW of Aleneva, Alaska",earthquake,1.55,1.58,0.16804439209327,4,reviewed,av,av
+2023-12-06T03:19:47.033Z,60.2769,-153.0169,122.4,2.7,ml,,,,0.59,ak,ak023fmcmguu,2024-02-10T23:47:37.040Z,"72 km E of Port Alsworth, Alaska",earthquake,,0.3,,,reviewed,ak,ak
+2023-12-06T03:18:15.595Z,58.4883,-154.4324,4.2,1.6,ml,,,,0.55,ak,ak023fmcm6tu,2023-12-20T19:27:33.114Z,"101 km WNW of Aleneva, Alaska",earthquake,,0.2,,,reviewed,ak,ak
+2023-12-06T03:13:32.730Z,58.4921666666667,-154.389333333333,4.36,0.68,ml,6,231,,0.21,av,av91123503,2023-12-07T02:25:37.500Z,"Alaska Peninsula",earthquake,0.78,1.04,0.193401374432972,6,reviewed,av,av
+2023-12-06T03:07:56.144Z,58.5062,-154.4062,1.3,3.2,ml,,,,0.65,ak,ak023fmcjx26,2024-02-10T23:47:37.040Z,"100 km WNW of Aleneva, Alaska",earthquake,,0.2,,,reviewed,ak,ak
+2023-12-05T23:37:15.542Z,60.0219,-152.5946,96.9,1.8,ml,,,,0.26,ak,ak023fl13l0i,2023-12-20T19:40:02.829Z,"48 km W of Happy Valley, Alaska",earthquake,,0.7,,,reviewed,ak,ak
+2023-12-05T23:04:14.943Z,60.3378,-152.4626,97.8,1.7,ml,,,,0.36,ak,ak023fl0wic6,2023-12-20T19:40:01.654Z,"54 km NW of Ninilchik, Alaska",earthquake,,0.5,,,reviewed,ak,ak
+2023-12-05T22:59:45.472Z,60.3613,-152.5081,96.7,2.5,ml,,,,0.7,ak,ak023fl0mxhk,2024-02-10T23:47:36.040Z,"58 km NW of Ninilchik, Alaska",earthquake,,0.3,,,reviewed,ak,ak
+2023-12-05T22:54:42.259Z,60.0341,-153.5603,152.4,2.2,ml,,,,0.63,ak,ak023fl0lu5y,2023-12-20T19:39:54.723Z,"41 km NE of Pedro Bay, Alaska",earthquake,,0.5,,,reviewed,ak,ak
+2023-12-05T22:10:17.290Z,60.6486,-151.179,61.1,1.6,ml,,,,0.35,ak,ak023fl0cd7l,2023-12-20T19:40:00.848Z,"7 km SE of Nikiski, Alaska",earthquake,,0.7,,,reviewed,ak,ak
+2023-12-05T21:40:08.352Z,60.2748,-152.9317,113.2,2.1,ml,,,,0.72,ak,ak023fkzxch2,2023-12-20T19:39:53.399Z,"74 km WNW of Ninilchik, Alaska",earthquake,,0.4,,,reviewed,ak,ak
+2023-12-05T20:50:13.366Z,59.5548,-150.6648,36.7,1.9,ml,,,,0.34,ak,ak023fkze2az,2023-12-20T19:39:52.967Z,"31 km E of Halibut Cove, Alaska",earthquake,,0.3,,,reviewed,ak,ak
+2023-12-05T20:43:59.279Z,59.7542,-153.307,114.9,2.1,ml,,,,0.52,ak,ak023fkzcnvb,2023-12-20T19:40:00.229Z,"45 km E of Pedro Bay, Alaska",earthquake,,0.6,,,reviewed,ak,ak
+2023-12-05T20:18:50.627Z,60.2246,-151.3354,51.9,1.9,ml,,,,0.56,ak,ak023fkz7aa6,2023-12-20T19:39:52.296Z,"3 km ESE of Clam Gulch, Alaska",earthquake,,0.7,,,reviewed,ak,ak
+2023-12-05T20:15:23.524Z,59.8938,-152.438,68.5,1.6,ml,,,,0.2,ak,ak023fkz6l28,2023-12-20T19:40:03.028Z,"36 km WNW of Anchor Point, Alaska",earthquake,,0.5,,,reviewed,ak,ak
+2023-12-05T20:15:09.326Z,58.5199,-154.4171,4.2,1.7,ml,,,,0.35,ak,ak023fkz6jt9,2023-12-20T19:39:52.103Z,"102 km WNW of Aleneva, Alaska",earthquake,,0.4,,,reviewed,ak,ak
+2023-12-05T20:08:47.198Z,60.2556,-152.6622,103.7,1.8,ml,,,,0.51,ak,ak023fkz54vj,2023-12-20T19:40:00.025Z,"59 km WNW of Ninilchik, Alaska",earthquake,,0.6,,,reviewed,ak,ak
+2023-12-05T19:42:10.152Z,60.3029,-152.6208,101.7,1.9,ml,,,,0.56,ak,ak023fkyqwql,2023-12-20T19:39:51.692Z,"59 km WNW of Ninilchik, Alaska",earthquake,,0.5,,,reviewed,ak,ak
+2023-12-05T18:55:35.423Z,60.4951,-150.8067,39.4,1.7,ml,,,,0.63,ak,ak023fky8bdc,2023-12-20T19:39:51.459Z,"2 km WSW of Funny River, Alaska",earthquake,,0.7,,,reviewed,ak,ak
+2023-12-05T18:15:43.120Z,60.0488333333333,-153.078333333333,0.74,-0.48,ml,5,111,,0.05,av,av92145341,2023-12-06T23:48:41.030Z,"Southern Alaska",earthquake,0.57,0.39,0.347397907198886,5,reviewed,av,av
+2023-12-05T17:09:33.922Z,60.9537,-152.435,121.2,1.9,ml,,,,0.38,ak,ak023fkxd0r4,2023-12-20T19:39:58.459Z,"68 km WNW of Nikiski, Alaska",earthquake,,0.4,,,reviewed,ak,ak
+2023-12-05T16:35:11.403Z,60.7369,-152.0874,88,1.8,ml,,,,0.33,ak,ak023fkwx410,2023-12-20T19:39:57.899Z,"43 km W of Nikiski, Alaska",earthquake,,0.7,,,reviewed,ak,ak
+2023-12-05T15:35:24.009Z,60.5084,-150.826,44.8,1.5,ml,,,,0.27,ak,ak023fkwbpe8,2023-12-20T19:39:56.534Z,"3 km WNW of Funny River, Alaska",earthquake,,0.4,,,reviewed,ak,ak
+2023-12-05T15:16:24.986Z,60.719,-151.4946,64.4,1.6,ml,,,,0.47,ak,ak023fkw7mra,2023-12-20T19:39:49.716Z,"11 km WNW of Nikiski, Alaska",earthquake,,0.7,,,reviewed,ak,ak
+2023-12-05T15:02:32.853Z,59.8722,-152.5387,80.3,2.4,ml,,,,0.6,ak,ak023fkw4nep,2024-02-10T23:47:35.040Z,"41 km WNW of Anchor Point, Alaska",earthquake,,0.2,,,reviewed,ak,ak
+2023-12-05T10:14:11.755Z,58.6042,-153.7882,76.4,2.4,ml,,,,0.51,ak,ak023fkt80ba,2023-12-18T14:31:07.703Z,"79 km NW of Aleneva, Alaska",earthquake,,0.4,,,reviewed,ak,ak
+2023-12-05T09:57:03.450Z,58.2888333333333,-154.864833333333,16.81,1.45,ml,7,228,,0.29,av,av91123453,2023-12-06T23:09:54.450Z,"83 km NNW of Karluk, Alaska",earthquake,1.88,1.44,0.31123694866343,7,reviewed,av,av
+2023-12-05T09:56:11.646Z,59.6233,-152.7943,91,2.3,ml,,,,0.42,ak,ak023fksvkvc,2023-12-18T14:31:07.465Z,"56 km WSW of Anchor Point, Alaska",earthquake,,0.4,,,reviewed,ak,ak
+2023-12-05T08:56:51.136Z,60.0809,-152.9129,112,2,ml,,,,0.45,ak,ak023fksa8lt,2023-12-18T14:31:07.242Z,"67 km WNW of Happy Valley, Alaska",earthquake,,0.3,,,reviewed,ak,ak
+2023-12-05T08:05:33.577Z,58.1403,-154.9287,1.5,1.2,ml,,,,0.29,ak,ak023fkrz9ec,2023-12-18T14:31:06.210Z,"69 km NNW of Karluk, Alaska",earthquake,,0.6,,,reviewed,ak,ak
+2023-12-05T07:25:52.419Z,60.093,-152.8561,108.5,2.7,ml,,,,0.48,ak,ak023fkri5jh,2024-02-10T23:47:33.040Z,"64 km WNW of Happy Valley, Alaska",earthquake,,0.3,,,reviewed,ak,ak
+2023-12-05T05:47:41.610Z,58.4878333333333,-154.41,4.56,0.73,ml,7,226,,0.29,av,av92144731,2024-01-18T21:40:25.398Z,"100 km WNW of Aleneva, Alaska",earthquake,1.23,1.04,0.195671897498844,7,reviewed,av,av
+2023-12-05T05:28:49.195Z,60.7952,-151.0678,62.2,2,ml,,,,0.68,ak,ak023fkqbxan,2023-12-18T14:31:05.222Z,"16 km NE of Nikiski, Alaska",earthquake,,0.3,,,reviewed,ak,ak
+2023-12-05T05:25:36.820Z,58.1518333333333,-154.997,3.75,0.6,ml,6,252,,0.32,av,av91123423,2023-12-06T22:21:00.510Z,"Alaska Peninsula",earthquake,1.5,2.86,0.149934207423814,6,reviewed,av,av
+2023-12-05T05:23:53.272Z,59.3992,-153.3987,101.4,2.7,ml,,,,0.64,ak,ak023fkqauy4,2024-02-10T23:47:33.040Z,"58 km SE of Pedro Bay, Alaska",earthquake,,0.3,,,reviewed,ak,ak
+2023-12-05T05:04:29.390Z,58.4936666666667,-154.3835,3.62,0.67,ml,7,233,,0.18,av,av91123418,2024-01-18T21:40:23.895Z,"99 km WNW of Aleneva, Alaska",earthquake,1.14,1.46,0.279697552852174,7,reviewed,av,av
+2023-12-05T05:04:03.480Z,58.4951666666667,-154.395833333333,2.98,0.62,ml,8,228,,0.17,av,av91123413,2023-12-06T22:07:27.800Z,"99 km WNW of Aleneva, Alaska",earthquake,0.78,1.57,0.201556179047791,8,reviewed,av,av
+2023-12-05T03:57:56.980Z,60.696,-152.567666666667,8.89,0.43,ml,5,323,,0.08,av,av92144631,2024-01-18T21:40:14.573Z,"68 km W of Salamatof, Alaska",earthquake,0.81,1.4,0.189936243168436,5,reviewed,av,av
+2023-12-05T03:25:45.851Z,60.3342,-152.7812,116.9,2.1,ml,,,,0.39,ak,ak023fkp4epr,2023-12-18T14:31:03.967Z,"69 km WNW of Ninilchik, Alaska",earthquake,,0.4,,,reviewed,ak,ak
+2023-12-05T01:21:54.058Z,58.4961,-154.4442,5.5,1.4,ml,,,,0.42,ak,ak023fknwp8n,2023-12-18T14:31:02.631Z,"102 km WNW of Aleneva, Alaska",earthquake,,0.1,,,reviewed,ak,ak
+2023-12-04T23:58:00.964Z,59.636,-153.2768,106.9,2,ml,,,,0.3,ak,ak023fjdopfk,2023-12-16T05:45:24.361Z,"49 km ESE of Pedro Bay, Alaska",earthquake,,0.4,,,reviewed,ak,ak
+2023-12-04T23:44:14.774Z,60.3438,-153.5783,176.2,2.3,ml,,,,0.53,ak,ak023fjdlqci,2024-02-10T23:47:31.040Z,"43 km ENE of Port Alsworth, Alaska",earthquake,,0.4,,,reviewed,ak,ak
+2023-12-04T23:32:24.260Z,58.4893333333333,-154.382833333333,3.59,0.19,ml,6,233,,0.18,av,av92144436,2024-01-18T21:40:02.626Z,"98 km WNW of Aleneva, Alaska",earthquake,1.18,1.66,0.0744039636933443,6,reviewed,av,av
+2023-12-04T22:33:54.509Z,58.494,-154.341,5.5,1.8,ml,,,,0.39,ak,ak023fjcy11v,2023-12-16T05:45:22.382Z,"96 km WNW of Aleneva, Alaska",earthquake,,0.3,,,reviewed,ak,ak
+2023-12-04T21:56:25.292Z,60.3304,-153.1887,12.3,1.7,ml,,,,0.79,ak,ak023fjchgnc,2023-12-16T05:45:22.169Z,"64 km ENE of Port Alsworth, Alaska",earthquake,,0.1,,,reviewed,ak,ak
+2023-12-04T21:26:22.900Z,58.4916666666667,-154.389666666667,2.36,0.63,ml,7,231,,0.17,av,av91123383,2023-12-06T19:26:00.430Z,"99 km WNW of Aleneva, Alaska",earthquake,0.86,0.68,0.214759441849419,7,reviewed,av,av
+2023-12-04T19:28:44.740Z,60.0226666666667,-153.09,-0.78,0.39,ml,4,166,,0.08,av,av92144171,2023-12-06T19:07:14.160Z,"62 km ENE of Pedro Bay, Alaska",earthquake,0.31,3.47,0.262139526540297,5,reviewed,av,av
+2023-12-04T19:07:36.730Z,60.4856666666667,-152.777833333333,-3,-0.64,ml,5,138,,0.07,av,av91123378,2023-12-06T19:12:45.530Z,"Southern Alaska",earthquake,0.28,0.41,0.323677099631563,4,reviewed,av,av
+2023-12-04T17:46:02.750Z,58.511,-154.433833333333,4.67,0.72,ml,10,210,,0.16,av,av91123368,2024-01-18T21:39:37.167Z,"102 km WNW of Aleneva, Alaska",earthquake,0.84,0.65,0.247745535464384,10,reviewed,av,av
+2023-12-04T17:04:38.724Z,60.1296,-153.0351,109.7,1.8,ml,,,,0.45,ak,ak023fj9smiw,2023-12-16T05:45:19.738Z,"70 km ENE of Pedro Bay, Alaska",earthquake,,0.4,,,reviewed,ak,ak
+2023-12-04T15:44:36.904Z,60.2275,-152.6894,104.2,1.6,ml,,,,0.4,ak,ak023fj8ubfb,2023-12-16T05:45:18.702Z,"60 km WNW of Ninilchik, Alaska",earthquake,,0.7,,,reviewed,ak,ak
+2023-12-04T15:22:16.362Z,60.9197,-150.2255,37.9,1.2,ml,,,,0.39,ak,ak023fj8pit1,2023-12-16T05:45:18.254Z,"25 km E of Point Possession, Alaska",earthquake,,0.7,,,reviewed,ak,ak
+2023-12-04T15:16:34.640Z,58.4833333333333,-154.3775,-1.1,0.02,ml,5,236,,0.19,av,av91123358,2023-12-06T05:37:50.860Z,"98 km WNW of Aleneva, Alaska",earthquake,0.89,3.24,0.195472633293813,5,reviewed,av,av
+2023-12-04T15:16:20.670Z,58.4923333333333,-154.3865,2.92,0.13,ml,6,232,,0.18,av,av91123353,2024-01-18T21:39:35.524Z,"99 km WNW of Aleneva, Alaska",earthquake,1,2.16,0.163640526713974,6,reviewed,av,av
+2023-12-04T15:14:08.160Z,58.511,-154.438666666667,4.78,0.62,ml,9,209,,0.23,av,av91123348,2023-12-06T05:27:54.270Z,"102 km WNW of Aleneva, Alaska",earthquake,1.11,0.83,0.226527054716994,9,reviewed,av,av
+2023-12-04T15:10:19.190Z,58.5136666666667,-154.4455,4.98,0.36,ml,10,205,,0.25,av,av91123343,2023-12-06T05:17:34.870Z,"103 km WNW of Aleneva, Alaska",earthquake,1.08,1.17,0.234723219005918,10,reviewed,av,av
+2023-12-04T14:51:30.900Z,58.5151666666667,-154.436833333333,4.69,0.97,ml,9,207,,0.12,av,av91123333,2023-12-06T04:06:38.910Z,"102 km WNW of Aleneva, Alaska",earthquake,0.52,0.4,0.20485305790965,9,reviewed,av,av
+2023-12-04T14:51:20.550Z,58.5006666666667,-154.410833333333,3.73,0.98,ml,10,222,,0.09,av,av92143906,2024-01-18T21:39:34.101Z,"100 km WNW of Aleneva, Alaska",earthquake,0.99,0.61,0.174512211453716,10,reviewed,av,av
+2023-12-04T14:42:42.900Z,58.4995,-154.3895,3.43,0.33,ml,8,229,,0.15,av,av91123328,2024-01-18T21:39:32.379Z,"99 km WNW of Aleneva, Alaska",earthquake,0.93,1.17,0.183631055217576,8,reviewed,av,av
+2023-12-04T13:54:06.542Z,60.0969,-151.253,61.6,1.6,ml,,,,0.7,ak,ak023fj7pf95,2023-12-16T05:45:16.899Z,"16 km SSE of Clam Gulch, Alaska",earthquake,,0.6,,,reviewed,ak,ak
+2023-12-04T13:40:52.748Z,58.4849,-154.1972,7.8,1.4,ml,,,,0.74,ak,ak023fj7mmki,2023-12-16T07:56:59.230Z,"89 km WNW of Aleneva, Alaska",earthquake,,0.3,,,reviewed,ak,ak
+2023-12-04T13:39:38.289Z,58.521,-154.4007,3,1.4,ml,,,,0.62,ak,ak023fj7mcr7,2023-12-16T07:56:59.038Z,"101 km WNW of Aleneva, Alaska",earthquake,,0.4,,,reviewed,ak,ak
+2023-12-04T13:02:18.460Z,58.5341666666667,-154.566833333333,9.05,0.16,ml,9,124,,0.2,av,av91123323,2023-12-06T03:39:13.650Z,"101 km S of Kokhanok, Alaska",earthquake,0.49,0.65,0.170011349770328,8,reviewed,av,av
+2023-12-04T12:42:02.310Z,60.0093333333333,-153.073333333333,0.45,-0.55,ml,4,132,,0.05,av,av92143816,2023-12-06T03:23:12.190Z,"Southern Alaska",earthquake,0.29,1.22,0.21261935689501,4,reviewed,av,av
+2023-12-04T11:46:52.695Z,60.2861,-153.2425,141,1.9,ml,,,,0.38,ak,ak023fj6h1yf,2023-12-16T19:59:12.850Z,"60 km E of Port Alsworth, Alaska",earthquake,,0.3,,,reviewed,ak,ak
+2023-12-04T11:10:01.932Z,60.2163,-152.6672,97.2,1.6,ml,,,,0.33,ak,ak023fj694ar,2023-12-16T19:59:12.402Z,"58 km WNW of Ninilchik, Alaska",earthquake,,0.3,,,reviewed,ak,ak
+2023-12-04T10:38:34.888Z,58.4675,-154.2504,7.2,1.1,ml,,,,0.65,ak,ak023fj5tur2,2023-12-16T19:59:11.990Z,"90 km WNW of Aleneva, Alaska",earthquake,,0.7,,,reviewed,ak,ak
+2023-12-04T10:15:50.190Z,60.0615,-152.9036,108,2.1,ml,,,,0.53,ak,ak023fj5oyic,2023-12-16T19:59:10.746Z,"66 km W of Happy Valley, Alaska",earthquake,,0.3,,,reviewed,ak,ak
+2023-12-04T10:14:41.320Z,58.5103333333333,-154.4435,5.18,0.45,ml,9,207,,0.29,av,av92143691,2023-12-06T02:53:03.420Z,"Alaska Peninsula",earthquake,1.27,1.34,0.208376318385829,9,reviewed,av,av
+2023-12-04T09:46:15.924Z,58.4898,-151.4705,0.2,1.8,ml,,,,0.66,ak,ak023fj5a3iw,2023-12-16T19:59:15.577Z,"87 km NE of Ouzinkie, Alaska",earthquake,,0.9,,,reviewed,ak,ak
+2023-12-04T07:10:21.850Z,58.486,-154.383833333333,1.67,0.27,ml,8,234,,0.21,av,av92143546,2024-01-18T21:39:19.477Z,"98 km WNW of Aleneva, Alaska",earthquake,1.5,1.66,0.202894132716904,8,reviewed,av,av
+2023-12-04T05:58:44.266Z,59.9803,-153.0514,108.1,1.7,ml,,,,0.36,ak,ak023fj2yzvu,2023-12-16T19:59:14.112Z,"62 km ENE of Pedro Bay, Alaska",earthquake,,0.5,,,reviewed,ak,ak
+2023-12-04T05:38:30.173Z,60.2804,-152.3507,78.4,1.7,ml,,,,0.51,ak,ak023fj2uof9,2023-12-16T19:59:07.525Z,"45 km NW of Ninilchik, Alaska",earthquake,,0.4,,,reviewed,ak,ak
+2023-12-04T04:04:56.167Z,58.0201,-154.121,57.8,1.6,ml,,,,0.41,ak,ak023fj220qf,2023-12-16T19:59:06.434Z,"54 km NNE of Karluk, Alaska",earthquake,,0.6,,,reviewed,ak,ak
+2023-12-04T01:51:25.506Z,60.9053,-151.0605,13,1.8,ml,,,,0.81,ak,ak023fj0jpvq,2023-12-16T19:59:05.331Z,"18 km SSE of Tyonek, Alaska",earthquake,,0.4,,,reviewed,ak,ak
+2023-12-04T01:25:01.999Z,60.2206,-153.1075,136.2,2,ml,,,,0.55,ak,ak023fj0e3k7,2024-02-10T23:47:28.040Z,"67 km E of Port Alsworth, Alaska",earthquake,,0.3,,,reviewed,ak,ak
+2023-12-04T01:05:24.798Z,59.9239,-153.2586,123,1.9,ml,,,,0.48,ak,ak023fj09v3g,2024-02-10T23:47:28.040Z,"49 km ENE of Pedro Bay, Alaska",earthquake,,0.4,,,reviewed,ak,ak
+2023-12-04T00:47:06.260Z,60.0753333333333,-152.996166666667,4.71,0.02,ml,4,309,,0.07,av,av91123273,2023-12-05T23:42:56.930Z,"Southern Alaska",earthquake,1.37,0.61,0.240223663204957,4,reviewed,av,av
+2023-12-03T23:52:36.337Z,59.5129,-153.1157,86.1,1.6,ml,,,,0.49,ak,ak023fhq45dd,2023-12-18T21:09:42.491Z,"63 km ESE of Pedro Bay, Alaska",earthquake,,0.3,,,reviewed,ak,ak
+2023-12-03T23:41:57.201Z,59.5753,-151.8073,47.8,1.7,ml,,,,0.74,ak,ak023fhq1u3g,2023-12-18T21:09:35.168Z,"13 km NW of Seldovia Village, Alaska",earthquake,,0.4,,,reviewed,ak,ak
+2023-12-03T23:11:00.005Z,60.934,-150.6911,45.1,2.1,ml,,,,0.63,ak,ak023fhpv73a,2023-12-18T21:09:34.141Z,"1 km N of Point Possession, Alaska",earthquake,,0.5,,,reviewed,ak,ak
+2023-12-03T22:37:26.322Z,60.238,-153.6257,169.1,2.3,ml,,,,0.73,ak,ak023fhpfh80,2023-12-18T21:09:33.618Z,"38 km E of Port Alsworth, Alaska",earthquake,,0.2,,,reviewed,ak,ak
+2023-12-03T22:03:12.370Z,58.3585,-154.726333333333,5.55,0.69,ml,12,207,,0.13,av,av92143141,2024-01-18T21:39:04.438Z,"89 km N of Karluk, Alaska",earthquake,0.45,0.65,0.283532388780067,12,reviewed,av,av
+2023-12-03T20:50:58.070Z,58.3013333333333,-154.9695,3.6,0.21,ml,6,210,,0.13,av,av92143106,2024-01-18T21:39:02.805Z,"87 km NNW of Karluk, Alaska",earthquake,0.96,0.63,0.169303826190183,6,reviewed,av,av
+2023-12-03T20:14:56.043Z,60.0826,-152.8511,108.8,1.9,ml,,,,0.55,ak,ak023fho3qu0,2023-12-18T21:09:32.206Z,"64 km WNW of Happy Valley, Alaska",earthquake,,0.5,,,reviewed,ak,ak
+2023-12-03T19:28:43.749Z,59.883,-150.7168,46.5,1.5,ml,,,,0.59,ak,ak023fhnlac6,2023-12-18T21:09:39.718Z,"13 km ENE of Fox River, Alaska",earthquake,,0.5,,,reviewed,ak,ak
+2023-12-03T19:27:07.146Z,59.7108,-150.472,28.9,1.6,ml,,,,0.34,ak,ak023fhnkzp3,2023-12-19T16:36:08.753Z,"31 km ESE of Fox River, Alaska",earthquake,,0.5,,,reviewed,ak,ak
+2023-12-03T18:19:27.909Z,57.09,-154.7277,9.3,1.8,ml,,,,0.44,ak,ak023fhmxw31,2023-12-19T16:36:09.429Z,"37 km WNW of Akhiok, Alaska",earthquake,,0.1,,,reviewed,ak,ak
+2023-12-03T18:14:59.383Z,58.8862,-152.9999,66,1.8,ml,,,,0.59,ak,ak023fhmwvwy,2023-12-18T21:09:38.868Z,"81 km SW of Nanwalek, Alaska",earthquake,,0.3,,,reviewed,ak,ak
+2023-12-03T17:44:11.218Z,60.8152,-150.9441,13.9,1.4,ml,,,,0.81,ak,ak023fhmhs2p,2023-12-18T21:09:38.422Z,"18 km SW of Point Possession, Alaska",earthquake,,0.8,,,reviewed,ak,ak
+2023-12-03T17:40:13.762Z,60.1111,-152.2655,85.9,1.5,ml,,,,0.28,ak,ak023fhmgxeo,2023-12-18T21:09:38.213Z,"33 km W of Ninilchik, Alaska",earthquake,,0.3,,,reviewed,ak,ak
+2023-12-03T17:31:04.432Z,59.7913,-153.2784,113.3,1.9,ml,,,,0.48,ak,ak023fhmez8r,2023-12-18T21:09:37.741Z,"46 km E of Pedro Bay, Alaska",earthquake,,0.2,,,reviewed,ak,ak
+2023-12-03T15:30:17.611Z,60.131,-152.5819,98.5,1.7,ml,,,,0.65,ak,ak023fhl7xd6,2023-12-18T21:09:29.601Z,"51 km WNW of Happy Valley, Alaska",earthquake,,0.3,,,reviewed,ak,ak
+2023-12-03T14:12:56.928Z,60.6863,-151.1737,58.7,1.5,ml,,,,0.55,ak,ak023fhkipvg,2023-12-18T21:09:36.026Z,"6 km E of Nikiski, Alaska",earthquake,,0.4,,,reviewed,ak,ak
+2023-12-03T13:48:20.282Z,60.3248,-150.6793,44.3,1.4,ml,,,,0.43,ak,ak023fhk4x7w,2023-12-18T21:09:35.603Z,"20 km SSE of Funny River, Alaska",earthquake,,0.9,,,reviewed,ak,ak
+2023-12-03T12:35:41.870Z,60.4158333333333,-152.561666666667,9.55,-0.19,ml,9,187,,0.08,av,av91123223,2023-12-05T21:41:18.380Z,"Southern Alaska",earthquake,0.46,0.83,0.299616981808149,9,reviewed,av,av
+2023-12-03T11:12:39.084Z,59.5227,-152.8305,86.8,2.6,ml,,,,0.5,ak,ak023fhiqdmx,2024-02-10T23:47:25.040Z,"54 km WNW of Nanwalek, Alaska",earthquake,,0.3,,,reviewed,ak,ak
+2023-12-03T10:56:54.432Z,58.5413,-153.9741,76.5,2.4,ml,,,,0.45,ak,ak023fhieeqf,2024-02-10T23:47:25.040Z,"82 km NW of Aleneva, Alaska",earthquake,,0.4,,,reviewed,ak,ak
+2023-12-03T07:49:17.475Z,59.4544,-151.6383,46.4,1.6,ml,,,,0.33,ak,ak023fhgkj4f,2023-12-17T18:24:47.416Z,"2 km SSE of Seldovia Village, Alaska",earthquake,,0.7,,,reviewed,ak,ak
+2023-12-03T07:30:16.367Z,59.4836,-151.5977,45,3.3,ml,,,,0.75,ak,ak023fhgggc6,2024-02-10T23:47:24.040Z,"3 km ENE of Seldovia Village, Alaska",earthquake,,0.2,,,reviewed,ak,ak
+2023-12-03T06:54:40.780Z,60.0043333333333,-153.066166666667,-0.13,-0.75,ml,4,120,,0.06,av,av92142436,2023-12-05T20:27:56.410Z,"63 km ENE of Pedro Bay, Alaska",earthquake,0.36,2.49,0.251453162753276,4,reviewed,av,av
+2023-12-03T06:37:33.134Z,59.9611,-153.0063,106.6,2,ml,,,,0.53,ak,ak023fhfwk1p,2023-12-17T18:24:46.532Z,"64 km ENE of Pedro Bay, Alaska",earthquake,,0.3,,,reviewed,ak,ak
+2023-12-03T03:34:58.659Z,57.9608,-153.7925,45.5,1.9,ml,,,,0.4,ak,ak023fhe3nzw,2023-12-17T18:24:45.216Z,"48 km NNE of Larsen Bay, Alaska",earthquake,,0.8,,,reviewed,ak,ak
+2023-12-03T01:13:52.938Z,60.0411,-153.0482,0.7,1,ml,,,,0.67,ak,ak023fhcsaf1,2023-12-17T18:24:50.183Z,"65 km ENE of Pedro Bay, Alaska",earthquake,,0,,,reviewed,ak,ak
+2023-12-03T00:57:24.160Z,59.357,-153.434,-0.28,0.66,ml,4,165,,0.11,av,av92142146,2023-12-05T05:22:30.680Z,"61 km SE of Pedro Bay, Alaska",earthquake,0.28,0.26,0.109465138239989,4,reviewed,av,av
+2023-12-03T00:17:15.140Z,60.0311666666667,-153.074333333333,-1.21,0.16,ml,5,155,,0.06,av,av91123178,2023-12-05T05:54:44.830Z,"Southern Alaska",earthquake,0.26,2.5,0.378030704283548,5,reviewed,av,av
+2023-12-02T23:16:46.766Z,59.885,-151.8813,75.1,2,ml,,,,0.45,ak,ak023fg2d3wk,2023-12-14T17:21:47.100Z,"10 km SW of Happy Valley, Alaska",earthquake,,0.2,,,reviewed,ak,ak
+2023-12-02T20:53:09.976Z,59.6322,-150.855,42.6,1.7,ml,,,,0.37,ak,ak023fg0snpw,2023-12-14T17:21:44.892Z,"21 km E of Halibut Cove, Alaska",earthquake,,0.1,,,reviewed,ak,ak
+2023-12-02T20:25:46.993Z,59.9138,-152.9251,96.2,2.4,ml,,,,0.63,ak,ak023fg0mqi9,2024-02-06T21:53:58.040Z,"63 km WNW of Anchor Point, Alaska",earthquake,,0.2,,,reviewed,ak,ak
+2023-12-02T18:56:13.617Z,57.5502,-154.1464,15.7,1.5,ml,,,,0.53,ak,ak023ffzmfyp,2023-12-14T17:21:48.529Z,"10 km W of Larsen Bay, Alaska",earthquake,,1.4,,,reviewed,ak,ak
+2023-12-02T16:13:33.980Z,60.2378,-152.3817,99,1.6,ml,,,,0.45,ak,ak023ffy6ek5,2023-12-14T17:21:42.731Z,"44 km WNW of Ninilchik, Alaska",earthquake,,0.5,,,reviewed,ak,ak
+2023-12-02T14:56:56.740Z,59.5103,-153.2862,94.2,2.3,ml,,,,0.41,ak,ak023ffx8st0,2024-02-06T21:53:58.040Z,"55 km SE of Pedro Bay, Alaska",earthquake,,0.3,,,reviewed,ak,ak
+2023-12-02T12:13:58.778Z,57.3044,-154.7081,45.5,2,ml,,,,0.27,ak,ak023ffvsq11,2023-12-14T17:21:47.566Z,"33 km SSW of Karluk, Alaska",earthquake,,1.6,,,reviewed,ak,ak
+2023-12-02T10:55:19.331Z,60.6135,-151.282,60.8,1.4,ml,,,,0.64,ak,ak023ffuurtr,2023-12-14T23:04:11.078Z,"2 km E of Salamatof, Alaska",earthquake,,0.9,,,reviewed,ak,ak
+2023-12-02T10:55:00.703Z,59.781,-153.0345,108.8,1.6,ml,,,,0.24,ak,ak023ffuuqeu,2023-12-14T23:04:16.464Z,"60 km E of Pedro Bay, Alaska",earthquake,,0.2,,,reviewed,ak,ak
+2023-12-02T10:27:58.803Z,58.9655,-154.5354,121.3,3.7,ml,,,,0.71,ak,ak023ffuourh,2024-02-06T21:53:57.040Z,"54 km SSE of Kokhanok, Alaska",earthquake,,0.3,,,reviewed,ak,ak
+2023-12-02T10:26:22.700Z,58.2506666666667,-154.790333333333,12.8,0.11,ml,4,267,,0.19,av,av91123128,2024-01-18T21:37:59.230Z,"78 km NNW of Karluk, Alaska",earthquake,2.26,1.99,0.210922850552318,4,reviewed,av,av
+2023-12-02T09:49:37.533Z,60.4545,-152.6676,100.5,1.7,ml,,,,0.57,ak,ak023ffu83cp,2023-12-14T23:04:16.268Z,"71 km NW of Ninilchik, Alaska",earthquake,,0.7,,,reviewed,ak,ak
+2023-12-02T09:46:17.842Z,60.0231,-152.7865,109.1,1.7,ml,,,,0.26,ak,ak023ffu7eoo,2023-12-14T23:04:16.080Z,"59 km W of Happy Valley, Alaska",earthquake,,0.4,,,reviewed,ak,ak
+2023-12-02T09:43:55.410Z,58.4707,-153.2464,61.7,1.6,ml,,,,0.44,ak,ak023ffu6ufp,2023-12-14T23:04:15.884Z,"49 km NNW of Aleneva, Alaska",earthquake,,1.9,,,reviewed,ak,ak
+2023-12-02T09:21:20.660Z,60.0353333333333,-153.059,-2.14,-0.14,ml,4,138,,0.14,av,av92141216,2023-12-04T05:16:57.490Z,"64 km ENE of Pedro Bay, Alaska",earthquake,0.58,3.66,0.184633918841479,4,reviewed,av,av
+2023-12-02T07:48:22.526Z,60.3474,-152.2043,82.2,1.9,ml,,,,0.53,ak,ak023fft0z7f,2023-12-14T23:04:09.175Z,"44 km NW of Ninilchik, Alaska",earthquake,,0.3,,,reviewed,ak,ak
+2023-12-02T07:18:40.682Z,60.3984,-151.9893,83.9,1.5,ml,,,,0.46,ak,ak023ffsul6s,2023-12-14T23:04:15.065Z,"37 km W of Cohoe, Alaska",earthquake,,0.2,,,reviewed,ak,ak
+2023-12-02T06:08:35.937Z,59.5982,-152.58,69.3,1.4,ml,,,,0.43,ak,ak023ffs7021,2023-12-14T23:04:14.495Z,"46 km NW of Nanwalek, Alaska",earthquake,,0.2,,,reviewed,ak,ak
+2023-12-02T05:34:17.710Z,60.0338333333333,-153.068333333333,0.28,-0.36,ml,4,148,,0.08,av,av92141041,2023-12-03T19:59:11.170Z,"64 km ENE of Pedro Bay, Alaska",earthquake,0.35,1.34,0.117063362799341,3,reviewed,av,av
+2023-12-02T02:55:36.577Z,60.9487,-151.3895,73.1,1.5,ml,,,,0.58,ak,ak023ffq3ccy,2023-12-14T23:04:06.906Z,"19 km SW of Tyonek, Alaska",earthquake,,0.3,,,reviewed,ak,ak
+2023-12-02T02:43:39.843Z,60.3407,-151.0792,50.6,1.5,ml,,,,0.4,ak,ak023ffq0s00,2023-12-14T23:04:13.494Z,"10 km E of Kasilof, Alaska",earthquake,,0.9,,,reviewed,ak,ak
+2023-12-02T02:36:40.537Z,60.4272,-152.7027,117.6,1.8,ml,,,,0.66,ak,ak023ffpza1h,2023-12-14T23:04:13.272Z,"71 km NW of Ninilchik, Alaska",earthquake,,0.2,,,reviewed,ak,ak
+2023-12-02T01:57:53.044Z,59.6266,-152.3448,68.8,2.1,ml,,,,0.58,ak,ak023ffpidbv,2023-12-14T23:04:06.115Z,"33 km WSW of Anchor Point, Alaska",earthquake,,0.5,,,reviewed,ak,ak
+2023-12-02T01:39:31.639Z,59.5249,-152.9285,89.7,2.1,ml,,,,0.52,ak,ak023ffpegue,2023-12-14T23:04:05.652Z,"60 km WNW of Nanwalek, Alaska",earthquake,,0.4,,,reviewed,ak,ak
+2023-12-02T01:03:49.776Z,60.5912,-150.7161,39.2,2.5,ml,,,,0.65,ak,ak023ffp6sgi,2024-02-06T21:53:57.040Z,"6 km NNE of Sterling, Alaska",earthquake,,0.5,,,reviewed,ak,ak
+2023-12-02T01:00:47.103Z,60.1147,-151.9745,70.1,1.5,ml,,,,0.34,ak,ak023ffp655y,2023-12-14T23:04:11.750Z,"18 km WNW of Ninilchik, Alaska",earthquake,,1,,,reviewed,ak,ak
+2023-12-02T00:14:11.280Z,58.3668333333333,-154.765833333333,5.03,-0.19,ml,11,200,,0.18,av,av92140746,2023-12-02T22:41:37.630Z,"90 km NNW of Karluk, Alaska",earthquake,0.69,0.58,0.229650923824932,11,reviewed,av,av
+2023-12-01T23:03:01.172Z,60.4765,-151.9911,87.2,1.8,ml,,,,0.63,ak,ak023feeqsd9,2023-12-17T01:42:21.219Z,"39 km W of Kalifornsky, Alaska",earthquake,,0.5,,,reviewed,ak,ak
+2023-12-01T22:54:00.379Z,58.1315,-153.5897,56.4,2.1,ml,,,,0.53,ak,ak023feegab2,2023-12-17T01:42:20.985Z,"40 km W of Aleneva, Alaska",earthquake,,0.6,,,reviewed,ak,ak
+2023-12-01T21:27:41.132Z,59.8155,-153.0749,102.2,1.9,ml,,,,0.4,ak,ak023fedp8n5,2023-12-17T01:42:28.876Z,"57 km E of Pedro Bay, Alaska",earthquake,,0.2,,,reviewed,ak,ak
+2023-12-01T20:53:45.546Z,60.5533,-152.6817,106.6,1.6,ml,,,,0.38,ak,ak023fed9dzu,2023-12-17T01:42:28.470Z,"74 km W of Salamatof, Alaska",earthquake,,0.4,,,reviewed,ak,ak
+2023-12-01T20:15:00.643Z,59.9338,-153.2653,140.6,1.9,ml,,,,0.5,ak,ak023fed15bk,2023-12-17T01:42:27.665Z,"49 km ENE of Pedro Bay, Alaska",earthquake,,0.3,,,reviewed,ak,ak
+2023-12-01T19:12:27.428Z,60.1565,-151.6282,58.7,1.6,ml,,,,0.64,ak,ak023fecf4mu,2023-12-17T01:42:27.208Z,"12 km N of Ninilchik, Alaska",earthquake,,0.5,,,reviewed,ak,ak
+2023-12-01T18:32:57.391Z,60.4611,-152.0162,75.5,1.7,ml,,,,0.56,ak,ak023feby1nv,2023-12-17T01:42:26.579Z,"40 km W of Kalifornsky, Alaska",earthquake,,0.3,,,reviewed,ak,ak
+2023-12-01T17:34:10.900Z,59.8838,-152.9971,101,1.9,ml,,,,0.5,ak,ak023febcxwi,2023-12-17T01:42:25.535Z,"63 km E of Pedro Bay, Alaska",earthquake,,0.4,,,reviewed,ak,ak
+2023-12-01T17:05:27.898Z,59.8891,-152.4157,79.7,1.7,ml,,,,0.31,ak,ak023feb6rg5,2023-12-17T01:42:25.114Z,"35 km WNW of Anchor Point, Alaska",earthquake,,0.4,,,reviewed,ak,ak
+2023-12-01T16:34:15.297Z,57.7555,-154.6116,65.1,1.6,ml,,,,0.58,ak,ak023fearimx,2023-12-17T08:22:45.323Z,"22 km NNW of Karluk, Alaska",earthquake,,0.5,,,reviewed,ak,ak
+2023-12-01T16:33:30.706Z,59.7673,-152.433,84.4,2,ml,,,,0.64,ak,ak023fearc3y,2023-12-17T01:42:24.664Z,"33 km W of Anchor Point, Alaska",earthquake,,0.3,,,reviewed,ak,ak
+2023-12-01T13:21:23.486Z,59.9857,-152.7612,96.1,1.9,ml,,,,0.57,ak,ak023fe8wg58,2023-12-17T01:42:22.966Z,"57 km WNW of Anchor Point, Alaska",earthquake,,0.2,,,reviewed,ak,ak
+2023-12-01T10:33:39.941Z,59.369,-152.4242,68.5,1.7,ml,,,,0.24,ak,ak023fe76r6y,2023-12-15T20:00:38.877Z,"28 km W of Nanwalek, Alaska",earthquake,,0.5,,,reviewed,ak,ak
+2023-12-01T08:13:32.720Z,59.5821,-152.9779,104.5,1.7,ml,,,,0.26,ak,ak023fe5vl3s,2023-12-15T20:00:38.293Z,"64 km WNW of Nanwalek, Alaska",earthquake,,0.7,,,reviewed,ak,ak
+2023-12-01T07:33:35.606Z,59.1788,-153.0783,71.4,1.9,ml,,,,0.44,ak,ak023fe5eg8x,2023-12-15T20:00:31.572Z,"68 km WSW of Nanwalek, Alaska",earthquake,,0.3,,,reviewed,ak,ak
+2023-12-01T07:04:09.880Z,60.004,-153.070833333333,1.14,-0.95,ml,5,115,,0.16,av,av92140071,2024-01-18T21:37:21.467Z,"62 km ENE of Pedro Bay, Alaska",earthquake,0.44,1.42,0.252982507120153,5,reviewed,av,av
+2023-12-01T06:53:54.529Z,59.9868,-152.7169,88,1.7,ml,,,,0.31,ak,ak023fe4xc7w,2023-12-15T20:00:36.904Z,"54 km WNW of Anchor Point, Alaska",earthquake,,0.3,,,reviewed,ak,ak
+2023-12-01T05:03:46.608Z,58.511,-154.2161,87.3,1.4,ml,,,,0.39,ak,ak023fe41678,2023-12-15T20:00:36.305Z,"91 km WNW of Aleneva, Alaska",earthquake,,0.5,,,reviewed,ak,ak
+2023-12-01T04:40:25.944Z,58.9316,-153.3642,73.5,1.5,ml,,,,0.32,ak,ak023fe3nmhu,2023-12-15T20:00:36.108Z,"94 km SE of Pope-Vannoy Landing, Alaska",earthquake,,1.3,,,reviewed,ak,ak
+2023-12-01T03:46:33.487Z,59.952,-153.4095,115.5,1.7,ml,,,,0.36,ak,ak023fe33hro,2023-12-15T20:00:34.699Z,"43 km ENE of Pedro Bay, Alaska",earthquake,,0.7,,,reviewed,ak,ak
+2023-12-01T03:04:17.675Z,60.4511,-150.9499,49.6,1.5,ml,,,,0.3,ak,ak023fe2ugh3,2023-12-15T20:00:34.273Z,"7 km SE of Soldotna, Alaska",earthquake,,0.4,,,reviewed,ak,ak
+2023-12-01T02:47:49.349Z,57.6787,-154.4624,62.7,1.5,ml,,,,0.21,ak,ak023fe2ibrc,2023-12-15T20:00:28.062Z,"12 km N of Karluk, Alaska",earthquake,,0.8,,,reviewed,ak,ak
+2023-12-01T01:49:00.410Z,58.307,-154.984166666667,2.05,0.49,ml,8,192,,0.09,av,av92139816,2023-12-01T20:15:30.870Z,"87 km NNW of Karluk, Alaska",earthquake,0.61,0.4,0.234119603209411,8,reviewed,av,av
+2023-12-01T01:34:38.170Z,60.0736666666667,-153.051666666667,3.77,-0.39,ml,5,271,,0.08,av,av92139796,2023-12-01T19:49:32.430Z,"67 km ENE of Pedro Bay, Alaska",earthquake,0.72,0.46,0.209964649995569,5,reviewed,av,av
+2023-12-01T01:30:23.187Z,58.4944,-154.3755,4.8,1.4,ml,,,,0.4,ak,ak023fe1t632,2023-12-15T20:00:27.457Z,"98 km WNW of Aleneva, Alaska",earthquake,,0.4,,,reviewed,ak,ak
+2023-12-01T01:26:35.816Z,60.3769,-152.5513,105.2,2.3,ml,,,,0.46,ak,ak023fe1sce3,2024-02-06T21:53:51.040Z,"60 km NW of Ninilchik, Alaska",earthquake,,0.2,,,reviewed,ak,ak
+2023-12-01T01:09:07.840Z,57.0979,-153.8094,27.4,2,ml,,,,0.44,ak,ak023fe1on34,2023-12-15T20:00:33.463Z,"27 km NE of Akhiok, Alaska",earthquake,,1.7,,,reviewed,ak,ak
+2023-12-01T00:45:08.158Z,58.5051,-154.3565,4.9,1.1,ml,,,,0.27,ak,ak023fe1ax9p,2023-12-15T20:00:26.559Z,"98 km WNW of Aleneva, Alaska",earthquake,,0.4,,,reviewed,ak,ak
+2023-12-01T00:43:42.059Z,58.4938,-154.328,5.5,1.2,ml,,,,0.4,ak,ak023fe1akgu,2023-12-15T20:00:26.358Z,"96 km WNW of Aleneva, Alaska",earthquake,,0.3,,,reviewed,ak,ak

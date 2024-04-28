@@ -501,9 +501,9 @@ def apply_elep(DAS_data, list_models, fs, paras_semblance, device):
     
     smb_peak = np.zeros([nsta,2,2], dtype = np.float32)
 
-    smb_peak[:,0,:] =np.array(Parallel(n_jobs=50)(delayed(process_p)(ista,paras_semblance,batch_pred_P,0,fs) 
+    smb_peak[:,0,:] =np.array(Parallel(n_jobs=25)(delayed(process_p)(ista,paras_semblance,batch_pred_P,0,fs) 
                                                     for ista in range(nsta)))
-    smb_peak[:,1,:] =np.array(Parallel(n_jobs=50)(delayed(process_p)(ista,paras_semblance,batch_pred_S,0,fs) 
+    smb_peak[:,1,:] =np.array(Parallel(n_jobs=25)(delayed(process_p)(ista,paras_semblance,batch_pred_S,0,fs) 
                                                     for ista in range(nsta)))
     
     return smb_peak

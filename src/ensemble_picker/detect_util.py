@@ -4,12 +4,10 @@ sys.path.append('../denoiser/')
 import gc
 import glob
 import h5py
-import pygmt
 import numpy as np
 import pandas as pd
 
 import torch
-import pyocto
 import seisbench.models as sbm
 from ELEP.elep.ensemble_coherence import ensemble_semblance
 from ELEP.elep.trigger_func import picks_summary_simple
