@@ -431,7 +431,7 @@ def vizRawDenoise(in_data, oneDenoise, mulDenoise, sample_rate=25, dchan=10, ind
     matplotlib.rcParams['font.size'] = 20
 
     for j in index:
-        bound = np.percentile(np.fabs(in_data[j]), 80)
+        bound = np.percentile(np.fabs(in_data[j]), 50)
         cmap = matplotlib.cm.get_cmap('RdBu')
         fig, ax = plt.subplots(1, 3, figsize=(18, 6), constrained_layout=True)
 
