@@ -11,7 +11,12 @@ from das_util import *
 from das_denoise_models import unet
 
 ### Plot
-for file in ['2023-12-15_19.35']:
+# file_list = ['2023-12-02_20.45', '2023-12-04_13.53', '2023-12-09_06.45', '2023-12-11_23.34', '2023-12-21_14.20']
+# start_pts = np.array([35, 28, 25, 0, 30]) * 25
+file_list = ['2023-12-26_20.18']
+start_pts = np.array([7]) * 25
+win = 10 * 25
+for start_pt, file in zip(start_pts, file_list):
     filename1 = 'decimator2_'+file+'.57_UTC.h5'
     filename2 = 'decimator2_'+file+'.56_UTC.h5' 
     file_dir1 = '/mnt/qnap/KKFL-S_FIberA_25Hz/'
@@ -47,6 +52,7 @@ for file in ['2023-12-15_19.35']:
     mul_denoised = np.zeros_like(rawdata)
     _, mul_denoised[0,:,:] = Denoise_largeDAS(rawdata[0], model_1, devc, repeat=4, norm_batch=False)
 
-    vizRawDenoise(rawdata, mul_denoised, mul_denoised, index=range(1), model="raw-raw")
+
+    vizRawDenoise(rawdata[:,:,start_pt:start_pt+win], mul_denoised[:,:,start_pt:start_pt+win]*1.5, mul_denoised[:,:,start_pt:start_pt+win], index=range(1), model="raw-raw")
 
     plt.savefig(file+'quick_look.png', dpi=300)
