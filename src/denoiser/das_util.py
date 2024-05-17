@@ -384,6 +384,39 @@ def Denoise_largeDAS(data, model_func, devc, repeat=4, norm_batch=False):
     mulDenoise2d = mulDenoise.reshape((full_len, 1500))[:nchan, :ntime]
     
     return oneDenoise2d, mulDenoise2d
+
+
+def Denoise_largeDAS100hz(data, model_func, devc, repeat=4, norm_batch=False):
+    """ This function do the following (it does NOT filter data):
+    1) split into multiple 1500-channel segments
+    2) call Denoise function for each segments
+    3) merge all segments
+    
+    data: 2D -- [channel, time]
+    output: 2D, but padded 0 to have multiple of 1500 channels
+    
+    This code was primarily designed for the Alaska DAS, but applicable to other networks
+    """ 
+    data = np.array(data)
+    nchan = data.shape[0]
+    ntime = data.shape[1]
+    
+    if (nchan // 1500) == 0:
+        n_seg = nchan // 1500
+    else:
+        n_seg = nchan // 1500 + 1
+        
+    full_len = int(n_seg * 1500)
+    
+    pad_data = process_3d_array(data[np.newaxis,:,:], len1=full_len)
+    data3d = pad_data.reshape((-1, 1500, 6000))
+    
+    oneDenoise, mulDenoise = Denoise(data3d, model_func, devc, repeat=repeat, norm_batch=norm_batch)
+    
+    oneDenoise2d = oneDenoise.reshape((full_len, 6000))[:nchan, :ntime]
+    mulDenoise2d = mulDenoise.reshape((full_len, 6000))[:nchan, :ntime]
+    
+    return oneDenoise2d, mulDenoise2d
     
 
 def Denoise(data, model_func, devc, repeat=4, norm_batch=False):
