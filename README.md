@@ -13,6 +13,7 @@ The basic workflow is in three steps.
 1. Pre-process the DAS data to form 2-dimensional space-time images. [notebook01]
 2. Denoise the DAS images using a pre-trained denoiser, which are saved in the ["models"] folder. [notebook02]
 3. Use the ELEP tool to pick P and S phases in batch. [notebook02]
+4. Use PyOcto to associate the picks of DAS and seismic networks.[notebook03]
 
 
 
