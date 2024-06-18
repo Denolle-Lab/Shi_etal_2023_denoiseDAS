@@ -8,6 +8,23 @@ an example of which is included in this project.
 
 ----
 
+## Installation
+
+If you like using `conda` to manage virtual environments, 
+```
+conda create -n codetest python=3.9
+conda activate codetest
+
+pip install h5py
+pip install torch
+pip install scipy
+pip install obspy
+pip install scikit-learn
+pip install pandas
+pip install multitaper
+```
+
+
 The basic workflow is in three steps.
 
 1. Pre-process the DAS data to form 2-dimensional space-time images. [notebook00]
