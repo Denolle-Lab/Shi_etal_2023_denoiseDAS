@@ -21,7 +21,8 @@ pip install scipy
 pip install obspy
 pip install scikit-learn
 pip install pandas
-pip install multitaper
+pip install pyocto
+pip install elep
 ```
 
 
