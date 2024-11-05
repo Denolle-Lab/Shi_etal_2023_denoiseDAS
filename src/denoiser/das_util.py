@@ -1,7 +1,5 @@
-import os
 import h5py
 import math
-import time
 import torch
 import numpy as np
 import pandas as pd
@@ -11,23 +9,15 @@ from obspy import UTCDateTime
 from obspy.taup import TauPyModel
 from distaz import DistAz
 from joblib import Parallel, delayed
-from datetime import datetime
-from datetime import timedelta
-from functools import partial
+
+import scipy.signal as sgn
 from scipy.signal import butter
-from scipy.signal import detrend
 from scipy.signal import decimate
-from scipy.signal import spectrogram
 from scipy.signal import filtfilt, butter
 from scipy.signal.windows import tukey
-from scipy.interpolate import interp1d
-from scipy.integrate import cumulative_trapezoid
-from multiprocessing import Pool
 from matplotlib import pyplot as plt
 
-import seisbench.models as sbm
 from ELEP.elep.ensemble_coherence import ensemble_semblance
-from ELEP.elep.trigger_func import picks_summary_simple
 
 
 def try_gpu(i=0):
@@ -368,7 +358,7 @@ def Denoise_largeDAS(data, model_func, devc, repeat=4, norm_batch=False):
     nchan = data.shape[0]
     ntime = data.shape[1]
     
-    if (nchan // 1500) == 0:
+    if (nchan % 1500) == 0:
         n_seg = nchan // 1500
     else:
         n_seg = nchan // 1500 + 1
@@ -401,14 +391,16 @@ def Denoise_largeDAS100hz(data, model_func, devc, repeat=4, norm_batch=False):
     nchan = data.shape[0]
     ntime = data.shape[1]
     
-    if (nchan // 1500) == 0:
+    if (nchan % 1500) == 0:
         n_seg = nchan // 1500
     else:
         n_seg = nchan // 1500 + 1
         
     full_len = int(n_seg * 1500)
     
-    pad_data = process_3d_array(data[np.newaxis,:,:], len1=full_len)
+    pad_data = process_3d_array(data[np.newaxis,:,:], len1=full_len, len2=6000)
+
+    print("######", data.shape, pad_data.shape)
     data3d = pad_data.reshape((-1, 1500, 6000))
     
     oneDenoise, mulDenoise = Denoise(data3d, model_func, devc, repeat=repeat, norm_batch=norm_batch)
@@ -418,6 +410,41 @@ def Denoise_largeDAS100hz(data, model_func, devc, repeat=4, norm_batch=False):
     
     return oneDenoise2d, mulDenoise2d
     
+
+def Denoise_largeDAS50hz(data, model_func, devc, repeat=4, norm_batch=False):
+    """ This function do the following (it does NOT filter data):
+    1) split into multiple 1500-channel segments
+    2) call Denoise function for each segments
+    3) merge all segments
+    
+    data: 2D -- [channel, time]
+    output: 2D, but padded 0 to have multiple of 1500 channels
+    
+    This code was primarily designed for the Alaska DAS, but applicable to other networks
+    """ 
+    data = np.array(data)
+    nchan = data.shape[0]
+    ntime = data.shape[1]
+    
+    if (nchan % 1500) == 0:
+        n_seg = nchan // 1500
+    else:
+        n_seg = nchan // 1500 + 1
+        
+    full_len = int(n_seg * 1500)
+    
+    pad_data = process_3d_array(data[np.newaxis,:,:], len1=full_len, len2=3000)
+
+    print("######", data.shape, pad_data.shape)
+    data3d = pad_data.reshape((-1, 1500, 3000))
+    
+    oneDenoise, mulDenoise = Denoise(data3d, model_func, devc, repeat=repeat, norm_batch=norm_batch)
+    
+    oneDenoise2d = oneDenoise.reshape((full_len, 3000))[:nchan, :ntime]
+    mulDenoise2d = mulDenoise.reshape((full_len, 3000))[:nchan, :ntime]
+    
+    return oneDenoise2d, mulDenoise2d
+
 
 def Denoise(data, model_func, devc, repeat=4, norm_batch=False):
     """ This function do the following (it does NOT initialize model):
@@ -434,7 +461,7 @@ def Denoise(data, model_func, devc, repeat=4, norm_batch=False):
         scale = np.std(data, axis=(1,2), keepdims=True) + 1e-7
         
     data_norm = data / scale  ## standard scaling
-    arr = process_3d_array(data_norm.astype(np.float32))
+    arr = process_3d_array(data_norm.astype(np.float32), len1=data_norm.shape[1], len2=data_norm.shape[2])
     X = torch.from_numpy(arr).to(devc)
     
     """ denoise - deploy """
@@ -446,6 +473,7 @@ def Denoise(data, model_func, devc, repeat=4, norm_batch=False):
             mulDenoise = model_func(mulDenoise)
 
     """ convert back to numpy """
+    print(oneDenoise.shape)
     oneDenoise = oneDenoise.to('cpu').numpy() * scale
     mulDenoise = mulDenoise.to('cpu').numpy() * scale
     
@@ -529,14 +557,15 @@ def apply_elep(DAS_data, list_models, fs, paras_semblance, device):
     for ii, imodel in enumerate(list_models):
         imodel.eval()
         with torch.no_grad():
-            batch_pred_P[ii, :, :] = imodel(data_tt)[1].cpu().numpy()[:, :]
-            batch_pred_S[ii, :, :] = imodel(data_tt)[2].cpu().numpy()[:, :]
+            tmp = imodel(data_tt)
+            batch_pred_P[ii, :, :] = tmp[1].cpu().numpy()[:, :]
+            batch_pred_S[ii, :, :] = tmp[2].cpu().numpy()[:, :]
     
     smb_peak = np.zeros([nsta,2,2], dtype = np.float32)
 
-    smb_peak[:,0,:] =np.array(Parallel(n_jobs=25)(delayed(process_p)(ista,paras_semblance,batch_pred_P,0,fs) 
+    smb_peak[:,0,:] =np.array(Parallel(n_jobs=50)(delayed(process_p)(ista,paras_semblance,batch_pred_P,0,fs) 
                                                     for ista in range(nsta)))
-    smb_peak[:,1,:] =np.array(Parallel(n_jobs=25)(delayed(process_p)(ista,paras_semblance,batch_pred_S,0,fs) 
+    smb_peak[:,1,:] =np.array(Parallel(n_jobs=50)(delayed(process_p)(ista,paras_semblance,batch_pred_S,0,fs) 
                                                     for ista in range(nsta)))
     
     return smb_peak
@@ -686,3 +715,45 @@ def psd_stats(H,xm,ym):
         variance[ix] = np.average((ym-mean[ix])**2,weights=H[ix,:])
     
     return xm,10**mean,variance
+
+
+def extract_metadata(h5file, machine_name='optodas'):
+    """Extract metadata from DAS HDF
+    Args:
+        h5file (str): path to DAS HDF file
+        machine_name (str): name of interrogator
+    Returns:    
+        gl (float): gauge length in meters
+        t0 (float): start time in seconds since 1 Jan 1970
+        dt (float): sample interval in seconds
+        fs (float): sampling rate in Hz
+        dx (float): channel interval in meters
+        un (str): unit of measurement
+        ns (int): number of samples
+        nx (int): number of channels
+    """
+    if machine_name == 'optodas':
+        with h5py.File(h5file, 'r') as fp:
+            gl = fp['header/gaugeLength'][()]
+            t0 = fp['header/time'][()]
+            dt = fp['header/dt'][()]
+            fs = 1./dt
+            dx = fp['header/dx'][()]*10 # not sure why this is incorrect
+            un = fp['header/unit'][()]
+            ns = fp['/header/dimensionRanges/dimension0/size'][()]
+            nx = fp['/header/dimensionRanges/dimension1/size'][()][0]
+    elif machine_name == 'onyx':
+        with h5py.File(h5file,'r') as fp:      
+            gl = fp['Acquisition'].attrs['GaugeLength']
+            t0 = fp['Acquisition']['Raw[0]']['RawDataTime'][0]/1e6
+            fs = fp['Acquisition']['Raw[0]'].attrs['OutputDataRate']
+            dt = 1./fs
+            dx = fp['Acquisition'].attrs['SpatialSamplingInterval']
+            un = fp['Acquisition']['Raw[0]'].attrs['RawDataUnit']
+            ns  = len(fp['Acquisition']['Raw[0]']['RawDataTime'][:])
+            nx = fp['Acquisition']['Raw[0]'].attrs['NumberOfLoci']
+    else:
+        raise ValueError('Machine name not recognized')
+            
+
+    return gl, t0, dt, fs, dx, un, ns, nx
