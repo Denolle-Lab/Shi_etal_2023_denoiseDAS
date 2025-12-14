@@ -9,7 +9,7 @@ an example of which is included in this project.
 ----
 
 ## Unet Architecture
-![Cable Map](Unet.pdf)
+![Cable Map](fig3-unet.jpg)
 
 ## Installation
 
